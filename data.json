@@ -1,0 +1,1250 @@
+{
+   "topics": [
+	   {
+		   "name": "Toyota Recall",
+		   "clusters": {
+			   "semantic": [
+				   {
+					   "jaccard": [
+						   {"tweet": [
+							   	"Toyota to recall 1.2 million Noah, other models in Japan http://feedproxy.google.com/~r/reuters/rns_bus/~3/Ya7XDH80Q1o/idUSTRE70P1IE20110126",
+							   	"Toyota to recall 1.2 million Noah, other models in Japan http://ow.ly/3Kk6c"
+								]
+							}
+					   ]
+				   },
+				   {
+					   "jaccard": [
+						   {"tweet": [
+							   "Toyota recalls nearly 1.7 million vehicles - http://newzfor.me/?c8xe",
+							   "Toyota recalls nearly 1.7 million vehicles (AP) http://goo.gl/fb/cU5uc",
+							   "Toyota recalls nearly 1.7 million vehicles - http://newzfor.me/?c8xe",
+							   "Toyota recalls 1.7 million vehicles http://bit.ly/fphisf",
+							   "Toyota recalls 1.7 million vehicles http://bit.ly/h6inFe (#Nepal)　#fb",
+							   "Toyota Recalls Nearly 1.7 Million Vehicles http://sns.ly/Jbbay1"
+							   ]
+							},
+						   {"tweet": [
+							   "Toyota recalls 1.7m cars globally: Japanese car manufacturer Toyota is to recall nearly 1.7 million vehicles wor... http://bbc.in/huHpSe",
+							   "Toyota recalls 1.7m cars globally: Japanese car manufacturer Toyota is to recall nearly 1.7 million vehicles worldwide over fuel leak...",
+							   "Toyota recalls 1.7m cars globally: Japanese car manufacturer Toyota is to recall nearly 1.7 million vehicles wor... http://bbc.in/feAKA3"
+							   ]
+						   },
+						   {"tweet": [
+							   "Toyota recalls over 1.7 million vehicles globally: TOKYO (Reuters) - Toyota Motor Corp said it was recalling mor... http://bit.ly/dVvVN8",
+							   "Toyota recalls over 1.7 million vehicles globally (Reuters): Reuters - Toyota Motor Corp said it was recall... http://bit.ly/hWHtPS"
+							   ]
+						   },
+						   {"tweet": [
+							   "Toyota recalls more than 1.5 million cars - CNN:  http://bit.ly/eoQBQ5",
+							   "Toyota recalls more than 1.5 million cars – CNN:  http://bit.ly/hVskFa",
+							   "Toyota recalls more than 1.5 million cars - CNN http://ow.ly/1b2dyt"
+						   	   ]
+					   	   }
+						]
+				   },
+				   {
+					   "jaccard": [
+						   {"tweet": [
+							   "Rapichat.com Updates Toyota to recall 1.4 million vehicles (Reuters) http://ow.ly/1b24gX http://ff.im/wO7mi",
+							   "Toyota to recall 1.4 million vehicles -"
+							   ]
+							}
+					   ]
+				   },
+				   {
+					   "jaccard": [
+						   {"tweet": [
+							   "Huge New Toyota Recall Includes 245,000 Lexus GS, IS Sedans - http://newzfor.me/?cuye",
+							   "Huge New Toyota Recall Includes 245,000 Lexus GS, IS Sedans - http://newzfor.me/?cuye",
+							   "245=5*7*7 RT @JClinto: Huge New Toyota Recall Includes 245,000 Lexus GS, IS Sedans http://bit.ly/evKaYc",
+							   "Huge New Toyota Recall Includes 245,000 Lexus GS, IS Sedans - http://newzfor.me/?cuye",
+							   "Huge New Toyota Recall Includes 245,000 Lexus GS, IS Sedans - http://newzfor.me/?cuye",
+							   "Huge New Toyota Recall Includes 245,000 Lexus GS, IS Sedans - http://newzfor.me/?cuye"
+								]
+						   },
+						   {"tweet": [
+							   "New Toyota Recall Involves Lexus Models  - http://newzfor.me/?cotf",
+							   "New Toyota Recall Involves Lexus Models  - http://newzfor.me/?cotf"
+						   		]
+					   	    }
+					   ]
+				   },
+				   {
+					   "jaccard": [
+						   {"tweet": [
+							   "Toyota recalls 1.7 million vehicles as quality woes mount (Reuters) http://bit.ly/gHfgoU",
+							   "Toyota recalls 1.7 million vehicles as quality woes mount - Reuters : http://reut.rs/f6um62",
+							   "http://FXivybot.com Toyota recalls 1.7 million vehicles as quality woes mount http://ow.ly/1b2b3o",
+							   "Toyota Recalls 1.7 Million Vehicles as Quality Woes Mount http://t.co/G4jVBFW via @ijournal"
+							   ]
+							}
+					   ]
+				   },
+				   {
+					   "jaccard": [
+						   {"tweet": [
+							   "AP: Toyota recalls 1.7 million vehicles for fuel leaks. http://apne.ws/gLN8HH",
+							   "Toyota Recalls 1.7 Million Vehicles For Fuel Leaks http://bit.ly/flWFWU"
+							   ]
+							},
+ 						   {"tweet": [
+ 							   "Toyota recalls 1.7 million cars for fuel leaks \n    (AP)\n: AP - Toyota recalled nearly 1.7 million cars worldw... http://bit.ly/eaz5Kj",
+ 							   "Toyota recalls 1.7 million cars for fuel leaks \n    (AP)\n: AP - Toyota recalled nearly 1.7 million cars worldw... http://bit.ly/eaz5Kj"
+ 							   ]
+ 							}
+					   ]
+				   },
+				   {
+					   "jaccard": [
+						   {"tweet": [
+							   "Gov't to release findings of Toyota investigation - Seattle Times http://bit.ly/fAtNSg",
+							   "Gov't to release findings of Toyota investigation http://tinyurl.com/4zz7f64"
+							   ]
+							}
+					   ]
+				   },
+				   {
+					   "jaccard": [
+						   {"tweet": [
+							   "U.S. to release review of Toyota throttles http://reut.rs/fXOtkz",
+							   "Government to release review of Toyota throttles (Reuters) http://bit.ly/dQPaxn"
+							   ]
+							}
+					   ]
+				   },
+				   {
+					   "jaccard": [
+						   {"tweet": [
+							   "U.S. to release findings of Toyota sudden-acceleration probe - http://newzfor.me/?crmr",
+							   "U.S. to release findings of Toyota sudden-acceleration probe - http://newzfor.me/?crmr"
+							   ]
+							}
+					   ]
+				   },
+				   {
+					   "jaccard": [
+						   {"tweet": [
+							   "“@BBCWorld: US clears Toyota over electronics http://t.co/32OwuQm” #fb",
+							   "US clears Toyota over electronics http://dlvr.it/G5ng6",
+							   "“@BBCNews: US clears #Toyota over electronics http://bbc.in/fNWdCs"
+							   ]
+							},
+ 						   {"tweet": [
+ 							   "US clears Toyota over electronics: A US investigation into Toyota safety problems finds no electronic flaws to e... http://bbc.in/gc3vZu",
+ 							   "US clears Toyota over electronics: A US investigation into Toyota safety problems finds no electronic flaws to e... http://bbc.in/gc3vZu",
+							   "US clears Toyota over electronics: A US investigation into Toyota safety problems finds no electronic flaw... http://tinyurl.com/4gapp3l",
+							   "US clears Toyota over electronics: A US investigation into Toyota safety problems finds no electronic flaws to e... http://bbc.in/edF2lE"
+ 							   ]
+ 							},
+ 						   {"tweet": [
+ 							   "Probe clears Toyota's electronic throttles http://bit.ly/huK0W2",
+ 							   "U.S. clears Toyota's electronic throttles (tiscali.co.uk) http://feedzil.la/dKz3yK"
+ 							   ]
+ 							},
+ 						   {"tweet": [
+ 							   "Feds Say Toyota Problems Aren't Electric [Cars]: 280,000 NASA-reviewed lines of code later, the T... http://bit.ly/fHJxDQ",
+ 							   "Feds Say Toyota Problems Aren't Electric [Cars]: 280,000 NASA-reviewed lines of code later, the T... http://bit.ly/eY2NPN"
+ 							   ]
+ 							}
+					   ]
+				   }
+			   ],
+			   "singleton": [
+				   "#Toyota Adopts 'Devil's Advocate' in Quest 2 Restore Confidence -Is this enough? via @adage http://ow.ly/3JfUl  #csr #brand",
+				   "#Toyota recalling like 1.5 billion more cars!!! well my family owns 5.",
+				   "Toyota is recalling 1.4 million vehicles worldwide......sooo wat do I wear Thursday for this interview. mhmmm. I need dress shoes.",
+				   "DTN Financial News: Toyota to recall 1.7 million vehicles worldwide (AFP): AFP - Toyota Motor is to recall ... http://bit.ly/iiLzpT",
+				   "TOKYO: Toyota Motor is to recall nearly 1.7 million vehicles worldwide including 1.2 million in Japan and 421,00... http://bit.ly/i9A7Da",
+				   "Toyota recalling 1.7 M vehicles http://bit.ly/fRXrCH",
+				   "YahooNews- Toyota recalls nearly 1.7 million vehicles \n    (AP)\n: AP - Toyota is recalling nea... http://bit.ly/eaz5Kj @mikes_web_page",
+				   "1.5m Toyotas recalled over fuel leak fears: Toyota is recalling more than 1.5 million vehicles in Japan... http://bit.ly/hoHzNG ABC News",
+				   "#BBCNEWS Toyota recalling 19,000 UK cars: Car manufacturer Toyota is recalling nearly 19,000 cars in the U... http://tinyurl.com/6b72d63",
+				   "Stefan was enjoying his new job working on Toyota fuel systems http://www.bbc.co.uk/news/uk-12284113",
+				   "Toyota announces recall - Denver Post - TOKYO — Toyota is recalling nearly 1.7 million vehicles worldwide for variou... http://ow.ly/1b25Rc",
+				   "#Prius Forum Thread | Toyota announces new vehicle recall - Avensis/Lexus IS250: I didn't know where to post this - http://bit.ly/fZgTe4",
+				   "Toyota to recall 1.7 million vehicles worldwide  - http://vietnambusiness.asia/JCQ",
+				   "Toyota announces global recall of nearly 1.7M vehicles for fuel leak http://ow.ly/1b27Nx",
+				   "Google Alert - luxury cars: News1 new result for luxury cars Toyota to recall 1.7 million vehicles worldwideXinh... http://bit.ly/fxW6Mb",
+				   "U.S Business News Toyota recalls 1.7 million vehicles as quality woes mount: TOKYO (Reuters… http://goo.gl/fb/r11p4",
+				   "News from Ireland. Fresh recall setback for Toyota: Toyota has said it will recall 1.7 million ... http://tinyurl.com/67x3ugz Irish News",
+				   "Toyota recalls up to 19,000 UK cars http://bit.ly/gSEvAP",
+				   "Toyota recalls 1.7 million vehicles: Biggest recall meant to fix faulty fuel pump and connecting pipe in 1.34 mi... http://aje.me/e0Swjs",
+				   "Another Toyota recall. This time it's 1.7 million cars. http://tinyurl.com/6hjhg4y",
+				   "Toyota recalls more than 1.5M cars: Toyota on Wednesday announced recalls involving more than 1.5 million ... http://bit.ly/etjSbT #news",
+				   "Toyota recalls nearly 1.7 million cars, including Lexus models - USAT.. http://www.usatoday.com/money/autos/2011-01-26-toyota-recall_N.htm",
+				   "Toyota Recall http://j.mp/f2rCNQ via @AddToAny",
+				   "Toyota recalls 12,000 vehicles in Canada, 1.7 million worldwide http://bit.ly/hyawrq #CanNews",
+				   "@MarketingWeekEd Toyota recalls thousands more cars in the UK and abroad http://bit.ly/ecUGzo &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; Arghhhhh PR Disaster!",
+				   "Toyota recalls 1.7M vehicles for fuel leaks - http://newzfor.me/?cmaf",
+				   "robert paisola news Toyota recalls 1.7 million vehicles for fuel leaks: Toyota recalls 1.7 mi... http://bit.ly/dJh04M utahnewszone.com",
+				   "Toyota recalls 1.7 million vehicles for fuel leaks: Toyota's latest recalls are mostly in Japan, but they also ... http://bit.ly/dH0Pmw",
+				   "The woes continue for the #1 auto-maker in the world... #Toyota recalls 1.7M #vehicles for fuel leaks - http://bit.ly/fJyo80 #cars #auto",
+				   "Citing Fuel System Problem, Toyota Expands 2009 Recall of Lexus Sedans http://nyti.ms/gZ0si8",
+				   "All news in1 Toyota recalls 1.7 million autos as quality woes mount: TOKYO, (Reuters) - Toyota Motor Corp said it wou...  www.oberita.com",
+				   "Lexus Recall http://goo.gl/fb/dCi29",
+				   "CarsInsurance: Toyota Announces Voluntary Recall of Certain Lexus GS 300/350 and IS 250/350 http://bit.ly/i3FCgk",
+				   "New Toyota nightmare: 1.7 vehicles recalled worldwide - http://newzfor.me/?cqaf",
+				   "toyota recall 2011: Toyota Anamnesis 2011. Toyota appear that it is activity to anamnesis 1.7 actor cartage abou... http://bit.ly/i1sOzw",
+				   "New post: Toyota announces new global recall - Los Angeles Times http://bit.ly/hUd6ij",
+				   "Toyota recalls 1.7 million vehicles worldwide: Toyota is recalling nearly 1.7 million vehicles around the world ... http://bit.ly/gZ8nI8",
+				   "&gt;&gt;Toyota Recall News&lt;&lt; http://r.einnews.com/E7U3ER",
+				   "Toyota announces it is recalling another 1.7 million cars worldwide.:  http://bit.ly/ejpUYY",
+				   "Toyota to Recall 1.7 Million Cars Worldwide Over Fuel Leakage Issues - ABC News http://ow.ly/1b2F9G",
+				   "Toyota Recall 2011: 245,000 Lexus Vehicles Recalled - Associated ...: Toyota has issued a recall for a num... http://tinyurl.com/4ux7hac",
+				   "Toyota recalls 1.7M vehicles for fuel leaks - Detroit Free Press: TOKYO — Toyota recalled nearly 1.7 million car... http://bit.ly/fHRAZq",
+				   "Fuel leak concerns lead to worldwide Toyota recall  http://bit.ly/fJ7o8n",
+				   "Toyota recalls nearly 1.7 million cars, including Lexus models – Morris County Daily Record: TOKYO (AP) — Toyota... http://bit.ly/hIOkhg",
+				   "Toyota recalls 1.7m cars after new concerns http://s.wording.tv/gdtMzb",
+				   "#News Toyota Settles Strange Class-Action Lawsuit: In a bizarre piece of news today, the recent settlement of a ... http://bit.ly/fhAxja",
+				   "From Sallas Auto: Car Recalls Update:245000 Toyota Vehicles Recalled in North ...: PRLog (Press Rele... http://bit.ly/eHM1mB Car Recalls",
+				   "What Is Going On With Toyota… 1.7 Million Cars Recalled Worldwide! http://tinyurl.com/5wwlks6",
+				   "Toyota recalls 1.7 million Lexus GS and IS vehicles - Detroit News http://ow.ly/1b3YNe",
+				   "1-yr ago today headline: No need to panic, Toyota tells owners; Sticking throttle sparks recall -- this week more of the same.",
+				   "Toyota Recalls 1.7 Million Vehicles Over Quality Issues http://t.co/ymcD5TV via @AddThis",
+				   "Toyota Recalls 1.7 Million Cars Worldwide Due to Fuel Sensors: A safety recall to inspect the installation of fu... http://bit.ly/gpkmqK",
+				   "lexus also included in the latest Toyota recall",
+				   "Toyota Recalls 245,000 Lexus Vehicles in the U.S. http://ow.ly/1b91SR",
+				   "Recalled Toyota Models Not In TNL: As the Japanese automaker, Toyota, recalls some of its latest models last wee... http://bit.ly/gitmGF",
+				   "#Ford Soars, #Toyota Stumbles in Consumer Reports Survey http://nyti.ms/i4oC6Z RT @fordny",
+				   "Toyota Earnings on Tap Results may be overshadowed by the recent vehicle-recall incident. http://dld.bz/KmY8",
+				   "From Sallas Auto: How Do Car Recalls Work?: “Any widespread vehicular problem that results in a risk... http://bit.ly/iejjsF Car Recalls",
+				   "Car Recalls Breaking News: NHTSA to Release Results of Toyota ... http://bit.ly/eBgii8",
+				   "Starwatch Consumer | Government to issue report on Toyota recalls - Kansas City Star: Kansas City StarStarwatch ... http://bit.ly/gSewxl",
+				   "Starwatch Consumer | Government to issue report on Toyota recalls: HP redesigns the touchscreen PC experience fo... http://bit.ly/hrNkC6",
+				   "NASA report due on Toyota acceleration puzzle - Philadelphia Daily News http://ow.ly/1berOx",
+				   "Recalling TOYOTA http://t.co/bFQrBwq via @en",
+				   "[headlines] U.S. To Release Final Report On Toyota Recalls Today: The Obama administration is completing a 10-mont... http://n.pr/gfT8HD",
+				   "Government findings on Toyota's electronics to be released today http://bit.ly/dIAW3I",
+				   "Toyota Sudden Acceleration Report Expected Today http://ow.ly/1beMfb",
+				   "Toyota's denies problems on 11 million car recall & say drivers are at fault.Insurance companies sue.You couldn't pay me to drive one!",
+				   "NASA report on Toyota unintended acceleration due out this afternoon: After studying electronics in Toyota vehic... http://bit.ly/e4yEq2",
+				   "Government To Release Findings Of Toyota Investigation http://bit.ly/fpPnjY",
+				   "U.S. clears Toyota's electronic throttles: WASHINGTON (Reuters) - A U.S. government investigation showed no link... http://bit.ly/gIPIgt",
+				   "DTN USA: US finds no defect in Toyota's electronic throttles: WASHINGTON, Feb 8 (Reuters) - A U.S. government in... http://bit.ly/gRSxfl",
+				   "なるほど。ロイター。トヨタ車についてアメリカ運輸省の発表を報じたぞ。記事が気になる！！！　U.S. clears Toyota's electronic throttles | Reuters http://t.co/FZpCoTz via @reuters",
+				   "Government: No electronic flaws in Toyota acceleration cases http://usat.ly/fxvibe",
+				   "U.S. investigation showed no link between electronic throttles and unintended acceleration in Toyota vehicles http://t.co/PYAFQDL",
+				   "Government: No Electronic Flaws In Toyotas: The Obama administration's investigation into… http://goo.gl/fb/32mbc",
+				   "Breaking: Government finds no electronic safety flaws in Toyotas http://bit.ly/efg9cN",
+				   "Caused by desire to run over neighbor's perfect fucking flowerbed? MT @nytimes ALERT: Toyota AccelerationProblem NotCaused by ElectronicFlaw",
+				   "Government: No electronic flaws in Toyotas http://bit.ly/fyF9ag #9NEWS",
+				   "Electronic Flaws Did Not Cause Toyota Problems, U.S. Says: Unintentional acceleration problems were the result ... http://nyti.ms/fg7YTs",
+				   "Government finds no evidence that electronic glitches caused sudden acceleration incidents in Toyota vehicles. via @Politico",
+				   "U.S. clears Toyota’s electronic throttles (Reuters) http://bit.ly/h7v44V",
+				   "US Toyota probe finds no electronic flaws: report (AFP): AFP - A US government probe into safety problems a...  http://bit.ly/hprprs",
+				   "Electronic Flaws Did Not Cause Toyota Problems, U.S. Says http://nyti.ms/g1u8df",
+				   "@cspanwj   Breaking News: Nothing like a Patriotic FlatFoot on the breaking pedal of a TOyota. Works in space too, says NASA",
+				   "Feds clear Toyota of electronic causes in recall probe - http://newzfor.me/?cyvr",
+				   "Why'd DoT take so long to exculpate Toyota on electronic flaws? Walter Olson (@walterolson) asks some hard questions. http://j.mp/exK7nP",
+				   "Government: No electronic flaws in Toyotas - http://newzfor.me/?civr [Like it? http://bit.ly/fTlws9 ]",
+				   "“interesting” Report Due On Toyota Accelerations, No Significant Defects Found?: A study of what happened ... http://tinyurl.com/457vw6j",
+				   "Probe clears Toyota's electronic throttles: WASHINGTON (Reuters) - A government probe cleared Toyota Motor Corp's electronics of caus...",
+				   "Probe clears Toyota's electronic throttles (Reuters): Reuters - A government probe cleared Toyota Motor Cor... http://bit.ly/gINXP8",
+				   "News1 new result for “San diego lawyer” US study finds no flaws in Toyota electronicsSan Diego Union Tribune“Our... http://bit.ly/eBE1Il",
+				   "@fikeminkel @reuters '08 Rav4 airbags deploy w/o impact http://wwwodi.nhtsa.dot.gov/complaints/results.cfm Next Toyota recall? Check it out"
+			   ]
+		   }
+	   },
+	   {
+		   "name": "healthcare law unconstitutional",
+		   "clusters": {
+			   "semantic": [
+				   {
+					   "jaccard": [
+						   {"tweet": [
+							   	"Judge may escalate battle over healthcare reform: MIAMI (Reuters) - A Florida judge could on Monday become the s... http://bit.ly/gQq6FT",
+								"Judge may escalate battle over healthcare reform: MIAMI (Reuters) - A Florida judge could on Monday become the s... http://bit.ly/faVezm"
+								]
+							},
+ 						   {"tweet": [
+ 							   	"Judge may escalate battle over healthcare reform http://bit.ly/gNWRCS",
+								"Judge may escalate battle over healthcare reform http://reut.rs/hmiJGL",
+								"Judge May Escalate Battle Over Healthcare Reform.....http://reut.rs/h6DCnU"
+ 								]
+ 							}
+					   ]
+				   },
+				   {
+					   "jaccard": [
+						   {"tweet": [
+							   	"A federal judge in Florida has struck down  unconstitutional key parts of the sweeping health care reform bill.",
+								"#CNN: A federal judge in Florida has struck down as unconstitutional key parts  of President Obama's health care reform bill"
+								]
+							}
+					   ]
+				   },
+				   {
+					   "jaccard": [
+						   {"tweet": [
+							   	"Fla. judge strikes down health overhaul: PENSACOLA, Fla. — A federal judge in Florida says the Obama administrat... http://bit.ly/eNKKM9",
+								"Fla. judge strikes down health overhaul: PENSACOLA, Fla. (AP) - A federal judge in Florida says the Obama admini... http://bit.ly/gnLT2C"
+								]
+							},
+							{"tweet": [
+								"Judge strikes down Obama healthcare law | Reuters http://t.co/5nMr5MP",
+								"Judge strikes down healthcare reform law | Reuters http://t.co/nrHh1Cg via @reuters",
+								"Judge strikes down healthcare reform law http://ow.ly/1b7jqq",
+								"Judge strikes down Obama healthcare law (Reuters) http://feedzil.la/fHI9Do",
+								"Judge strikes down Obama healthcare law (Reuters) http://feedzil.la/ejXt6A",
+								"Judge strikes down healthcare reform law | Reuters http://t.co/MhkuR6T via @reuters",
+								"Judge strikes down healthcare reform law | Reuters http://t.co/US3TmyW via @reuters"
+								]
+							},
+							{"tweet": [
+								"Judge overturns much of Obama health care law as unconstitutional - AP via @BreakingNews",
+								"@NhmhAndrv Judge overturns Obama health care law as unconstitutional - NBC"
+								]
+							},
+							{"tweet": [
+								"Judge Rules Health Care Law Is Unconstitutional: http://soc.li/0yY5y3V",
+								"Judge rules Obama health care law unconstitutional http://usat.me?43124548",
+								"Judge rules Obama health care law unconstitutional http://usat.me?43124548"
+								]
+							},
+							{"tweet": [
+								"http://bit.ly/hdHgRm Federal Judge Rules Entire Health Care Law Unconstitutional #tcot #ObamaCare",
+								"Federal judge rules health care reform law unconstitutional http://goo.gl/fb/QjUPX"
+								]
+							},
+							{"tweet": [
+								"Part of health care law struck down: A federal judge has ruled unconstitutional President Obama's sweeping healt... http://bit.ly/gVyP00",
+								"Part of health care law struck down - A federal judge has ruled unconstitutional President Obama's sweeping health c... http://ow.ly/1b7ii8"
+								]
+							},
+							{"tweet": [
+								"Judge strikes down #healthcare reform law - http://newzfor.me/?cvij [Like it? http://bit.ly/gn0Z5k ]",
+								"Judge strikes down #healthcare reform law - http://newzfor.me/?cvij"
+								]
+							},
+							{"tweet": [
+								"Judge strikes down healthcare reform law http://bit.ly/i4awYU #Conspiracy",
+								"Judge strikes down healthcare reform law http://bit.ly/eGspK0 #business #news"
+								]
+							},
+							{"tweet": [
+								"Judge strikes down healthcare reform law: MIAMI (Reuters) - A federal judge in Florida struck down President Bar... http://bit.ly/eG7S9H",
+								"Reuters Health News Judge strikes down healthcare reform law: MIAMI (Reuters) - A federal j... http://bit.ly/hcORA3 http://bit.ly/bgHkxE"
+								]
+							},
+							{"tweet": [
+								"Federal judge in Florida strikes down Obama health care plan as unconstitutional - South Florida S.. http://bit.ly/gCKApX",
+								"http://bit.ly/fstdls Federal judge in Florida strikes down Obama health care plan as ...: U.S. District Judge Ro... http://bit.ly/fHeWCE"
+								]
+							},
+							{"tweet": [
+								"US judge rules health care law unconstitutional: By Mark Arsenault WASHINGTON — A federal judge in Florida said ... http://bit.ly/hCsP10",
+								"US judge rules health care law unconstitutional: By Mark Arsenault WASHINGTON — A federal judge in Florida said ... http://bit.ly/gHKn4J"
+								]
+							}
+					   ]
+				   }
+			   ],
+			   "singleton": [
+			   		"Pensacola judge may declare health reform law unconstitutional today: They argue the so-called individual mandat... http://bit.ly/hirLVR",
+					"US judge may escalate battle over &lt;b&gt;healthcare reform&lt;/b&gt; http://bit.ly/hJB6bG",
+					"Federal Judge rules Obamacare is unconsitutional...",
+					"A judge has ruled the health care individual mandate is unconstitutional and whole act must be declared void.",
+					"Vinson rules entire #hcr law unconstitutional  b/c of lack of severability clause, entire text here  http://scr.bi/gXNdVq",
+					"A Judge In Florida rules Obama's Health Care Overhaul as unconstitutional.",
+					"FL Judge rules health care individual mandate is UNCONSTITUTIONAL. Entire act VOID",
+					"federal judge in florida's northern district ruled that the individual mandate is unconstitutional.",
+					"Florida judge rules Congress exceeded authority to require Americans buy health insurance #hcr #obamacare #teaparty #tcot",
+					"$10 says the judge owns stock in Aetna or something - http://www.huffingtonpost.com/2011/01/31/health-care-reform-ruling_n_816257.html",
+					"Judge Rules Health Care Reform Unconstitutional: President Obama's health care reform legislation... http://bit.ly/ghJ6Al #wtp2010 #tcot",
+					"NYT NEWS ALERT: Federal Judge in Florida Strikes Down Obama Health Care Law as Uncons (via @nytimes; 4 msgs, 1 pic) http://flackr.net/s/y4dF",
+					"BREAKING NEWS: Federal judge in Florida strikes down parts of the Obama administration’s healthcare law as unconstitutional.",
+					"Federal judge in Florida rules Obama health care plan is unconstitutional.",
+					"Florida judge declares parts of healthcare law unconstitutional in suit involving SC and other states",
+					"this is our avenue to kill obamacare...Florida Federal Judge Rules Obamacare Unconstitutional http://t.co/kcVAiXD via @theblaze",
+					"A federal judge in Florida has ruled that the president’s health care overhaul, “Obamacare,” is unconstitutional.... http://fb.me/umsKxdBG",
+					"Judge rules healthcare reform unconstitutional     (Reuters): Reuters - A judge in Florida on Monday became ... http://bit.ly/hAAI8V",
+					"Well this a surprise and not a good thing-Healthcare law declared unconstitutional: http://bit.ly/icZyWN",
+					"Obamacare still heading to the Supreme Court: http://fb.me/zBBt95Xa",
+					"Thank goodness @cnnbrk: Federal judge in Florida strikes down as unconstitutional key parts of the sweeping #healthcare reform bill",
+					"Judge Rules Health Care Law Is Unconstitutional - FoxNews.com: http://fxn.ws/eXakuq via @addthis",
+					"“Affordable Care Act Unconstitutional, Says Florida Federal Judge” http://ow.ly/3NB0b #hcr #hclaw #obamacare #tcot #tlot",
+					"Florida Judge Declares Entire Healthcare Law Void: After a month and a half ago, a Virginia Judge found a key pr... http://bit.ly/eniSMx",
+					"Florida Judge Voids Health Reform Law: A second federal judge ruled on Monday that it was unconstitutional for... http://dlvr.it/FVpwQ",
+					"Judge rules health law unconstitutional (the whole law, not just mandatory insurance): http://politi.co/i4RmQN #HCR #PPACA #ACA",
+					"Federal judge says key parts of health care reform unconstitutional: Just because you are alive doesn't mean you... http://bit.ly/dQNgau",
+					"NYTimes: Federal Judge Rules Health Law Violates Constitution http://nyti.ms/gbDlGH #news #breakingnews",
+					"UW's Andrew Coan can discuss second federal judge ruling piece of health reform law unconstitutional: http://experts.news.wisc.edu/",
+					"Obamacare Unconstitutional: A Reagan appointed federal district judge in Florida has ruled key portions of Obama... http://bit.ly/eyvWPK",
+					"Judge just ruled Obama's Health Care Unconstitutional - Like that is a shock - #tcot #gop #dnc #health #liberals #healthcare #obama",
+					"via @LegInsurrection on #ObamaCare ruling & Y injunction not necessary, bc entire law declared void:  http://tinyurl.com/45l9c6f  #tcot",
+					"Federal judge says key part of health care reform unconstitutional – This Just In - CNN.com Blogs http://t.co/Sxri21s via @cnn",
+					"Federal Judge Strikes Health Care Reform Act, Calls Insurance-Purchase Mandate Unconstitutional http://bit.ly/f2AX2i (via ABA Journal)",
+					"Part of health care law struck down http://tinyurl.com/4vj7z5k",
+					"Health Care Litigation: The Insurance Mandate Is Unconstitutional http://goo.gl/fb/FtMER",
+					"Federal judge tosses out sweeping health care reform act http://bit.ly/gTql8C #news",
+					"Breaking News: Federal Court Rules Obamacare Unconstitutional: This afternoon, a federal judge in Florida ruled ... http://bit.ly/ihXbNA",
+					"DTN World News: Judge strikes down parts of health care law: A federal judge has ruled unconstitutional Presiden... http://bit.ly/eCftVF",
+					"Regular Folks United Responds to the Ruling That Obamacare Is Unconstitutional http://bit.ly/hLg08n #TCOT #MDReps #HCR #AACONS #BookerRising",
+					"Judge Rules Against Health Reform Law: A federal judge in Florida says the Obama administration's health overhaul is... http://dlvr.it/FW2Mq",
+					"U.S. Judge Says ENTIRE HC Law UNCONSTITUTIONAL » Just Piper http://t.co/s8lqwDv via @justpiper.com",
+					"Federal judge tosses out entire healthcare reform law on account of “individual mandate” to acquire insurance coverage http://bit.ly/dWXYyc",
+					"Health Care law ruled unconstitutional again.  Case will be appealed to 11th Circuit Court of Appeals http://fb.me/zC5D1Kx7",
+					"Cue the Supremes: Judge rules health care law unconstitutional in ...: “I share President Obama's belief that it... http://bit.ly/gkzn6Z",
+					"CNBC reports: A judge in Florida Monday became the second U.S. judge to declare President Obama's healthcare reform law unconstitutional",
+					"26 states & #judge agree! http://www2.tbo.com/content/2011/jan/31/311536/federal-judge-in-pensacola-strikes-down-health-ove/news-metro/",
+					"@AnhJosephCao Judge strikes down #healthcare reform law - http://newzfor.me/?cvij There are unjust laws as there are unjust men ~ Gandhi",
+					"reason.com: Federal Judge: Individual Mandate Unconstitutional, Health Care Overhaul “must be declared void” http://t.co/raCOTdq #obamacare",
+					"Judge rules US healthcare law unconstitutional: A federal judge in Florida struck down President Barack Obama's ... http://bit.ly/i8q55J",
+					"Federal Judge in Florida Rules Obamacare Unconstitutional http://goo.gl/b47wx",
+					"Federal judge strikes down insurance mandate, entire reform bill http://bit.ly/etwNP2",
+					"Judge tosses out health care reform law: A federal judge has ruled unconstitutional President Obama's sweep... http://bit.ly/enicXy #CNN",
+					"Health-Care Overhaul Law Ruled Unconstitutional: Whether or not implementation of the law will be affected will ... http://bit.ly/gcItcD",
+					"Georgia officials praise judge's ruling on health care law, say fight is not over  http://sns.ly/MHb1y4",
+					"Florida Judge Strikes #Obamacare Down; UNCONSTITUTIONAL http://goo.gl/fb/iXbgZ #america039shealthfutureactof2009",
+					"A Florida District Court Judge has just ruled ObamaCare Unconstitutional.",
+					"Today, Jan 31 2011; Judge declares Obamacare unconstitutional in total; Your thoughts http://sodahead.com/poll/1482685/",
+					"Federal judge in Florida rules against health care reform law http://tf.to/fMmB",
+					"Federal judge says healthcare law unconstitutional http://tinyurl.com/4umv9nh",
+					"McCollum: Supreme Court Will End Obamacare: Whether the Obama administration can now legally proceed with health... http://bit.ly/h6GVnl",
+					"Video: Florida judge rules against health law (msnbc.com) http://feedzil.la/hseTpd",
+					"New article on darkpolitricks: Federal judge rules health care law unconstitutional  http://j.mp/hhkAUF darkpolitricks.com",
+					"Reagan appointed judge to Obamacare -  Go pound sand  The Patient Protection and Affordable Care Act unconstitutional.  http://bit.ly/dIZYkt",
+					"This is going to be an amazing Constitutional showdown when it reaches the Supreme Court. http://t.co/ND9cc7t",
+					"Nevada GOP Statements Regarding Healthcare Reform Decision: Statements from Governor Sandoval, Senator Ensign an... http://bit.ly/fizgJQ",
+					"Health care law deemed illegal - The News-Press: Health care law deemed illegal The News… http://goo.gl/fb/FNFxh",
+					"Judge: Obama's health overhaul unconstitutional (AP) http://goo.gl/fb/0irjn",
+					"A U.S. judge says Obama’s health reform unconstitutional http://goo.gl/fb/AVSrl",
+					"A Florida judge rules that Obamacare is unconstitutional: http://t.co/iLfoLJU",
+					"Florida court strikes down Obama's healthcare reform law - Times of India: Daily Mail Florida… http://goo.gl/fb/HRmL3",
+					"@CNN @cnnbrk If the Florida Health-care court decision is unconstitutional would not that same conslusion apply to mandatory auto insurance?",
+					"Obamacare Meets Its Death Panel | RedState http://t.co/oThxE8W via @ewerickson #TCOT #hcr #teaparty #politics",
+					"Fla. judge in Obama health suit has own med story: The judge who ruled the Obama administration's health care ov... http://bit.ly/esURgM",
+					"What's Next For Health Care Law?: The Obama administration is vowing to move full speed ahead with implementa... http://politi.co/eipgpf",
+					"Durbin to chair hearing on healthcare law's constitutionality - The Hill's Healthwatch http://t.co/FmuBLza #tcot #obamacare",
+					"The New Republic: The Poorly Argued Florida Ruling: On Monday, Judge Roger Vinson of Florida ... http://n.pr/esyxlU http://bit.ly/hzTpMj",
+					"Thank goodness someone is thinking out there!!! . Judge Rules Health Care Law Is Unconstitutional: http://soc.li/0yY5y3V",
+					"White House to Pursue Health-Care Appeal After Judge Rejects Entire Law - Yahoo! Finance http://yhoo.it/hez2vn",
+					"Judge's Ruling On Health Reform Law Is 'Radical Judicial Activism Run Amok'-and Is Likely To Be Overturned (Medi... http://feedzil.la/gt79ZD",
+					"Heritage Morning Bell: Another Victory on the Road to Repeal http://bit.ly/f3TPjt #teaparty #hcr",
+					"Federal Judge Rules Health-Care Law Violates Constitution http://bit.ly/et5zeh #nacsonline",
+					"How Antonin Scalia May Save The Individual Mandate http://bit.ly/hNLwcK",
+					"Tricky Dicky Durbin will hold hearings b/c he didn't like Judge Vinson's ruling. http://bit.ly/fYNAWt   #liberty #liberalactivism",
+					"Our man of the hour: Judge Vinson gave Obamacare its second unconstitutional ruling. http://fb.me/zQsChak9",
+					"Reactions to Fla. judge's ruling on health reform law strong ...: A Florida judge's ruling that pa... http://bit.ly/eRdwZu health reform",
+					"http://bit.ly/1QXiH A federal judge in Florida has tossed out the sweeping health care reform law championed by ...  &lt;!&gt; CNBC Twitter &lt;!&gt;",
+					"Republicans Look to Build Steam for Health Care Law Repeal After Florida ...: Republicans are acting quickly to ... http://bit.ly/erdYdN",
+					"Congressional Republicans support repeal of health care act: http://bit.ly/hBpDaH #hcr",
+					"Obama's health care overhaul is ruled unconstitutional http://sbne.ws/r/6E9P",
+					"Obamacare struck down as unconstitutional, stage is set for showdown: A federal judge on Monday struck down the ... http://bit.ly/gDxiZi",
+					"“@RepKarenBass: Continual assault on the  #healthcare security of our families must stop.FL ruling on#HCR disappointing http://bit.ly/gCl2qL",
+					"NPR Topics: Politics- http://bit.ly/ePehFp",
+					"Florida judge who ruled on health reform has his own coverage story http://huff.to/fY0RgR",
+					"Fla. judge strikes down Obama health care overhaul: A federal judge declared the Obama administration's health c... http://bit.ly/f6MDWT",
+					"FED Judge Strikes down ENTIRE new Healthcare Law http://tinyurl.com/6hu4339 #HealthcareLaw #ObamaCare #Healthcare",
+					"USA - Universal Healthcare - Senate Republicans Seek State Opt-Out of Health-Care Overhaul   http://t.co/47fUpF3",
+					"http://bit.ly/fbXive (GOP leader McConnell to force Senate vote on healthcare repeal)",
+					"What do you think? Is “Obama Care” unconstitutional? http://fb.me/Ul6SoIHW",
+					"Insurance News - Federal Judge Rejects Health Reform Law in ...: U.S. District Court Judge Roger Vinson agreed w... http://bit.ly/i2iVQB",
+					"NEWS: Federal Judge Rules #Healthcare Bill to be Unconstitutional. http://ow.ly/3Or7Z #hcr"
+			   ]
+		   }
+	   },
+	   {
+		   "name": "Moscow airport bombing",
+		   "clusters": {
+			   "semantic": [
+				   {
+					   "jaccard": [
+						   {"tweet": [
+							   	"BBC News - Domodedovo airport: Blast rocks Moscow's main airport http://t.co/BUpQ214 #breakingnews #moscow",
+								"BBC News - Domodedovo blast: Explosion rocks Moscow's main airport http://www.bbc.co.uk/news/world-europe-12268662"
+								]
+							},
+ 						   {"tweet": [
+ 							   	"とりあえず友達は大丈夫みたい・・・　Deadly blast at Moscow’s Domodedovo airport — RT http://bit.ly/hJFs3A",
+								"Deadly Blast at Moscow’s Domodedovo Airport http://twurl.nl/kssyzu"
+ 								]
+ 							},
+							{"tweet": [
+								"ViewHeadlines.com - Deadly blast at Moscow airport http://t.co/4MUDe5y via @wibiya",
+								"Deadly blast at Moscow airport http://f.ast.ly/Q3bV2"
+								]
+							},
+							{"tweet": [
+								"Fatal Blast Reported At Moscow Airport Terminal: Russian authorities Monday reported a fatal explosion at ... http://tinyurl.com/4eb838w",
+								"Fatal Blast Reported At Moscow Airport Terminal: Russian authorities Monday reported a fatal explosion at Domodedo... http://n.pr/i9TCxa"
+								]
+							},
+							{"tweet": [
+								"Moscow airport explosion – live updates http://t.co/J9hL0AF via @guardian",
+								"Moscow airport explosion – live updates http://t.co/WH2hwuO via @guardian",
+								"Moscow airport explosion – live updates http://t.co/JQaIeCZ vía @guardian"
+								]
+							},
+							{"tweet": [
+								"Explosion shakes Moscow's busiest airport - Yahoo! News http://yhoo.it/hMuPPY",
+								"Explosion shakes Moscow's busiest airport - Yahoo! News http://yhoo.it/e54Mks"
+								]
+							}
+					   ]
+				   },
+				   {
+					   "jaccard": [
+						   {"tweet": [
+							   	"Very sad RT @BBCBreaking: Russian media reporting that at least 23 people were killed and 100 injured in Moscow airport bombing",
+								"아 무셔워..RT @BBCBreaking Russian media reporting that at least 23 people were killed and 100 injured in Moscow airport bombing"
+								]
+							}
+					   ]
+				   },
+				   {
+					   "jaccard": [
+						   {"tweet": [
+							   	"At least 31 killed in Moscow airport suicide bomb (AFP): AFP – A suspected suicide bombing Monday killed at least 31 people and wound...",
+								"At least 31 killed in Moscow airport suicide bomb (AFP): AFP – A suspected suicide bombing Monday killed at least 31 people and wound..."
+								]
+							},
+							{"tweet": [
+								"At least 31 dead in Moscow airport explosion http://bit.ly/gHDBVd (via @cnni)",
+								"At least 31 dead in Moscow airport explosion - http://bit.ly/f57fse #cnn",
+								"At least 35 dead in Moscow airport explosion - http://bit.ly/f57fse #cnn"
+								]
+							},
+							{"tweet": [
+								"Suicide bomber kills 31 at Russia's biggest airport http://pulsene.ws/Q8Ox",
+								"http://www.reuters.com/article/idUSTRE70N2TQ20110124 Suicide bomber kills 31 at Russia's biggest airport"
+								]
+							}
+					   ]
+				   },
+				   {
+					   "jaccard": [
+						   {"tweet": [
+							   	"Explosion Kills 31 At Moscow Airport: An explosion ripped through the international arrivals hall at Moscow's bu... http://bit.ly/hfLg12",
+								"Explosion Kills 31 At Moscow Airport: An explosion ripped through the international arrivals hall at Moscow's... http://on.wesh.com/gPRKOW"
+								]
+							}
+					   ]
+				   },
+				   {
+					   "jaccard": [
+						   {"tweet": [
+							   	"At least 31 people were killed and more than 100 injured in a suicide bombing at Russia’s biggest airport, Russi... http://bit.ly/eyk4Dm",
+								"At least 31 people have been killed and more than 130 injured in a suicide bombing at Russia's biggest airport."
+								]
+							}
+					   ]
+				   },
+				   {
+					   "jaccard": [
+						   {"tweet": [
+							   	"Check this video out -- First witness video moments after Moscow Domodedovo airport bombing http://t.co/PA80210 via @youtube",
+								"Video of Moscow bombing aftermath. Sad -- First witness video moments after Moscow Domodedovo airport bombing http://t.co/HN65JDx"
+								]
+							}
+					   ]
+				   },
+				   {
+					   "jaccard": [
+						   {"tweet": [
+							   	"The UK Foreign Office is urgently checking whether any Britons were caught up in an explosion that has... http://bbc.in/fQiDQj #UK #news",
+								"NEWS: The UK Foreign Office is urgently checking whether any Britons were caught up in an explosion that has rep... http://bbc.in/hmFaIV"
+								]
+							}
+					   ]
+				   },
+				   {
+					   "jaccard": [
+						   {"tweet": [
+							   	"Prayers and thoughts go out to the victims of the Moscow airport bombing. Tragic.",
+								"White light, thoughts and prayers  go out to the families and victims of the Moscow airport bombing.  http://lat.ms/f8rRyZ"
+								]
+							}
+					   ]
+				   },
+				   {
+					   "jaccard": [
+						   {"tweet": [
+							   	"决不向恐怖主义妥协RT @NYDolce: 35 dead in suicide bomb attack on Moscow airport - Telegraph http://t.co/RZWwOE5 via @Telegraph",
+								"35 dead in suicide bomb attack on Moscow #airport - http://newzfor.me/?csvc"
+								]
+							},
+							{"tweet": [
+								"Suicide Bombing at Moscow Airport Kills at Least 35 http://nblo.gs/doZqo",
+								"Bombing at Moscow airport kills 35 http://bit.ly/gHDBVd (via @cnni) #Russia"
+								]
+							},
+							{"tweet": [
+								"Suicide bombing at Moscow airport: MOSCOW - A suicide bomber killed at least 35 people at Russia's busiest airpo... http://bit.ly/hHTqSN",
+								"Suicide bomber kills 35 at Russia's biggest airport: MOSCOW (Reuters) - A suicide bomber killed at least 35 people at Russia's ...  #news"
+								]
+							}
+					   ]
+				   },
+				   {
+					   "jaccard": [
+						   {"tweet": [
+							   	"Will airport blast spur security update?: Airports around the world are likely to boost security checks in the w... http://bit.ly/ij79FE",
+								"Will airport blast spur security update?: Airports around the world are likely to boost security checks ... http://bit.ly/iayse3 #travel"
+								]
+							}
+					   ]
+				   },
+				   {
+					   "jaccard": [
+						   {"tweet": [
+							   	"Britons 'killed in Moscow blast': The UK Foreign Office is looking into reports that two British citizens were among 35 people killed...",
+								"Britons 'killed in Moscow blast': The UK Foreign Office is looking into reports that two British citizens were a... http://bbc.in/i6AS0O"
+								]
+							}
+					   ]
+				   }
+			   ],
+			   "singleton": [
+			   	"At least two dead, dozens injured in blast at Moscow's Domodedovo airport - Interfax news agency #Russia",
+				"Explosion with casualties at Moscow airport: Source: www.forexlive.com --- Monday, January 24, 2011Perhaps a bit... http://bit.ly/eoSMXk",
+				"Blast at Moscow's Domodedovo airport was suicide attack - source citing initial probe #news",
+				"Explosion shakes Moscow's busiest airport     (AP) http://bit.ly/dRgipc & http://dld.bz/Hket",
+				"MT @BBCBreaking: Russian media reporting a suicide bomber killed  at least 10 people at Moscow's Domodedovo Airport",
+				"10 killed, 20 injured in Moscow airport blast. Russian media: Suicide bombing at arrivals hall of Domodedovo Airport.",
+				"Update: About 20 killed in Moscow airport suicide attack - Itar Tass",
+				"[REUTERS]: Suicide bomber at Moscow airport kills 10 - report: MOSCOW (Reuters) - A suicide bomber at Moscow's ... http://reut.rs/hAFCzF",
+				"MOSCOW (BNO NEWS) -- Death toll from suicide attack at Moscow airport rises to 23, at least 130 injured.",
+				"Deadly suicide bombing hits Moscow airport: At least 10 people killed and 20 injured in suicide bomb blast at Mo... http://bit.ly/fz3ejE",
+				"Report: 10 dead in Moscow airport explosion: At least 10 people were killed and 20 injured in a suicide b... http://on.msnbc.com/fIzVXg",
+				"Explosion rocks Moscow airport: MOSCOW – An explosion at Moscow’s Domodedovo Airport has killed at least ten peo... http://bit.ly/g1dmI9",
+				"*UPDATE“ Death toll at Moscos airport bombing climbs to 31, over 100 injured: reports",
+				"LATEST: At least 20 killed in explosion at Moscow's busiest airport  http://huff.to/f3sSXw",
+				"Bad news. Early report is 23 dead, 130 injured (HT BizballMaury) RT @nytimes: NYT NEWS ALERT: Explosion Is Reported at a Moscow Airport",
+				"Blast at Moscow Airport..  http://news.yahoo.com/s/nm/20110124/ts_nm/us_russia_blast_airport",
+				"Oh my.. :( RT @washingtonpost: Explosion rocks Domodedovo, Moscow's busiest airport; at least 20 injured http://wapo.st/fnYC5H",
+				"Blast rocks Moscow’s main airport: Moscow’s Domodedovo airport – the busiest in the Russian capital – is h... http://tinyurl.com/4lr5kbo",
+				"Report: Explosion kills 23 at Moscow airport     (AP): AP - The Russian state RIA Novosti news agency says a... http://bit.ly/i3mgRZ",
+				"Domodedovo blast: Explosion rocks Moscow’s main airport http://armenion.com/?p=2134 #домодедово #domodedovo",
+				"Russian media now reporting that at least 31 people were killed and 130 injured in bombing at Moscow's Domodedovo airport, from AFP via BBC",
+				"Check out this article from FOX News. Report: At Least 10 Dead in Explosion in Moscow's Busiest Airport: http://fxn.ws/fPeWtK",
+				"Report: Explosion kills 23 at Moscow airport http://bit.ly/hwGiTm",
+				"From #AP: Bomb at #Moscow airport kills 31, injures 130. Story @ http://bit.ly/ga3Nnd",
+				"Security stepped up at Moscow airports after 31 people died in an apparent terrorist blast in #Domodedovo. Vnukovo and Sheremetyevo affected",
+				"At least 10 killed in apparent suicide bombing at Moscow airport. Sarah Palin can see the result of her hate spe... http://fk.cm/5902836",
+				"“@cnnbrk: Blast that killed 31 at #Moscow airport was terrorist attack, Russian authorities say. http://on.cnn.com/f3zHcL”",
+				"deadly blast in #Moscow airport leave dozens dead - 31 killed and 130 wounded.  Prayers for the victims",
+				"EWN International Explosion rocks Moscow’s busiest airport: Moscow’s busiest airport – Domodedovo has been rocke... http://bit.ly/hktYzw",
+				"Up to 31 killed in Moscow airport attack. Police seeking 3 men, according to report http://wapo.st/eA61BZ",
+				"Blast rocks Moscow's main airport - http://www.bbc.co.uk/news/world-europe-12268662",
+				"Suicide bombing kills 31 people: At least one police officer was shot Monday in St. Petersburg, Fla., and the sh... http://bit.ly/e7yk8B",
+				"Terrible news from Moscow #Domodedovo aiport: at least 31 dead and 130 injured as a result of explosion. Russian media slow to report news.",
+				"Explosion at Moscow's Domodedovo airport kills at least 10 people http://tinyurl.com/6ypgpy6",
+				"Deadly Blast Strikes in Moscows Main Airport: ---Quote--- MOSCOW  An explosion rocked an international ... http://bit.ly/dQUNrP #tcot",
+				"Bomb kills passengers at Moscow airport http://wapo.st/gzLYBl",
+				"Live: Moscow airport explosion. http://news.bbc.co.uk/2/hi/europe/9372022.stm",
+				"Suicide attack at Moscow airport kills over 30 (WRAPUP 1) http://t.co/jT1MtE1 via @ria_novosti",
+				"At least 31 dead in Moscow airport explosion: An explosion attributed by Russia's Investigative Committee to... http://bit.ly/dKwJF7 CNN",
+				"Moscow Bombing :: Medvedev postpones his scheduled flight to Davos",
+				"Moscow airport bombing :S",
+				"Καμικάζι σε αεροδρόμιο: At least 30 people killed and 50 others injured in explosion at Moscow's Domodedovo international airport”",
+				"Graphic video from inside Domodedovo Moscow airport following terrorist blast - http://bit.ly/e7ac5V via @RodrigoEBR",
+				"Suicide bomber blamed for #Moscow airport attack that killed 31, Russian state TV reports. http://on.cnn.com/f3zHcL",
+				"Suicide bomber kills 31 and injured at least 100 at moscow airport.",
+				"Russian President: Apparent ‘Terrorist Attack’, witnesses say carried out by two suicide bombers, according to RIA: http://abcn.ws/eJlBnW",
+				"Explosion from Bomb at Moscow Airport, 31 Dead http://nblo.gs/doL9a",
+				"Moscow airport explosion – live updates: At least 31 people killed and more than 130 injured in suicide bombing ... http://bit.ly/eGCfRR",
+				"Reports: Suicide bomber kills 31, injures at least 100 at Moscow airport – This Just In - CNN.com Blogs http://t.co/192l6IC via @cnn",
+				"Blast rocks Moscow's Main airport - BBC | BREAKING - Terrorist attack at Moscow international airport! http://digs.by/fr1LKe",
+				"Terror attack in Moscow airport, 31 dead and about 130 injured... I don't know why we haven't dropped any A-bombs on the Middle East.",
+				"Infowars: At least 31 killed in apparent suicide blast at Moscow airport: USA Today | An apparent suicide bombin... http://bit.ly/eLWgJD",
+				"Dozens killed in Moscow airport suicide bombing http://bit.ly/faamTK #noticias",
+				"Explosion rocks Moscow's Domodedovo Airport: At least 31 reported dead in suspected suicide bombing http://nydn.us/fP5riT",
+				"Moscow airport blast: Dozens killed after explosion hits Domodedovo airport: Early, unconfirmed reports suggest ... http://bit.ly/dYEmMm",
+				"Explosion rocks Moscow's busiest airport: A suicide bomber staged a massacre at Moscow's busiest airport Monday... http://nydn.us/fP5riT",
+				"@lukewilliamss Suicide bomber kills 31 at Moscow airport: An explosion ripped through the interna... http://bit.ly/fvuW5o #lukewilliamss",
+				"Explosion at Moscow airport  - http://tinyurl.com/4rcep4q - rabuzar",
+				"#top #stories Bomb kills as many as 31 at Moscow airport (http://feeds.washingtonpost): Share With Friends: ... http://feedzil.la/fQV3J1",
+				"BBC News - 16:13 GMT - Moscow bombing: Carnage at Russia's Domodedovo airport http://www.bbc.co.uk/news/world-europe-12268662",
+				"BBCNEWS: Search for Moscow blast Britons http://bbc.in/hILNzc",
+				"Bomb blast at Moscow airport: http://tinyurl.com/6xnubvb",
+				"World News: Search for Moscow blast Britons: The UK Foreign Office is urgently checking whether any Britons were... http://bbc.in/i6AS0O",
+				"Deadly explosions rock Moscow airport: An explosion at Moscow's busiest airport reportedly claimed at least 35 lives and injured over...",
+				"Russia: Terror attack kills 35 at Moscow airport http://ht.ly/3Jduz #terror #tcot #islam #tweetcongress",
+				"CNN 31 killed, 130 injured in terror blast at Moscow airport: A terrorist suicide bomber is blamed for the Mosco... http://bit.ly/hcT3wW",
+				"Moscow Terrorist Attack: LIVE UPDATES (VIDEO): An explosion at Domodedovo Airport in Mosco... http://huff.to/et24D4 http://bit.ly/5yluCl",
+				"Terrorist bombing at Moscow airport kills 31 and injured 145: Moscow, Russia – The explosion that killed at leas... http://bit.ly/f0uk68",
+				"bombs in Moscow main airport http://www.bbc.co.uk/news/world-europe-12268662",
+				"guardian.co.uk: ''Domodedovo airport hit by deadly bombing''http://is.gd/7Znvtj",
+				"Moscow airport bomb kills at least 31, injures more than 130 - Los Angeles Times Error Reported, We are sorry for that !",
+				"BREAKING NEWS: Terrorist attack kills 31, injures at least 100 at Moscow airport , WATCH LIVE NEWS ON OUR TV CHANNELS http://bit.ly/eeGNH3",
+				"Dozens Dead in Terrorist Attack in Moscow Airport: By Mark Berman Opposing Views As many as 35 people are dead i... http://bit.ly/esyZMn",
+				"How Did Moscow Bomber Elude Airport Security? http://bit.ly/eYfTuO",
+				"Breaking NEWS!- 31 killed, 130 injured in terror blast at Moscow airport: Smoke fills Moscow airport STORY H... http://bit.ly/hlBnJQ",
+				"Search for Moscow blast Britons: British Airways and BMI flights had arrived there shortly before the blast. A t... http://bit.ly/gTz56l",
+				"Hindu. 31 killed as suicide bomber strikes at Moscow airport http://goo.gl/fb/Pod47",
+				"Moscow Airport bomb toll is up to 35 dead and 130 injured. Islamist website is praising the bomber. Time to get serious on security here.",
+				"And it only takes 1 thing to change your outlook on how things could be worse... Sad... Carnage as Moscow airport bombed - http://www.bbc.co",
+				"TERRORIST ATTACK: View exclusive footage of today's bombing of Moscow airport here; dozens dead. http://bbc.in/h08ktP #tcot #ocra #p2",
+				"ABC: BREAKING: 'Terrorist Attack' at Moscow Airport Leaves at Least 31 Dead http://abcn.ws/eHBCV8",
+				"Deadly Blast at Moscow’s Main Airport Seen as Terror Attack http://tinyurl.com/4e9aggb",
+				"terrorism watch World leaders condemn Russia suicide bombing: WASHINGTON: World leaders on Mo... http://bit.ly/ek7rf6 terrorismwatch.org",
+				"Slashdot: Terrorists Bomb Moscow Airport - jayme0227 writes “Terrorists detonated a bomb at Moscow's busiest airport... http://ow.ly/1b0yB1",
+				"Rapichat.com Updates 35 killed in Moscow airport suicide bombing (AFP) http://ow.ly/1b0x8A http://ff.im/wIEA1",
+				"FlightGlobal: Domodedovo bomb toll exceeds 30: ministry http://bit.ly/hxDnNY Full http://bit.ly/dT49hy",
+				"Russians Find Head of Suicide Bomber – Arab In Appearance http://feedly.com/k/f7XsPf",
+				"Moscow airport terror attack kills 31, wounds 168 - The Associated Press&lt;-- recién me entero :| http://bit.ly/fKElmj",
+				"35 killed, more than 150 injured in #Moscow airport suicide bombing, Russian TV reports. http://on.cnn.com/fvZgG2",
+				"Several foreign embassies in Moscow have confirmed that their nationals were injured in Monday’s explosion at Domodedovo Airport",
+				"Carnage as bomber targets Moscow airport http://bit.ly/eI5V16",
+				"“@eu_eeas: Statement of President Barroso following the Moscow airport bombing http://t.co/rPmRJYi” #EUforeignpolicy",
+				"Moscow Airport Explosion Kills Dozens http://tinyurl.com/4e85bdp",
+				"Moscow Airport Blasts: FSB False Flag, Anti-Putin Campaign or Real Separatist Attack?: http://bit.ly/gzQ23Q",
+				"Explosion rocks Moscow's Domodedovo Airport: At least 35 killed by suitcase-toting suicide bomber http://bit.ly/huwslw",
+				"Blast at Moscow airport kills 30, injures 130 http://bit.ly/g6zQNR",
+				"Explosion Rocks Moscow Airport http://huff.to/gsP6VT",
+				"Two Britons dead in Moscow blast: Two British citizens are among 35 people killed in a bomb attack at Moscow's D... http://bbc.in/i6AS0O",
+				"Suicide bomber carrying explosive briefcase detonates inside busy Moscow airport terminal. More details here: http://tinyurl.com/4vlnc3z",
+				"Moscow airport bombed 35 dead",
+				"Moscow airport terror attack kills 35, wounds 180 (AP): http://tinyurl.com/63l88p9",
+				"V @MiriamElder: Domodedovo airport cameras catch the moment of the blast http://bit.ly/fV10oe (via @shaunwalker7)",
+				"Augusta (GA) WJBF:  Explosion Kills 31 at Moscow Airport . More #Aviation #news - http://tinyurl.com/pvkm37",
+				"Russia Stays on Alert After Suicide Bomber Kills 35 at Airport http://j.mp/gb4era",
+				"UFO's & Paranormal: Terrorist Bombing at Moscow Airport http://bit.ly/ieICIC",
+				"#News #Top Stories Casualty reports vary in Moscow airport blast - RIA Novosti The GuardianCasualty.. http://ad.vu/6mne http://bit.ly/eytTCm",
+				"Suicide Blast Rocks Moscow Airport A powerful suicide-bomb blast at Russia's busiest airport Monday killed at least 35 p http://tiny.ly/TJcf",
+				"ABC News:  Bombing at Moscow Airport Called Terrorist Attack . More #Aviation #news - http://tinyurl.com/pvkm37",
+				"Moscow airport bomb kills dozens, including two Britons | World news | The Guardian http://t.co/DaCZu7Z"
+			   ]
+		   }
+	   },
+	   {
+		   "name": "Saleh Yemen overthrow",
+		   "clusters": {
+			   "semantic": [
+				   {
+					   "jaccard": [
+						   {"tweet": [
+							   	"Yemen arrests female activist over student protest: SANAA (Reuters) - Yemen has arrested a woman activist who le... http://bit.ly/frZYos",
+								"Yemen arrests female activist in student protest: Yemen has arrested a woman activist who led student prot... http://on.msnbc.com/ei4voI"
+								]
+							}
+					   ]
+				   },
+				   {
+					   "jaccard": [
+						   {"tweet": [
+							   	"Yemeni activist refuses to leave jail until 21 protesters are freed: Authorities in Yemen ordered the release Mo... http://bit.ly/hDHYMO",
+								"DTN World News: Yemeni activist refuses to leave jail until 21 protesters are freed: Authorities in Yemen ordere... http://bit.ly/eUHBKw"
+								]
+							}
+					   ]
+				   },
+				   {
+					   "jaccard": [
+						   {"tweet": [
+							   	"Thousands Rally Against Government in Yemen http://buzzup.com/1juh0 #breaking",
+								"v @fahimn Thousands Rally Against Government in #Yemen http://nyti.ms/gjRZe2"
+								]
+							},
+							{"tweet": [
+								"Anti-government protests erupt in Yemen http://bit.ly/f9Xl58",
+								"http://english.aljazeera.net/news/middleeast/2011/01/2011129112626339573.html New protests erupt in Yemen",
+								"Anti-government protests start in Yemen http://bit.ly/gxtegh"
+								]
+							}
+					   ]
+				   },
+				   {
+					   "jaccard": [
+						   {"tweet": [
+							   	"BBC News - Yemen protests: Thousands call on president to leave http://www.bbc.co.uk/news/world-middle-east-12295864",
+								"Yemen protests: Thousands call on president to leave http://www.bbc.co.uk/news/world-middle-east-12295864",
+								"Yemen protests: Thousands call on president to leave http://bbc.in/f4RDIl"
+								]
+							}
+					   ]
+				   },
+				   {
+					   "jaccard": [
+						   {"tweet": [
+							   	"Thousands Protest Against Government in Yemen: The protests, which organizers said were inspired by events in T... http://nyti.ms/fEyEqZ",
+								"Thousands Protest Against Government in Yemen: The protests, which organizers said were inspired by events in... http://chilp.it/76f118"
+								]
+							}
+					   ]
+				   },
+				   {
+					   "jaccard": [
+						   {"tweet": [
+							   	"Yemen president, facing protests, says he will not seek to extend his term when it expires in 2013.",
+								"#WorldChanging Yemen president, facing protests, says he will not seek to extend his term when it expires @Wyclef"
+								]
+							},
+							{"tweet": [
+								"Yemen president not to extend term http://dlvr.it/FckPx #ALjazeera",
+								"#Yemen president not to extend term http://bit.ly/hHsGho #Egypt #Jordan #Tunisia"
+								]
+							}
+					   ]
+				   },
+				   {
+					   "jaccard": [
+						   {"tweet": [
+							   	"Reuters Top News : Yemen president says won't extend term or pass to son",
+								"#NewsShare Yemen president says won't extend term or pass to son - Reuters http://bit.ly/gdN0iO"
+								]
+							},
+							{"tweet": [
+								"Election News : : Yemen's president says he won't seek re-election or hand power to son http://bit.ly/ffJ93k",
+								"Turmoil Hits Yemen... Yemen's president says he won't seek re-election or hand power to son - CNN.com http://ow.ly/3OS0B"
+								]
+							}
+					   ]
+				   },
+				   {
+					   "jaccard": [
+						   {"tweet": [
+							   	"Protests start in Yemen, despite concession from president: What seemed like hundreds of anti-government protest... http://bit.ly/f4xWYS",
+								"Protests start in Yemen, despite concession from president: What seemed like hundreds of anti-government protest... http://bit.ly/ieLWEH"
+								]
+							},
+							{"tweet": [
+								"Protests for reform start in Yemen: What seemed like hundreds of anti-government protesters gathered near Sanaa ... http://bit.ly/hnORXm",
+								"CNN: Anti-government protests in Yemen: What seemed like hundreds of anti-government protesters gathered n... http://bit.ly/h5Zxc7 #news"
+								]
+							}
+					   ]
+				   },
+				   {
+					   "jaccard": [
+						   {"tweet": [
+							   	"www.1800blemish.org Tens of thousands turn out for rival rallies in Yemen - Los Angeles Times: ReutersTens of thousands turn out for ...",
+								"LAT: Tens of thousands turn out for rival rallies in Yemen http://bit.ly/gSjRzL"
+								]
+							}
+					   ]
+				   },
+				   {
+					   "jaccard": [
+						   {"tweet": [
+							   	"Tens of thousands march against Yemen's president (AP) http://bit.ly/eqbVfs @yahoo news",
+								"TeePeeCreek.com Tens of thousands march against Yemen's president (AP) http://bit.ly/glcxlA TeePeeCreek.com"
+								]
+							}
+					   ]
+				   }
+			   ],
+			   "singleton": [
+			   	"Students, activists stage rival demonstrations at Yemeni university http://bit.ly/fzGLP9",
+				"Yemen protests urge leader's exit: Thousands of students, activists and opposition groups stage anti-president p... http://bit.ly/he0b3f",
+				"Tawakkol Karman : “They will also probably kill me in prison. But I won't stop. I am determined.” #Yemen... let's pray that it won't happen!",
+				"Yemen Follows Tunisia's Lead: Thousands Demand Ouster Of President Ali Abdullah Saleh: ADEN, Yemen — Drawing in... http://huff.to/dSLxlY",
+				"#Protest Press digest: Protests have continued in Algeria and Yemen amid simmering unrest in the Arab w... http://bit.ly/egXOT6 #Tunisia",
+				"#Yemen protests urge leader's exit #news http://bit.ly/gtWs8C",
+				"DTN Iran: Yemen arrests activist in pro-Tunisia revolt demos: Yemeni police have arrested a female press freedom... http://f24.my/f0yEpP",
+				"TeePeeCreek.com Yemen arrests female activist in student protest http://bit.ly/fgoVV4 TeePeeCreek.com",
+				"Deans News Post UPDATE 1-Yemen arrests female activist, students protest:  http://bit.ly/gb50ta",
+				"via @huffingtonpost: artist-53: Saleh has ordered income taxes slashed in half Nearly half http://huff.to/hfllqU via @huffingtonpost",
+				"Saba: Saleh announces raise in salaries of armed and security forces http://dlvr.it/DwldW",
+				"WW4: Yemen & Algeria & Tunisia Lead http://wvgazette.com/ap/201101221326 Will Arabs shake off authoritarianism. Let freedom & self-rule ring",
+				"Tunisian wind' sweeps through Arab regimes as protests erupt in Yemen - Telegraph.co.uk http://goo.gl/fb/YIlP9",
+				"Yemeni Activist Jailed as Tunisia-Inspired Protests Demand Saleh's Ouster: By Mohammed Hatem and Vivian Salama -... http://bit.ly/dZCNVy",
+				"Yemeni protesters demand release of activist http://dlvr.it/Dxc5b #news",
+				"PAK Protests erupt in Yemen, Jordan, Algeria and Albania against Govt.: Activists in Yemen, Jordan, Algeria and ... http://bit.ly/fqImyT",
+				"Hundreds of protesters marched through Sana'a, Yemen, on Sunday demanding the release of prominent Yemeni human ... http://bit.ly/hfgWYP",
+				"Yemen: Protests intensify after arrest of journalist Tawakkol Karman http://ow.ly/1aZXci",
+				"“Yemen releases female activist after protests” http://goo.gl/NT53Y - Reuters  @tweetminster",
+				"Tawakkol Karman and about 20 arrested are FREE #Yemen #Freedom #HumanRights",
+				"Protests erupt anew in Yemen, Algeria, Tunisia http://tinyurl.com/5tnawdw",
+				"Yemen Arrests Anti-Government Activist http://ow.ly/3IYww #yemen",
+				"Ticker: Thousands of Yemenis call on president to quit http://bit.ly/eQcxQR",
+				"Thousands of Yemenis call on president to quit: Thousands of Yemenis demonstrated in the capital on Thursday, ca... http://bit.ly/h6EvQ4",
+				"BBC: Yemenis rally against president: Thousands of Yemenis are demonstrating in the capital, Sanaa, calling on President Ali Abdullah...",
+				"Yemen protesters demand change of government: Thousands inspired by unrest that ousted Tunisian leader and sprea... http://bit.ly/fsBh9F",
+				"Thousands march in Yemen to demand change of government: Thousands of Yemenis took to the streets of Sanaa on Th... http://bit.ly/e7CSpy",
+				"Thousands rally against government in Yemen: SAN'A, Yemen – Tens of thousands of Yemenis have taken to the stree... http://bit.ly/h1tGzu",
+				"Yemen: thousands protest against government. http://bbc.in/fnkFeV #worldnomads #travelsafety",
+				"Yemenis rally against president http://bbc.in/f9fkLP",
+				"MOBS MOBILIZED!!: Thousands Protest Against Government in Yemen http://nyti.ms/gJ3plf #middleeast #cairo #yemen #muslims",
+				"Yemen protesters demand change of government | World news | guardian.co.uk http://bit.ly/eBnGtm",
+				"1st Tunisia, then Egypt, now Yemen | http://tinyurl.com/4gfts3h | #Wow",
+				"world news Growing anti-regime protests spread to Yemen:  http://bit.ly/eJs3LO",
+				"Now Anti-Government Protests Are Spilling Into Yemen - Business ... http://read.bi/f8x77R",
+				"Revolt is contagious! Anti-government protests spread to Yemen http://bit.ly/dURKdL #p2 #tcot #tlot #jan25 #sidibouzid",
+				"As Egypt Rages and Protests Spread to Yemen, US Administration Shifts Tone: http://is.gd/rAWHF3",
+				"Yemenis follow the example of Tunisia and Egypt to fight for their civil rights | Light of Peace http://t.co/tcDIwiZ via @peaceful133",
+				"Arab anti-government protests spread to Yemen | euronews, world news - http://goo.gl/4OvxJ #Jan25 #Egypt",
+				"Tunisia, done. Next, Egypt. Now it's Yemen. Goodluck to the Arab world.",
+				"First Tunisia, then Egypt, now Yemen? http://j.mp/f4RDIl",
+				"Thousands Protest Against Government in Yemen - New York Times http://tinyurl.com/5uf87wf",
+				"Thousands Rally Against Yemen Regime: Inspired by the wave of activism across the Middle East… http://goo.gl/fb/9HLaS",
+				"Wonder who will fill the political vacuum in Tunesia, Egypt and now Yemen?  #Tunesia #Egypt #Yemen http://nyti.ms/fK2b6O",
+				"Is this the start of a new era for the middle east? http://bbc.in/f4RDIl",
+				"Protesters shout slogans during a protest against the arrest of rights activist Karman, outside t.. http://yhoo.it/dYjtTU #Yemen #photo",
+				"CitJ @AlaaIsam: Are Yemen's protests going to bring another revolution?   via @AddThis #Yemen #North #Security #F... http://t.co/F3HKEpH",
+				"Yemenis join Mideast protest wave - World news - Mideast/N. Africa - msnbc.com: http://on.msnbc.com/hkAHnR via @addthis",
+				"Anti-government rallies hit Yemen: http://goo.gl/rl3Zo",
+				"Tunisia's ripple effect continues in #Yemen, where thousands are protesting:  http://bit.ly/gJjkTn",
+				"PAK Thousands of Yemenis demand govt change: Thousands of Yemenis took to streets of the capital Sanaa -- inspir... http://bit.ly/gCRt56",
+				"http://qnlink.com/nr Thousands of Yemenis demand change in government: Thousands of Yemenis demand change in gov...  Now Hiring - Send CV",
+				"The Lede: Video of Protests in Yemen: The wave of protests against autocratic governments in the Arab world has... http://nyti.ms/h6nczc",
+				"Apparently there's protests in Yemen as well.",
+				"Waves of Unrest Spread to Yemen, Shaking a Region: Thousands protested in Yemen and secular and Islamist Egypti... http://nyti.ms/gfldaj",
+				"YEMEN IS RISING, JORDAN IS UNEASY. THE BIRTH PANGS ARE COMING FORTH.HEED THE SIGNS.",
+				"As protests swell from #Yemen to #Egypt, Middle East faces uncertainty | http://goo.gl/X4JcB #jan25 #sidibouzid #salihout #algeria",
+				"#Protest Thousands rally against government in Yemen: ... (AP) Tens of thousands of people are calling ... http://bit.ly/hQ2DCE #Tunisia",
+				"Forex - Update on Egypt, Yemen http://bit.ly/fwl7f7",
+				"Now, the riots have spread to Yemen. The Arab world needs such wake-up calls.",
+				"Correcting link. Yemen is latest Arab state to join unrest. At least 10,000 activists demonstrating http://colv.in/fb49b5",
+				"http://ow.ly/3LM8N The domino effect.",
+				"Governments in Egypt and Yemen under fire as protests escalate http://j.mp/fxvp5t http://j.mp/9VIWtm @WorldJewishCong ⓌⓄⓇⓁⒹ ⒿⒺⓌⒾⓈⒽ ⒸⓄⓃⒼⓇⒺⓈⓈ",
+				"great bbc piece summarising unrest in North Africa and Middle East http://bbc.in/gao1ID",
+				"Replug : All you need to know about Arab World Protests: #Tunisia, #Egypt, #Yemen, #Algeria, #Jordan http://bit.ly/fXZ4i4 #Jan25",
+				"yemen is next",
+				"First Egypt, then Tunisia, now Yemen.  Let democracy spread!  Social media is essential for prodem movmnts.  Don't let govts shut it down.",
+				"Thousands of Yemenis demand change in government: Thousands of Yemenis demand change in… http://goo.gl/fb/d1dmL",
+				"Thousands Of Protesters In #Yemen Call On President To Quit» http://bit.ly/hwov33",
+				"Is he really talking? @glennbeck: Egypt may be a tipping point. Yemen and Jordan also have smaller uprisings. Iran is smiling, the Saudis...",
+				"#YEMEN: Demonstrators clash with government supporters at rally http://lat.ms/dWvup0",
+				"After #Egypt - Yemen, Jordan on the brink of #Uprising. Many protests underway.",
+				"Escalating anti-government protests in Yemen: http://lat.ms/hcvgwK",
+				"New protests erupt in Yemen: Dozens of activists calling for the ouster of Ali Abdullah Saleh, Yemen's president... http://bit.ly/eJLp2F",
+				"news media paints revolts in Yemen, Tunisia & Egypt as popular unrest, citing use of FB&Twitter to make the arrangements4 the demonstrations",
+				"also watching Yemen http://j.mp/hyPA7O",
+				"Ruling party urges talks in #Yemen to halt protests http://yhoo.it/ef35xb",
+				"Tawakkol Karman is FREE and hasn't been arrested !! #JR_Yemen guess it was really a confusion... #Yemen",
+				"r @JoeTheMailman Like #Egypt 1000s #Yemen demand change in government, as well!--&gt; http://bit.ly/hkdcZd .. #news #tcot",
+				"WLCentral: 2011-01-29  Yemen: Day of Rage on February 3 #Egypt #Jan25 #Yemen #Feb3 http://t.co/YICGapQ",
+				"News:  Yemeni rights activist threatened after organising protests http://dlvr.it/FRkcM",
+				"AlJazeera Live: John McCain speculates there will be unrest in Jordan, Yemen, and Libya after Egypt! #jan25 who's taking bets?",
+				"“Another Arab nation’s corrupt leadership is being toppled—first Tunisia, now Egypt, Yemen and Jordan...” http://bit.ly/gyiwsL",
+				"Yemen calls emergency meeting ahead of protests: Yemen's President Ali Abdullah Saleh  has called for an emergen... http://bit.ly/gdMd0l",
+				"Does anyone else think that the Middle East is changing? Egypt, Jordan and now Yemen all rioting.  Should we be worried?",
+				"Yemeni President Ali Abdullah Saleh says he will not seek to extend his presidency, or appoint his son to the role, when his current ...",
+				"@johncusack LOOK: via @BreakingNews Yemeni President who ruled 3 decades says he'll not seek 2 extend term or pass power to his son-Reuters",
+				"Yemen’s Leader Pledges Not to Seek Re-election: President Ali Abdullah Saleh announced on Wednesday that he wou... http://nyti.ms/hChYoS",
+				"#yemen pres Salih will not seek new term but not step down immediately, follows #egypt pres Mubarak",
+				"http://qnlink.com/nr Yemeni president says he won’t seek another term: Yemeni president says he won’t seek anoth...  Need a Job? CV here.",
+				"Indy: Yemen's president Saleh to step down:  Yemen's president has told parliament he will not seek another term... http://bit.ly/fVeJCd",
+				"President of Yemen Ali Abdullah Saleh says will not seek to extend his presidential term or pass power on to his son #jan25 #yemen #feb1",
+				"Yemen president 'to quit in 2013':",
+				"The domino effect is working quite well .. #Yemen calls emergency meeting ahead of protests - http://bit.ly/eFTnzd #cnn",
+				"Yemeni president says he won't seek another term: SANAA, Yemen (AP) — The Yemeni president told parliament... http://tinyurl.com/4qsftx2",
+				"2/2#Yemen's President Ali Abdallah Saleh has been in power for 33 years, he periodically announces that he “won't run for elections again!”",
+				"DTN Singapore: Yemen's president won't stand for another term: SANAA - Yemeni leader Ali Abdullah Saleh, facing ... http://bit.ly/i5Qy0r",
+				"#Egypt Ripples:Another US ally Yemeni prez  Ali Abdullah Saleh, who has been in power for nearly 32 years,says he won't seek another term",
+				"Today, President #AliSaleh of #Yemen vowed not run for re-elections in 2013 and to support a peaceful transition of power  #Feb3",
+				"Yemeni president says he won't seek another term: Yemen's president has told parliament he will not seek another... http://bit.ly/g1WpJe",
+				".@laurenist: Yemen's President says he won't run for re-election in 2013. http://is.gd/mIw03M",
+				"Yemeni president says he won't seek another term http://tinyurl.com/49f873q",
+				"#Yemen: Ali Abdullah #Saleh says he won't seek reelection in 2013 after 30 years in power. It's amazing what is happenning in the Mid-East.",
+				"No more Saleh in #Yemen will be fascinating, but very uncertain. Country may go from ungovernable to whatever is worse than that.",
+				"Yemen President Ali Abdullah Saleh 'to quit in 2013' http://nblo.gs/dMBq4",
+				"Yemeni President Won't Extend Presidential Term http://www.rferl.org/content/yemen_president/2294961.html #Yemen",
+				"Pre-empting mass anti-government protest, Ali Saleh vows not to seek extension and not to pass on the reins to his... http://fb.me/S8HHZbL4",
+				"Yemen after Saleh :: The Investigative Project on Terrorism: Yemen after Saleh. by IPT News • Feb 1, 2011 at 7:0... http://bit.ly/evjUBV",
+				"Yemen president signals won&#8217;t stay beyond 2013 #FreedomWar #Egypt #Jan25 #Syria #Feb4 http://freedomwar.org/?p=442",
+				"DEUTSCHE WELLE: Yemen unsettled as president vows to relinquish power http://snipurl.com/1yam75",
+				"Yemen unsettled as president vows to relinquish power: Yemeni leader Ali Abdullah Saleh says he will stand down when his current mand...",
+				"Yemen on the Brink #FreedomWar #Egypt #Jan25 #Syria #Feb4 http://freedomwar.org/?p=461",
+				"there are tents at tahrir (sanaa not cairo) + thugs with car loads of guns? confirmed #yemen #feb3 #JR_Yemen",
+				"Jordan, Yemen grapple with effects of protests http://goo.gl/fb/3rSf3",
+				"Al Jazeera reports from across region: Yemen's pres not to extend term: http://bit.ly/fBev3e | Protest calls, Syria: http://bit.ly/fH5i3r",
+				"Why Yemenis doubt president won't step down http://article.wn.com/view/2011/02/03/Why_Yemenis_Doubt_President_Salehs_Offer_to_Step_Down/",
+				"Yemen..republican guards have been dispatched and roaming the streets of Sana'a according to my rather reliable source.",
+				"Yemen Girds for `Day of Rage' as Saleh Vows to Step Down http://bloom.bg/ehdPWl | Bloomberg",
+				"Over 20,000 take to streets in Yemen \\\\\\\\“Day of Rage\\\\\\\\”: SANAA (Reuters) - More than 20,000 Yemenis f... http://bit.ly/fBahfj",
+				"protests break down in Yemen, Algeria and Syria. #egypt",
+				"MIDDLE EAST NEWS Tens of thousands fill Yemen streets for 'Day of Rage' (Haaretz) http://tinyurl.com/68zd2yo FOLLOW ME",
+				"World News Yemeni president signals he won't stay beyond 2013: SANAA (Reuters) - Yemeni… http://goo.gl/fb/79wxU",
+				"Experts estimate the number of opposition protesters in Sanaa, one hundred and fifty thousand #Yemen #feb3 (cont) http://tl.gd/8ipgpt",
+				"Over 20,000 take to streets in Yemen “Day of Rage” http://reut.rs/gUaXLO",
+				"20,000 join Yemen's 'Day of Rage' http://bit.ly/hVfu1p",
+				"#breaknews Yemen next: 20,000 on streets in 'Day of Rage' - More than 20,000 Yemenis filled the streets of Sanaa on ... http://ow.ly/1b9QIV",
+				"20,000 march in Yemen against president in 'day of rage' http://bit.ly/g9r8mS",
+				"2nd Day of Violence as Police Battle Protesters; Jordan PM Talks With Rivals; Yemen President… http://goo.gl/fb/UBLNe",
+				"Mass rally on Yemen 'day of rage': More than 20,000 anti-government protesters gather in Yemen's capital, Sanaa, on a “day of rage” a...",
+				"Jordan: revolution fears, With protests in several Middle East countries, there are also now fears for Algeria, Yemen and Syria #fb",
+				"NYTimes: 20,000 March in Yemen ‘Day of Rage’ http://nyti.ms/gQJQAY",
+				"I hear that some sort of #revolution goes on in Yemen as well. Why does #twitter keep silent about it?",
+				"Dueling Protests in Yemen Unfold Peacefully: Thousands of pro- and antigovernment demonstrators held peaceful p... http://nyti.ms/hhuzqK",
+				"Obama, got a minute? 20,000 citizens rally for their president to resign. No, it's not Egypt. http://j.mp/gW5b2R",
+				"Rumblings heard in Jordan, Yemen, Sudan - Egypt shows the way!",
+				"‘Day of Rage’ Now Spreads to Yemen: Over 20,000 Take to the Streets: Tens of thousands of opponents and suppor... http://bit.ly/gFtx2P",
+				"Yemen joins the uprising trend  @eskaff Protests start in Yemen, despite concession from president http://me.lt/9i45q #yemen #Jan25s",
+				"20,000 Protest in Yemen http://bit.ly/g3wLWf",
+				"Police Open Fire on Yemen Protesters: SANAA, Yemen      (AP) -- Witnesses say police have opened fire to break u... http://bit.ly/e2acgY",
+				"Protest in Sanaa Yemen Feb 3, 2011 http://bit.ly/fVXuRl",
+				"Thousands march against Yemen president - Middle East, World - The Independent http://goo.gl/19IRn",
+				"Yemen protests: 20,000 call for President Saleh to go NOW http://www.bbc.co.uk/news/world-middle-east-12353479",
+				"Scores protest against Yemen president (USA TODAY): Share With Friends:  |  | World news - Top Stories News,... http://feedzil.la/i98TqN",
+				"Yemen Protests February 2011 - “Day of Rage” http://t.co/ZJyfuCQ &lt;&lt;&lt; via @mayomo #video #yemen #protest #Jan25 #Ali #Abdullah #Saleh #news",
+				"Protests start in Yemen, despite concession from president - http://bit.ly/eiEvi9 #cnn",
+				"20.000 Yemenis protesters urged President Ali Abdullah Saleh to step down. - http://tinyurl.com/49hclgp - muhammadjusuf",
+				"From the White House Readout of President's Call with President Saleh of Yemen: Release Time:  ... http://bit.ly/f0iFDl",
+				"@lukewilliamss Tens of thousands march against Yemen's president: SANAA, Yemen-Tens of thousands ... http://bit.ly/eDsS4r #lukewilliamss",
+				"Obama hails Yemen reforms in call to president (AFP): AFP - US President Barack Obama hailed political refo... http://bit.ly/hwBOYm",
+				"There were demos today in Yemen .. several cities. Although President already gave up plan to run again for presidency  #yemen",
+				"pray for Egypt! Yemen Anti-Govt Rally is goin on...just watched the nnews...",
+				"#Yemen “Day of Rage” draws tens of thousands http://viigo.im/5Vv5",
+				"Thousands march against Yemen's pres.: Tens of thousands of protesters Thursday staged unprecedented demonstrati... http://bit.ly/fYm9wT",
+				"#Yemeni Authorities Arrest 22 in Aden - Yemen Post : http://bit.ly/hLantG #Feb3",
+				"“Anavim”: My Humble Children: Awesome times: the Arab world's riots have spread to Yemen, half the USA is suffering... http://dlvr.it/FlzrT",
+				"Raw Video: Rival Protests in Yemeni Capital http://tinyurl.com/68kmsyj #tcot #iamthemob #yemen",
+				"Protesters hit streets in Yemen http://bit.ly/f1cvSc",
+				"ProJ @Nefermaat: Pic of #Feb3 #JR_Yemen protest “No” #Yemen doesn't want #Saleh anymore http://yfrog.com/h83yiwj",
+				"Tens of Thousands of Yemenis Protest in Sanaa - Tens of thousands of Yemenis staged a “day of rage” calling for the ... http://ow.ly/1baY4G",
+				"Factbox: Groups challenging Yemen's government | Reuters http://reut.rs/hnsFpG",
+				"#Yemen Protests February 2011 - “Day of Rage” http://t.co/ZJyfuCQ via @mayomo #video #news #Egypt #Jan25 #Mubarak #Syria #Libya #Jordan #ugc",
+				"Thousands protest in Yemen: http://bit.ly/fwIrVN via @globalpost",
+				"Anti-government rallies in Yemen stay calm: http://wapo.st/h37Uu7",
+				"Yemini president's backers occupy square: NewsCore | Supporters of Yemeni president Ali Abdullah Saleh tightened... http://bit.ly/gnoRdd"
+			   ]
+		   }
+	   },
+	   {
+		   "name": "Australian floods",
+		   "clusters": {
+			   "semantic": [
+				   {
+					   "jaccard": [
+						   {"tweet": [
+							   	"From @bbcbreaking Australia braces for more floods http://bbc.in/eNuHwd",
+								"Australia Braces For More Floods http://tinyurl.com/4o75g5j"
+								]
+							},
+ 						   {"tweet": [
+ 							   	"Australian flooding http://bit.ly/iiwmsf",
+								"Australian flooding http://bit.ly/gjGy4z",
+								"Australian flooding http://bit.ly/gjGy4z"
+ 								]
+ 							}
+					   ]
+				   },
+				   {
+					   "jaccard": [
+						   {"tweet": [
+							   	"More flood remains discovered in Queensland http://bit.ly/gbzD47",
+								"Brisbane: More flood remains discovered in Queensland http://bit.ly/gjQCLE #qld"
+								]
+							}
+					   ]
+				   },
+				   {
+					   "jaccard": [
+						   {"tweet": [
+							   	"Schools back in flood-ravaged Queensland http://bit.ly/ewjiMe",
+								"Schools back in flood-ravaged Queensland - ABC Online http://bit.ly/epLKJr"
+								]
+							}
+					   ]
+				   },
+				   {
+					   "jaccard": [
+						   {"tweet": [
+							   	"More Australians flee as floods move across SE: An inland sea bigger than Paris — fed by weeks of heavy ra... http://tinyurl.com/4av3oy7",
+								"More Australians flee as floods move across SE: An inland sea bigger than Paris — fed by weeks of heavy rains th... http://bit.ly/fWzkio"
+								]
+							}
+					   ]
+				   },
+				   {
+					   "jaccard": [
+						   {"tweet": [
+							   	"Australia unveils new flood tax: Australia's PM Julia Gillard unveils a new tax to help pay for devastatin... http://bbc.in/f1ebOu #news",
+								"World News! Australia unveils new flood tax: Australia's PM Julia Gillard unveils a new tax to help pay for deva... http://bbc.in/fgApnZ"
+								]
+							}
+					   ]
+				   },
+				   {
+					   "jaccard": [
+						   {"tweet": [
+							   	"Australian PM proposes tax to pay for flood damage - The cost of repairing flood damage in Australia will top AUS $... http://is.gd/XLOwU6",
+								"Australian PM proposes tax to pay for flood damage: The cost of repairing flood damage in Australia will top AUS... http://bit.ly/hoTOWo",
+								"Australian PM proposes 'flood tax' for reconstruction: The cost of repairing flood damage in Australia will top ...... http://ff.im/-wSuAt"
+								]
+							}
+					   ]
+				   },
+				   {
+					   "jaccard": [
+						   {"tweet": [
+							   	"Check this video out -- Fresh video of flood chaos in Australia as water swamps Brisbane http://t.co/fEFI9ZR via @youtube",
+								"Fresh video of flood chaos in Australia as water swamps Brisbane http://bit.ly/g8Wqha #news #Cnews #Canada"
+								]
+							}
+					   ]
+				   },
+				   {
+					   "jaccard": [
+						   {"tweet": [
+							   	"Australian Fashion Designers Launch  18FASHION.TO.AID 19 Appeal For QLD Floods - http://newzfor.me/?c23h",
+								"Australian Fashion Designers Launch  18FASHION.TO.AID 19 Appeal For QLD Floods - http://newzfor.me/?c23h",
+								"Australian Fashion Designers Launch  18FASHION.TO.AID 19 Appeal For QLD Floods - http://newzfor.me/?c23h",
+								"Australian Fashion Designers Launch  18FASHION.TO.AID 19 Appeal For QLD Floods - http://newzfor.me/?c23h",
+								"Australian Fashion Designers Launch  18FASHION.TO.AID 19 Appeal For QLD Floods - http://newzfor.me/?c23h",
+								"Australian Fashion Designers Launch  18FASHION.TO.AID 19 Appeal For QLD Floods - http://newzfor.me/?c23h",
+								"Australian Fashion Designers Launch  18FASHION.TO.AID 19 Appeal For QLD Floods - http://newzfor.me/?c23h",
+								"Australian Fashion Designers Launch  18FASHION.TO.AID 19 Appeal For QLD Floods - http://newzfor.me/?c23h",
+								"Australian Fashion Designers Launch  18FASHION.TO.AID 19 Appeal For QLD Floods - http://newzfor.me/?c23h",
+								"Australian Fashion Designers Launch  18FASHION.TO.AID 19 Appeal For QLD Floods - http://newzfor.me/?c23h",
+								"Australian Fashion Designers Launch  18FASHION.TO.AID 19 Appeal For QLD Floods - http://newzfor.me/?c23h",
+								"Australian Fashion Designers Launch  18FASHION.TO.AID 19 Appeal For QLD Floods - http://newzfor.me/?c23h",
+								"Australian Fashion Designers Launch  18FASHION.TO.AID 19 Appeal For QLD Floods - http://newzfor.me/?c23h [Like it? http://bit.ly/etMKRu ]"
+								]
+							}
+					   ]
+				   },
+				   {
+					   "jaccard": [
+						   {"tweet": [
+							   	"Australian flooding http://bit.ly/iiwmsf",
+								"Australian flooding http://bit.ly/gjGy4z",
+								"Australian flooding http://bit.ly/gjGy4z"
+								]
+							}
+					   ]
+				   },
+				   {
+					   "jaccard": [
+						   {"tweet": [
+							   	"'Deadly' storm nears Queensland: Australian officials warn Cyclone Yasi, approaching Queensland with winds of up... http://bbc.in/eFUYON",
+								"'Deadly' storm nears Queensland: Australian officials warn Cyclone Yasi, approaching Queensland with winds of up... http://bbc.in/eFUYON"
+								]
+							}
+					   ]
+				   },
+				   {
+					   "jaccard": [
+						   {"tweet": [
+							   	"Cyclone a 'serious threat' to Queensland, Australia: The Australian state of Queensland, already hit by deadly f... http://bit.ly/fPMTJQ",
+								"Cyclone a 'serious threat' to Queensland: The Australian state of Queensland, already hit by deadly flooding in ...... http://ff.im/-xfP3d"
+								]
+							}
+					   ]
+				   },
+				   {
+					   "jaccard": [
+						   {"tweet": [
+							   	"This. is. scary. How Cyclone Yasi compares around the world | Latest news on the Queensland Floods | News.com.au http://bit.ly/idr5YA",
+								"How Cyclone Yasi compares around the world | Latest news on the Queensland Floods | News.com.au http://bit.ly/fNXQym &lt;-- huh there you go."
+								]
+							}
+					   ]
+				   },
+				   {
+					   "jaccard": [
+						   {"tweet": [
+							   	"Queensland battles cyclone debris: One man is found dead as Australian relief workers cut through debris left by... http://bbc.in/hBlO1k",
+								"Queensland battles cyclone debris: One man is found dead as Australian relief workers cut through debris left by Cyclone Yasi in nort...",
+								"Queensland battles cyclone debris: One man is found dead as Australian relief workers cut through debris left by... http://bbc.in/fUvwXy"
+								]
+							}
+					   ]
+				   }
+			   ],
+			   "singleton": [
+			   	"Australia braces for more floods: A giant inland sea of floodwater will spread across the Australian state of Vi... http://bbc.in/i1wSfM",
+				"More natural disasters on Australia's radar http://www.abc.net.au/news/stories/2011/01/23/3119109.htm?section=justin #Floods #Queensland",
+				"Leighton says Queensland floods affect construction, mining... http://lnkd.in/a3vyk2",
+				"Now this, is cool! :D --- Sharks Swimming in Australia's Flooded Streets http://tinyurl.com/4uwuw4c",
+				"Andrew is going to sing up a storm for flood victims... http://fb.me/ykzn92fI",
+				"Our research says Australian companies could lose $500m in earnings due to floods - http://tinyurl.com/62xmff4  #citi #qldfloods  #vicfloods",
+				"Only Nazi's have no compassion for #qldflood victims http://bit.ly/hRcR9l #Ivoteandsupportqldfloodvictims",
+				"Flood-hit Qld moves to rebuilding mode http://t.co/8azLIqT",
+				"Police urging motorists, take care on all roads in flood affected regions. extensive damage to a number of roads, pot holes etc #vicfloods",
+				"Latest on Brews News:: 1st Choice donates Queensland profits http://bit.ly/eXrpEB #floodrelief",
+				"Insured losses swelling in flood-stricken Australia: BRISBANE, Australia—Insured losses from devastating floodin... http://bit.ly/hvaBO2",
+				"Southeast Australia set for another week of floods: Australia's deadly flood crisis forced more people to flee... http://infor.md/pKgrcU",
+				"DTN Australia: Lance leads ride for flood relief: A SEA of spandex rolled through Brisbane as thousands of cycli... http://bit.ly/faju5l",
+				"Cost of Australia flooding 'enormous' http://dlvr.it/DxqQ8 news atlanta nyc http://fb.me/GcWgGpZs",
+				"Australia's deadly flood crisis forced more people to flee their homes Monday as a vast swath of muddy water spr... http://bit.ly/hmIBj6",
+				"Southeast Australia set for another week of floods http://bit.ly/gtgHUQ",
+				"CBC Ticker - Southeast Australia braces for more floods: Australia's deadly flood crisis forced more people to f... http://bit.ly/hNo43G",
+				"Australia: Flooding cost to be 'enormous': Flooding in Australia has affected more than 3 million people, making... http://bit.ly/hBedqa",
+				"Armstrong awed by Qld flood 'heroes' http://dlvr.it/DyBSQ",
+				"Another great article about the impact of the floods on QLD - http://holzlaw.blogspot.com/2011/01/queensland-floods-impact.html",
+				"DTN Australia: SE Queensland flood death toll rises to 22: The southeast Queensland flood death toll has risen t... http://bit.ly/eOIQKu",
+				"Lance Armstrong raises money for Australian flood victims (telegraph): Share With Friends:  |  |  | Sports -... http://feedzil.la/eCnRYx",
+				"Australia: Flooding cost to be 'enormous' http://bit.ly/exwTWJ",
+				"I don't know why media are all reporting the death toll from Queensland floods is 22, when 35 have died since November. http://j.mp/fl74WH",
+				"Fundraising Staged for Victims of Floods in Australia | Politics | Solomon Islands News http://goo.gl/fb/FN22D",
+				"Australia's south expects floods - http://bit.ly/eyLAUp",
+				"Australia Day Concert - Brisbane Charity Events Jolly People: Artists For The Flood Appeal. Artists For The Floo... http://bit.ly/ieYiTY",
+				"Queensland Mercy Mission.  Distributing meals to volunteers and flood victims.  Donate online: http://bit.ly/i7dxk2  #thebigwet #qldfloods",
+				"QLD Floods.  http://qldfloods.org/  Offer a bed.  Find a bed.  call: 1300 078 659, or 07 3040 4640.  #thebigwet #qldfloods",
+				"Cape: RACQ makes huge commitment to flood assistance http://bit.ly/gF3vzB #qld",
+				"Virtual world reaches out to flood victims: Ms Johnston has organised a fundraiser for the Queensland Premier's ... http://bit.ly/hAYs5c",
+				"We’re off to our Australia Day party! Donations made tonight for the flood disaster relief appeal will be matched dollar for dollar by B-M.",
+				"Online appeal for flood victims: Volunteers are being sought to transport equipment, and in particular, those wi... http://bit.ly/hpJOj3",
+				"Two-seater experience up for auction to help flood victims in Australia: After a charity game from... http://bit.ly/eVZyWo #f1 #formula1",
+				"Hm.. (Petrina) looking forward to the bake sale in the office today - raising money for the folks affected by the #Qld #floods. :@",
+				"Kenny Rogers Donates Money to Australian Flood Victims http://soc.li/efIPldJ",
+				"Inland sea of floodwaters moves across southeast Australia, swamping homes and ... - Winnipeg Free Press http://bit.ly/e4oVaP",
+				"22 Images from the Brisbane Floods as the City Cleans up #qldfloods #photos  http://t.co/2lrIbSV via @GWPStudio",
+				"Floods in #Australia affecting #LDS Church missionaries, members http://bit.ly/gfkwvP #mormon #flood #religion #faith",
+				"Hero recalls flood chaos: Hero recalls flood chaos http://bit.ly/esKZ4n",
+				"Marcus Bell Queensland Flood Appeal http://bit.ly/fEzJgC Photography.alltop",
+				"Arnhem Hwy flood east of Adelaide River: Floodwater has blocked the Arnhem Highway east of the Adelaide River br... http://bit.ly/fowRx5",
+				"Australian government to introduce 'flood tax': SYDNEY (MarketWatch) -- Australian Prime Minister Julia Gillard ... http://bit.ly/eNdmSv",
+				"Get a team together. Charity golf day to help raise money for the QLD Floods. 31st Jan &gt;&gt; bid to play with @QuadeCooper http://bit.ly/fTqloB",
+				"Australia Proposes Flood Tax: Australian Prime Minister Julia Gillard proposed a $1.79… http://goo.gl/fb/oX2Vd",
+				"[businessweek] Gillard Says Australian Floods to Cost A$5.6 Billion: Australian Prime Minister Julia Gillard sai... http://bit.ly/hMAOL2",
+				"Tax proposed to fund floods relief http://bit.ly/eFjqWV",
+				"National News: Tax proposed to fund floods relief: The Australian government has proposed a tax to partially rec... http://bit.ly/ew9eU4",
+				"#best_news Australia's New South Wales sees giant crop losses due to flooding: Flood in Australia's N... http://bit.ly/entLnT #amirojkes",
+				"Extra Tax after floods - http://tinyurl.com/4wyzggp",
+				"Australian PM defends floods tax: Australian Prime Minister Julia Gillard on Friday defended her plan for a one-off... http://dlvr.it/FGTXd",
+				"[読んだ記事] / ABC News - Brisbane floods: before and after http://htn.to/PrAWYQ",
+				"Charity Collab Alert! Lend a hand to families in Australia affected by the recent devastating floods: http://bit.ly/hdA7Au #digiscrap",
+				"RobertPaisola.com Australian Floods Cause Drought in the Coal Market: Australia accounts for a... http://bit.ly/f89tkR ForbesExperts.com",
+				"V8 Utes Partner With Lj Hooker For Queensland Flood Relief http://bit.ly/fDfOxK",
+				"Queensland flood Victims -  Shoe makers set to 'Dance On': http://t.co/0BFURxC",
+				"Come to fundraiser next Sat night in melb. All proceeds to QLD #rowers affected by #floods. $30 for pre purchased tickets. Will be fun night",
+				"RM126,000 raised for Aussie flood victims, event organized by MABC, supported by MANZA & AMCHAM http://t.co/7TKo7kS",
+				"Brisbane Floods: The Aftermath | IVLine http://bit.ly/hZjrSO",
+				"This is great fun and you can help others too bid to win and help Australian Flood victims http://tiny.ly/rsfI",
+				"DTN Australia: Big bank offers $57m to flood victims: THE Commonwealth Bank is offering a  $57m to assist with Q... http://bit.ly/ggQAVW",
+				"Support Flood Fightback, add a #twibbon now! - http://twb.ly/fJVFiN - Create one here - http://twb.ly/f02AU3",
+				"#IPL Cricket Australia help collect $6 million for Queensland Flood Relief effort http://bit.ly/hfHCld #cricket #sports",
+				"Ticket Details Announced For Flood Victims Rugby League Dinner http://tinyurl.com/65rjqef",
+				"Bid for a Celtic shirt and help Queensland Flood Appeal: CELTIC supporters now have a unique opportunity to get ... http://bit.ly/f3QM3g",
+				"TalentBuyer.com Flood support high on agendas: Many have donated to the flood appeal and others have organised b... http://bit.ly/h9UhTl",
+				"#PGA #GOLF Presidents Cup, Norman team up, aid flood victims: Melbourne, Victoria, AUS --The PGA TOUR to... http://bit.ly/i4N9en #SPORTS",
+				"It’s not too late to donate to the QLD flood relief appeal. http://bit.ly/hPinrA",
+				"ATP, WTA Help Queensland Flood Victims: The ATP and WTA have joined forces to donate more than $50,000 to Queens... http://bit.ly/gdAfBm",
+				"The New Hope Brisbane Flood appeal just received a $1000 donation from a Christian radio station in NSW! #qldfloods #prayforaustralia",
+				"Australian film industry in crisis http://www.abc.net.au/news/video/2011/01/31/3126201.htm @abcnews",
+				"Brisbane floods: before and after http://www.abc.net.au/news/infographics/qld-floods/beforeafter.htm",
+				"PGA donates $150,000 to Australian flood victims: The PGA Tour has donated $150,000 on behalf of the Presidents C... http://es.pn/hXMvHd",
+				"Satellite Data to Improve Flood Forecasting: As the residents of Queensland, Australia, turn to the mammoth task... http://bit.ly/fz4rRo",
+				"On the heels of widespread flooding in eastern Australia, the state of Queensland today is evacuating residents... http://twlv.net/HGe6dZ",
+				"Thoughts and prayers are with u all. How Cyclone Yasi compares around the world | http://bit.ly/fNXQym",
+				"Cyclone nears flood-ravaged  Queensland http://bit.ly/hNJP9z #CNN #News",
+				"Eek ! :-( How cyclone Yasi compares around the world: http://bit.ly/i1YH5h",
+				"#eritrea Red Cross Helps Southern Flood Victims: THE Namibian Red Cross Society has offered water-purifica... http://bit.ly/ebJ3ZG #news",
+				"Live coverage: Cyclone Yasi crosses North Queensland coast | Latest news on the Queensland Floods | News.com.au http://bit.ly/ggHFpI",
+				"The QLD Floods: Is the Political Rhetoric helping people rebuild their homes?: http://wp.me/p18dGR-9j",
+				"Cyclone Yasi Batters Flood-Devastated Queensland http://bloom.bg/gN495t",
+				"Storm surge threatens north Queensland: Cairns residents have been warned the danger from Cyclone Yasi has not p... http://bit.ly/eQx51P",
+				"Storm surge threat over in north Queensland: Queensland's Emergency Services Minister Neil Roberts says... http://bit.ly/epOa7k ABC News",
+				"Australian churches ready to assist stormhit Queensland: Churches in Australia are appealing for donations after... http://bit.ly/dWwPW1",
+				"Flash floods pose threat to already devastated Queensland following the wrath of Cyclone Yasi.... http://fb.me/EPluIMG2",
+				"[NewSci] Did dry soil save Queensland's coast from floods?: Thanks to dry soil, Queensland's coastal areas may h... http://bit.ly/i2BiwI",
+				"Tickets are now on sale for the Australian Wine Trade Flood Relief Raffle, with a staggering array of wine prizes... http://fb.me/PA5MlSkG",
+				"Queensland OK for Travel, Despite Floods, Cyclone: But some of the reported devastation to the travel industry a... http://bit.ly/hMKjc9",
+				"Mayor fears flooding in Cairns: THE far north Queensland city of Cairns is staring down a flood thre... http://bit.ly/hpcScG news.com.au",
+				"#News IT industry throws charity lunch for Queensland flood support http://bit.ly/dPqbaM #Australia",
+				"Australian disasters spark call for climate action: CANBERRA (Reuters) - An architect of Australi... http://bit.ly/fDS6vp #greenbusiness",
+				"Rains, flood threat hamper Aussie cyclone relief: CAIRNS, Australia - Drenching rain and the threat of flash flo... http://bit.ly/iiYYLd",
+				"PHOTOS: Muscle cars raise $10000 for Queensland floods: The American Muscle Car Club of Australia recen... http://bit.ly/dOdSDo #muscles",
+				"Online Auction to Benefit Australian Flood Victims: More than 100 items, including horses and stallion seasons, ... http://bit.ly/fbBZEV",
+				"Melbourne's flooding now! Half the cars in our st kilda street won't start today after getting flooded last night  #vicfloods",
+				"UPI: “Yasi hits Melbourne, causing flooding..flash flooding that swept people and vehicles away..up to 8 inches of rain” http://t.co/zbJdBPf",
+				"Photoset: Melbourne floods.. Friday 4th February, Windsor Station. http://tumblr.com/xi01fu61xt",
+				"Congrats to all in the Gospo Raise concert in #Adelaide town Hall t/n. We raised $7500+ for Queensland victims of flood and cyclone.",
+				"Flags flying @ half mast today marking 2nd Anniversary of Black Saturday,Vic. Art exhibit @ Fed Square. All proceeds=QL Flood victims.",
+				"Victorians are mopping up after storms and flooding on the weekend http://www.abc.net.au/news/stories/2011/02/07/3131458.htm?site=ballarat",
+				"My experience on the floods of Brisbane 2011 http://tinyurl.com/6ldtu23",
+				"Rebuild boss gets down to cyclone recovery 'challenge' http://bit.ly/hOUsPQ",
+				"Brisbane council faces $440m flood bill: The Brisbane City Council is facing a bill of at least $440 million fro... http://bit.ly/g4E3Qd",
+				"Floods weigh on business conditions in January: NAB: AUSTRALIAN business conditions fell sharply in January as f... http://bit.ly/h1J77o",
+				"Queensland floods; 2011 (Blog): We arrived in Brisbane on January 9, 2011 and were surprised at the green and lu... http://bit.ly/eMa5ML"
+			   ]
+		   }
+	   }
+	]
+}
