@@ -7,4 +7,4 @@ Single tweet: a single entry
 Jaccard cluster: tweets that are group together with jaccard similarity 0.55
 Semantic cluster: results after mannually clustering jaccard clusters
 
-<a href="https://github.com/ylwang99/ClusterViz/blob/master/clusterviz.html">Viz</a>
+<a href="https://rawgithub.com/ylwang99/ClusterViz/blob/master/clusterviz.html">Viz</a>
