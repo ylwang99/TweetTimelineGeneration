@@ -1,6 +1,6 @@
 ClusterViz
 ==========
-Open linke ClusterViz below.
+Open link ClusterViz below.
 
 There are three types of data after expanding each topic:
 Single tweet: a single entry
