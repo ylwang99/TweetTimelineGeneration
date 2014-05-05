@@ -13,4 +13,4 @@ There are three types of data after expanding each topic:
 <a href="https://rawgithub.com/ylwang99/ClusterViz/master/clusterviz.html">ClusterViz</a>
 
 
-Clusters timeline visualization:<a href="https://rawgithub.com/ylwang99/ClusterViz/master/representatives.html">ClusterTimeLine</a>
+<b>Clusters timeline visualization:</b><a href="https://rawgithub.com/ylwang99/ClusterViz/master/representatives.html">ClusterTimeLine</a>
