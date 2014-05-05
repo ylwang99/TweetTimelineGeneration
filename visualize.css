@@ -1,0 +1,45 @@
+h1 {
+  font-family: sans-serif;
+}
+
+h2 {
+  font-family: sans-serif;
+}
+
+h3 {
+  font-family: sans-serif;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+.axis path,
+.axis line {
+fill: none;
+stroke: black;
+shape-rendering: crispEdges;
+}
+
+.axis text {
+font-family: sans-serif;
+font-size: 11px;
+}
+
+.highly_relevant {
+ fill: red;
+ stroke: red;
+ stroke-width: 1;
+}
+
+.relevant {
+ fill: green;
+ stroke: green;
+ stroke-width: 1;
+}
+
+.not_relevant {
+ fill: lightgray;
+ stroke: lightgray;
+ stroke-width: 0;
+}
