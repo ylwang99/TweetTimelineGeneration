@@ -1,5 +1,5 @@
 from sets import Set
-file = open("representatives/95.Facebook privacy.txt")
+file = open("representatives/88.Kings' Speech awards.txt")
 dt = Set()
 lines = file.readlines()
 for line in lines:
@@ -11,7 +11,7 @@ file_to = open("data/epoch.txt","a")
 lines = file.readlines()
 for line in lines:
     line = line.strip().split()
-    if line[0] == "MB95" and int(line[3]) > 0:
+    if line[0] == "MB88" and int(line[3]) > 0:
         if line[2] in dt:
             file_to.write(line[0] + " " + line[1] + " " + line[2] + " 2 " + line[4] + " " + line[5] + "\n")
         else:
