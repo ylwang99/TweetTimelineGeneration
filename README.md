@@ -1,16 +1,9 @@
-ClusterViz
-==========
-####Open link ClusterViz below.
+Tweet Timeline Generation
+=========================
 
-There are three types of data after expanding each topic:
-
-<b>Single tweet</b>: a single entry
-
-<b>Jaccard cluster</b>: tweets that are group together with jaccard similarity 0.55
-
-<b>Semantic cluster</b>: results after mannually clustering jaccard clusters
-
-<a href="https://rawgithub.com/ylwang99/ClusterViz/master/clusterviz.html">ClusterViz</a>
+This repo contains notes and working examples for the Tweet Timeline Generation (TTG) task at the TREC 2014 Microblog track.
 
 
-<b>Clusters timeline visualization:</b><a href="https://rawgithub.com/ylwang99/ClusterViz/master/representatives.html">ClusterTimeLine</a>
++ [Visualization of semantic clusters](http://ylwang99.github.io/TweetTimelineGeneration/clusterviz.html)
++ [Visualization of timelines](http://ylwang99.github.io/TweetTimelineGeneration/representatives.html)
+
