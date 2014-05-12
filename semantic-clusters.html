@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title></title>
+        <script type="text/javascript" src="js/semantic-cluster.js"></script>
+        <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+        <link rel="stylesheet" href="css/semantic-cluster.css" type="text/css">
+    </head>
+    
+    <body>
+        <a href="#" class="button" id = "expand">Expand All Nodes</a><br>
+        <a href="#" class="button" id = "collapse">Collapse All Nodes</a>
+        <div id = "main"></div>
+        <script type="text/javascript">
+            var items = [];
+            var treeIds = [];
+            var tweetsPath = "data/relevant-chrono-sort-tweets/json/";
+            var clustersPath = "data/semantic-clusters/json/";
+            
+            
+            var topics = ["09", "22", "23", "36", "55", "75", "79", "88", "95", "98"];
+            for (var topicNum = 0; topicNum < topics.length; topicNum ++) {
+                var treeId = "tree" + topicNum;
+                treeIds.push(treeId);
+                items.push("<ul class='mktree' id=" + treeId + ">");
+                var tweets = {};
+                var tweetsUrl = tweetsPath + "tweet_topic" + topics[topicNum] + ".json";
+                $.ajax({
+                    url: tweetsUrl,
+                    dataType: "text",
+                    async: false,
+                    success: function(json) {
+                        var data = $.parseJSON(json);
+                        items.push("<li class='liClosed' style='border: solid 1px; background-color:#E0E0E0'; margin-bottom: 10px><b>" + data.topicid + ":" + data.topic + "</b><ul>");
+                        for (var i = 0, tweet; i < data.tweets.length; i++) {
+                            tweet = data.tweets[i];
+                            tweets[tweet.id] = tweet.text;
+                        }
+                    }
+                });
+                
+                var clustersUrl = clustersPath + "topic0" + topics[topicNum] + ".json";
+                $.ajax({
+                    url: clustersUrl,
+                    dataType: "text",
+                    async: false,
+                    success: function(json) {
+                        var data = $.parseJSON(json);
+                        var clusters = data.clusters;
+                        for (var i = 0; i < clusters.length; i ++) {
+                            items.push("<div style='border: solid 1px; background-color:#99FFCC'>")
+                            for (var j = 0; j < clusters[i].length; j ++) {
+                                items.push("<li>" + clusters[i][j] + "\t" + tweets[clusters[i][j]] + "</li>");
+                            }
+                            items.push("</div>")
+                        }
+                    }
+                });
+                items.push("</ul></li></ul>");
+            }
+            
+            
+            
+            
+            //$.ajax({
+            //    url: "data.json",
+            //    dataType: "text",
+            //    async: false,
+            //    success: function(json) {
+            //        var data = $.parseJSON(json);
+            //        $.each(data.topics, function(in1, topic) {
+            //            var treeId = "tree" + in1;
+            //            treeIds.push(treeId);
+            //            items.push("<ul class='mktree' id=" + treeId +">");
+            //            items.push("<li class='liClosed' style='border: solid 1px; background-color:#E0E0E0'; margin-bottom: 10px><b>Topic: " + topic.name + "</b><ul>");
+            //            $.each(topic.clusters.semantic, function(in2, seman) {
+            //                items.push("<li class='liOpen' style='border: solid 1px; background-color:#99FFCC'>Semantic cluster<ul>");
+            //                $.each(seman.jaccard, function(in3, jac) {
+            //                    items.push("<li class='liOpen' style='border: solid 1px; background-color:#FFFF99'>Jaccard cluster<ul>");
+            //                    $.each(jac.tweet, function(in4, tweet) {
+            //                        items.push("<li>" + tweet + "</li>");
+            //                    });
+            //                    items.push("</ul></li>");
+            //                });
+            //                items.push("</ul></li>");
+            //            });
+            //            $.each(topic.clusters.singleton, function(in5, single) {
+            //                items.push("<li>" + single + "</li>");
+            //            });
+            //            items.push("</ul></li></ul>");
+            //        });
+            //    }
+            //});
+            
+            
+            $("#main").html(items.join(""));
+            $("#expand").click(function() {expandTrees(treeIds); return false;});
+            $("#collapse").click(function() {collapseTrees(treeIds); return false;});
+        </script>
+    </body>
+</html>
