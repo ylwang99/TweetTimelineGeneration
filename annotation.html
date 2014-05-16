@@ -46,10 +46,10 @@
                         </tr>
                         <tr>
                             <td style="vertical-align: bottom; text-align: center">
-                                <input type="button" value="Take suggestion" id = "suggestionBtn" style = "display: none" onclick="takeSuggestion()"/>
+                                <input type="button" value="Take suggestion" id = "suggestionBtn" onclick="takeSuggestion()"/>
                             </td>
                             <td style="vertical-align: bottom">
-                                <div id = "suggestionDiv" style="display: none"></div>
+                                <div id = "suggestionDiv"></div>
                             </td>
                         </tr>
                         <tr>
@@ -117,8 +117,10 @@
                 document.getElementById("clusters").style.paddingTop = 150;
                 document.getElementById("tweets").style.display = "";
                 document.getElementById("storeBtn").style.display = "none";
-                document.getElementById("suggestionBtn").style.display = "none";
-                document.getElementById("suggestionDiv").style.display = "none";
+                //document.getElementById("suggestionBtn").style.display = "none";
+                //document.getElementById("suggestionDiv").style.display = "none";
+                
+                $("#suggestionDiv").html("<b>Suggestion: Create a new cluster.</b><br>");
                 document.getElementById("undoBtn").disabled = true;
                 $("#results").html("");
             }
@@ -253,8 +255,9 @@
                     displayClusters();
                     displayNextTweet();
                     if (current === 0) {
-                        document.getElementById("suggestionDiv").style.display = "none";
-                        document.getElementById("suggestionBtn").style.display = "none";
+                        //document.getElementById("suggestionDiv").style.display = "none";
+                        //document.getElementById("suggestionBtn").style.display = "none";
+                        $("#suggestionDiv").html("<b>Suggestion: Create a new cluster.</b><br>");
                         document.getElementById("undoBtn").disabled = true;
                     }
                 } else {
