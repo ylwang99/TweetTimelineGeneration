@@ -23,6 +23,7 @@
                 <option value="95">95.Facebook privacy</option>
                 <option value="98">98.Australian floods</option>
             </select>&nbsp;&nbsp;&nbsp;&nbsp
+            Jaccard threshold: <input type="text" id = "jaccardText" value = "0.5"/>
             <a href="#" class="button" id = "expand">Expand All Tweets</a>&nbsp;&nbsp
             <a href="#" class="button" id = "collapse">Collapse All Tweets</a>
         </div>
@@ -35,34 +36,37 @@
                     (3) Press Space to take the suggestion.<br><br>-->
                     <table style="width: 100%">
                         <tr>
-                            <b>New tweet:</b><br>
-                            <td style="width: 95%">
-                                <div id = "presentTweet" style="border: solid 1px; background-color:#CCFFFF"></div>
-                            </td>
-                            <td>
+                            <td style="vertical-align: bottom">
                                 <input type="button" value="Create a new cluster" id = "newClusterBtn" onclick="createCluster()"/>
                             </td>
+                            <td style="width: 95%">
+                                <b>New tweet:</b><br>
+                                <div id = "presentTweet" style="border: solid 1px; background-color:#CCFFFF"></div>
+                            </td>
                         </tr>
                         <tr>
-                            <td>
-                                <div id = "suggestionDiv" style="display: none"></div>
-                            </td>
-                            <td style="vertical-align: bottom">
+                            <td style="vertical-align: bottom; text-align: center">
                                 <input type="button" value="Take suggestion" id = "suggestionBtn" style = "display: none" onclick="takeSuggestion()"/>
                             </td>
+                            <td style="vertical-align: bottom">
+                                <div id = "suggestionDiv" style="display: none"></div>
+                            </td>
                         </tr>
                         <tr>
-                            <td>
+                            <td style="text-align: center">
                                 <!--Put in cluster: <input type="text" id = "clusterSelection" placeholder="enter a number..."/>
                                 <input type="button" id="submitbtn" onclick="putintoCluster()" style="display: none"/><br><br>-->
-                                <div><label id = "remainingTweets"></label>&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" id = "undoBtn" value="Undo" onclick="undo()"/></div>
+                                <div><input type="button" id = "undoBtn" value="Undo" onclick="undo()"/></div>
+                            </td>
+                            <td>
+                                <label id = "remainingTweets"></label>
                             </td>
                         </tr>
                     </table>
                 </td>
             </tr>
             <tr>
-                <td id = "clusters" style="word-break: break-all; white-space: normal; padding-top: 150px">
+                <td id = "clusters" style="word-break: break-all; white-space: normal; padding-top: 150px; padding-left: 60px;">
                 </td>
             </tr>
         </table>
@@ -79,6 +83,10 @@
             var remaining;
             var undoclusteridsi = [];
             var undoclusteridsj = [];
+            
+            function setJaccard() {
+                threshold = document.getElementById("jaccardText").value;
+            }
             function topicSelection() {
                 tweetids = [];
                 tweettext = [];
@@ -159,10 +167,11 @@
                 displayNextTweet();
             }
             
+            var maxSimi = 0;
             function displayClusters() {
                 var items = [];
                 items.push("<ul class='mktree' id = 'tree0'>");
-                var maxSimi = 0;
+                maxSimi = 0;
                 for (var i = 0; i < clustersids.length; i ++) {
                     //compare representatives with the current tweet, set the transparency and record the most similar one.
                     var opacity = 1;
@@ -174,10 +183,11 @@
                         }
                         opacity = 0.4 + similarity * 0.6;
                     }
-                    items.push("<li id = 'cluster" + i + "' style='border: solid 1px; background-color: #FFCC99; opacity: " + opacity + "'>" + clusterstext[i][0]);
-                    items.push("<input type = 'button' id = 'addtoClusterBtn" + i + "' value = 'Add' onclick='addtoCluster(" + i + ")'/>");
+                    items.push("<br><input type = 'button' id = 'addtoClusterBtn" + i + "' style = 'margin-right: 32px' value = 'Add' onclick='addtoCluster(" + i + ")'/>");
+                    items.push("<li id = 'cluster" + i + "' style='border: solid 1px; background-color: #FFCC99; display: inline-block; opacity: " + opacity + "'>");
+                    items.push(clusterstext[i][0]);
                     for (var j = 1; j < clustersids[i].length; j ++) {
-                        items.push("<ul><li>" + clusterstext[i][j] + "</li></ul>");
+                        items.push("<ul><li>" + clusterstext[i][j] + "</li><br></ul>");
                     }
                     items.push("</li>");
                 }
@@ -189,6 +199,7 @@
             }
             
             function displayNextTweet() {
+                var threshold = $("#jaccardText").val();
                 if (remaining > 0) {
                     current = current + 1;
                     remaining = remaining - 1;
@@ -196,8 +207,12 @@
                     $("#presentTweet").html(tweettext[current]);
                     if (clustersids.length > 0) {
                         document.getElementById("suggestionDiv").style.display = "";
-                        $("#suggestionDiv").html("<b>Suggestion:</b><br>" + "<div style='border: solid 1px; background-color:#CCFFCC'>" + clusterstext[suggestionNum][0] + "</div>");
-                        
+                        if (maxSimi > threshold) {
+                            $("#suggestionDiv").html("<b>Suggestion:</b><br>" + "<div style='border: solid 1px; background-color:#CCFFCC'>" + clusterstext[suggestionNum][0] + "</div>");
+                            $("#cluster" + suggestionNum).css("background-color", "#CCFFCC");
+                        } else {
+                            $("#suggestionDiv").html("<b>Suggestion: none</b><br>");
+                        }  
                     }   
                 } else {
                     alert("You're done. Great job!");
@@ -280,7 +295,7 @@
             $("#expand").click(function() {expandTree('tree0'); return false;});
             $("#collapse").click(function() {collapseTree('tree0'); return false;});
             
-            //$('#clusterSelection').keypress(function(e){
+            //$('#jaccardText').keypress(function(e){
             //    if(e.keyCode == 13)
             //        $('#submitbtn').click();
             //});
