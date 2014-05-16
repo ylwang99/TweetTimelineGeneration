@@ -126,13 +126,18 @@
             var suggestionNum = 0;
             document.getElementById("suggestionBtn").addEventListener("click", convertTrees, false);
             function takeSuggestion() {
-                var j = clustersids[suggestionNum].length;
-                clustersids[suggestionNum].push(tweetids[current]);
-                clusterstext[suggestionNum].push(tweettext[current]);
-                undoclusteridsi.push(suggestionNum);
-                undoclusteridsj.push(j);
-                displayClusters();
-                displayNextTweet();
+                if ($("#suggestionDiv").text() == "Suggestion: Create a new cluster.") {
+                    createCluster();
+                    
+                } else{
+                    var j = clustersids[suggestionNum].length;
+                    clustersids[suggestionNum].push(tweetids[current]);
+                    clusterstext[suggestionNum].push(tweettext[current]);
+                    undoclusteridsi.push(suggestionNum);
+                    undoclusteridsj.push(j);
+                    displayClusters();
+                    displayNextTweet();
+                }
             }
             
             document.getElementById("newClusterBtn").addEventListener("click", convertTrees, false);
@@ -211,7 +216,7 @@
                             $("#suggestionDiv").html("<b>Suggestion:</b><br>" + "<div style='border: solid 1px; background-color:#CCFFCC'>" + clusterstext[suggestionNum][0] + "</div>");
                             $("#cluster" + suggestionNum).css("background-color", "#CCFFCC");
                         } else {
-                            $("#suggestionDiv").html("<b>Suggestion: none</b><br>");
+                            $("#suggestionDiv").html("<b>Suggestion: Create a new cluster.</b><br>");
                         }  
                     }   
                 } else {
