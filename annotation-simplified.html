@@ -8,7 +8,8 @@
     </head>
     
     <body>
-        <div style="position: fixed; top: 5px">
+        <div style="position: fixed; top: 5px; background-color: white; z-index: 1">
+            <b>Press Space to create a new cluster, press 'z' or 'Z' to undo.</b><br>
             Select a topic:
             <select id = "topicSelect" onchange="topicSelection()">
                 <option></option>
@@ -25,50 +26,47 @@
             </select>&nbsp;&nbsp;&nbsp;&nbsp
             Jaccard threshold: <input type="text" id = "jaccardText" value = "0.5"/>
             <a href="#" class="button" id = "expand">Expand All Tweets</a>&nbsp;&nbsp
-            <a href="#" class="button" id = "collapse">Collapse All Tweets</a>
+            <a href="#" class="button" id = "collapse">Collapse All Tweets</a>&nbsp;&nbsp
+            Remaining tweets: <label id = "remainingTweets"></label>
         </div>
         <table id = "main" style="width: 100%; margin: auto; display: none;">
             <tr>
-                <td id = "tweets" style = "width: 96%; word-break: break-all; white-space: normal; margin-left: 20px; margin-bottom: 20px; border: dotted 1px; position: fixed; top: 30px; background-color: white; z-index: 1">
+                <td id = "tweets" style = "width: 96%; word-break: break-all; white-space: normal; margin-left: 20px; margin-bottom: 20px; position: fixed; top: 90%; background-color: white; z-index: 1; border-top: solid 1px">
                     <!--<h2>Instructions:</h2>
                     (1) Enter 0 then press Enter to create a new cluster.<br>
                     (2) Enter a number X other than 0 in the box then press Enter to put the tweet in the existing cluster X.<br>
                     (3) Press Space to take the suggestion.<br><br>-->
-                    <table style="width: 100%">
+                    <table style="width: 90%">
                         <tr>
                             <td style="text-align: center">
                                 <!--Put in cluster: <input type="text" id = "clusterSelection" placeholder="enter a number..."/>
                                 <input type="button" id="submitbtn" onclick="putintoCluster()" style="display: none"/><br><br>-->
-                                <div><input type="button" id = "undoBtn" value="Undo" onclick="undo()"/></div>
-                            </td>
-                            <td>
-                                <label id = "remainingTweets"></label>
+                                <div><input type="button" id = "undoBtn" value="Undo" onclick="undo()" style="display: none"/></div>
                             </td>
                         </tr>
                         <tr>
+                            <td style="vertical-align: bottom; width: 5%">
+                                <input type="button" value="Create a new cluster" id = "newClusterBtn" onclick="createCluster()" style="display: none"/>
+                            </td>
+                            <td style="width: 70%; text-align: left">
+                                <!--<b>New tweet:</b><br>-->
+                                <div id = "presentTweet" style="background-color:white"></div>
+                            </td>
+                        </tr>
+                        <!--<tr>
                             <td style="vertical-align: bottom; text-align: center">
                                 <input type="button" value="Take suggestion" id = "suggestionBtn" onclick="takeSuggestion()"/>
                             </td>
                             <td style="vertical-align: bottom">
                                 <div id = "suggestionDiv"></div>
                             </td>
-                        </tr>
-                        <tr>
-                            <td style="vertical-align: bottom; text-align: center">
-                                <input type="button" value="NEW" id = "newClusterBtn" onclick="createCluster()"/>
-                            </td>
-                            <td style="width: 95%">
-                                <!--<b>New tweet:</b><br>-->
-                                <div id = "presentTweet" style="border: solid 1px; background-color:#CCFFFF"></div>
-                            </td>
-                        </tr>
-                        
+                        </tr>-->
                         
                     </table>
                 </td>
             </tr>
-            <tr>
-                <td id = "clusters" style="word-break: break-all; white-space: normal; padding-top: 100px; padding-left: 45px;">
+            <tr style="width: 80%">
+                <td id = "clusters" style="word-break: break-all; white-space: normal;  padding-left: 20px; padding-top: 60px;">
                 </td>
             </tr>
         </table>
@@ -114,26 +112,28 @@
                     }
                 });
                 $("#presentTweet").html(tweettext[current]);
-                $("#remainingTweets").html("Remaining tweets: " + remaining);
+                $("#remainingTweets").html(remaining);
                 $("#clusters").html("");
-                document.getElementById("clusters").style.paddingTop = 100;
+                //document.getElementById("clusters").style.paddingTop = 150;
                 document.getElementById("tweets").style.display = "";
                 document.getElementById("storeBtn").style.display = "none";
                 //document.getElementById("suggestionBtn").style.display = "none";
                 //document.getElementById("suggestionDiv").style.display = "none";
                 
-                $("#suggestionDiv").html("<b>Create a new cluster.</b><br>");
-                document.getElementById("undoBtn").disabled = true;
+                //$("#suggestionDiv").html("<b>Suggestion: Create a new cluster.</b><br>");
+                //document.getElementById("undoBtn").disabled = true;
                 $("#results").html("");
             }
             
             var suggestionNum = 0;
-            document.getElementById("suggestionBtn").addEventListener("click", convertTrees, false);
+            var suggestionNumi;
+            var suggestionNumj;
+            //document.getElementById("suggestionBtn").addEventListener("click", convertTrees, false);
             function takeSuggestion() {
-                if ($("#suggestionDiv").text() == "Create a new cluster.") {
-                    createCluster();
-                    
-                } else{
+                //if ($("#suggestionDiv").text() == "Suggestion: Create a new cluster.") {
+                //    createCluster();
+                //    
+                //} else{
                     var j = clustersids[suggestionNum].length;
                     clustersids[suggestionNum].push(tweetids[current]);
                     clusterstext[suggestionNum].push(tweettext[current]);
@@ -141,15 +141,15 @@
                     undoclusteridsj.push(j);
                     displayClusters();
                     displayNextTweet();
-                }
+                //}
             }
             
             document.getElementById("newClusterBtn").addEventListener("click", convertTrees, false);
             function createCluster() {
-                document.getElementById("undoBtn").disabled = false;
+                //document.getElementById("undoBtn").disabled = false;
                 var j = 0;
                 if (clustersids.length == 0) {
-                    document.getElementById("suggestionBtn").style.display = "";
+                    //document.getElementById("suggestionBtn").style.display = "";
                 } else {
                     j = clustersids[clustersids.length - 1].length - 1;
                 }
@@ -179,8 +179,8 @@
             var maxSimi = 0;
             function displayClusters() {
                 var items = [];
-                items.push("<ul class='mktree' id = 'tree0'>");
                 maxSimi = 0;
+                items.push("<ul class='mktree' id = 'tree0'");
                 for (var i = 0; i < clustersids.length; i ++) {
                     //compare representatives with the current tweet, set the transparency and record the most similar one.
                     var opacity = 1;
@@ -189,14 +189,26 @@
                         if (similarity > maxSimi) {
                             maxSimi = similarity;
                             suggestionNum = i;
+                            suggestionNumi = i;
+                            suggestionNumj = 0;
+                            
                         }
                         opacity = 0.4 + similarity * 0.6;
                     }
-                    items.push("<br><input type = 'button' id = 'addtoClusterBtn" + i + "' style = 'margin-right: 32px' value = 'Add' onclick='addtoCluster(" + i + ")'/>");
+                    items.push("<br><input type = 'button' id = 'addtoClusterBtn" + i + "' style = 'margin-right: 10px' value = 'Add' onclick='addtoCluster(" + i + ")'/>");
                     items.push("<li id = 'cluster" + i + "' style='border: solid 1px; background-color: #FFCC99; display: inline-block; opacity: " + opacity + "'>");
                     items.push(clusterstext[i][0]);
                     for (var j = 1; j < clustersids[i].length; j ++) {
-                        items.push("<ul><li>" + clusterstext[i][j] + "</li></ul>");
+                        if (remaining > 0) {
+                            var similarity = jaccard(clusterstext[i][j], tweettext[current + 1]);
+                            if (similarity > maxSimi) {
+                                maxSimi = similarity;
+                                suggestionNumi = i;
+                                suggestionNumj = j;
+                            }
+                            opacity = 0.4 + similarity * 0.6;
+                        }
+                        items.push("<ul><li id = 'clusteri" + i + "j" + j + "' style='border: solid 1px; background-color: #FFCC99; display: inline-block; opacity: " + opacity + "'>" + clusterstext[i][j] + "</li></ul>"); 
                     }
                     items.push("</li>");
                 }
@@ -212,20 +224,23 @@
                 if (remaining > 0) {
                     current = current + 1;
                     remaining = remaining - 1;
-                    $("#remainingTweets").html("Remaining tweets: " + remaining);
+                    $("#remainingTweets").html(remaining);
                     $("#presentTweet").html(tweettext[current]);
                     if (clustersids.length > 0) {
-                        document.getElementById("suggestionDiv").style.display = "";
+                        //document.getElementById("suggestionDiv").style.display = "";
                         if (maxSimi > threshold) {
-                            $("#suggestionDiv").html("<div style='border: solid 1px; background-color:#CCFFCC'>" + clusterstext[suggestionNum][0] + "</div>");
-                            $("#cluster" + suggestionNum).css("background-color", "#CCFFCC");
+                            //$("#suggestionDiv").html("<b>Suggestion:</b><br>" + "<div style='border: solid 1px; background-color:#CCFFCC'>" + clusterstext[suggestionNum][0] + "</div>");
+                            $("#clusteri" + suggestionNumi + "j" + suggestionNumj).css("background-color", "#CCFFCC");
+                            $("#cluster" + suggestionNumi).css("background-color", "#CCFFCC");
+                            $("#presentTweet").css("background-color", "#CCFFCC");
                         } else {
-                            $("#suggestionDiv").html("<b>Create a new cluster.</b><br>");
+                            //$("#suggestionDiv").html("<b>Suggestion: Create a new cluster.</b><br>");
+                            $("#presentTweet").css("background-color", "white");
                         }  
                     }   
                 } else {
                     alert("You're done. Great job!");
-                    document.getElementById("clusters").style.paddingTop = 30;
+                    document.getElementById("clusters").style.paddingTop = 60;
                     document.getElementById("tweets").style.display = "none";
                     for (var i = 0; i < clustersids.length; i ++) {
                         document.getElementById("addtoClusterBtn" + i).style.display = "none";
@@ -259,8 +274,8 @@
                     if (current === 0) {
                         //document.getElementById("suggestionDiv").style.display = "none";
                         //document.getElementById("suggestionBtn").style.display = "none";
-                        $("#suggestionDiv").html("<b>Suggestion: Create a new cluster.</b><br>");
-                        document.getElementById("undoBtn").disabled = true;
+                        //$("#suggestionDiv").html("<b>Suggestion: Create a new cluster.</b><br>");
+                        //document.getElementById("undoBtn").disabled = true;
                     }
                 } else {
                     alert("no more undos");
@@ -302,13 +317,26 @@
                 return vocab;
             }
             
-            $("#expand").click(function() {expandTree('tree0'); return false;});
-            $("#collapse").click(function() {collapseTree('tree0'); return false;});
+            $("#expand").click(function() {expandTree("tree0"); return false;});
+            $("#collapse").click(function() {collapseTree("tree0"); return false;});
             
             //$('#jaccardText').keypress(function(e){
             //    if(e.keyCode == 13)
             //        $('#submitbtn').click();
             //});
+            document.onkeypress = function (e) {
+                //e.addEventListener("press", convertTrees, false);
+                //press space to create a new cluster
+                
+                if(e.keyCode == 32) {
+                    createCluster();
+                }
+                //press 'z' or 'Z' to undo
+                if(e.keyCode == 122 || e.keyCode == 90){
+                    undo();
+                }
+            };
+            window.addEventListener("keypress", convertTrees, false);
         </script>
     </body>
 </html>
