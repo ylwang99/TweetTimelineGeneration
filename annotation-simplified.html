@@ -329,14 +329,17 @@
                 //press space to create a new cluster
                 
                 if(e.keyCode == 32) {
+                    window.addEventListener("keypress", convertTrees, false);
                     createCluster();
+                    
                 }
                 //press 'z' or 'Z' to undo
                 if(e.keyCode == 122 || e.keyCode == 90){
+                    window.addEventListener("keypress", convertTrees, false);
                     undo();
                 }
             };
-            window.addEventListener("keypress", convertTrees, false);
+            
         </script>
     </body>
 </html>
