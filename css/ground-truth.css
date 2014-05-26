@@ -7,7 +7,12 @@
 	padding-top: 8px;
 	padding-bottom: 8px;
 	font-family: arial;
-	font-size: 14px
+	font-size: 14px;
+	mo
+}
+
+.tweet:hover {
+	background-color: #F2F6F9;
 }
 
 .gray {
