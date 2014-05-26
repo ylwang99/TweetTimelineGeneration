@@ -2,9 +2,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title></title>
-        <script type="text/javascript" src="js/semantic-cluster.js"></script>
         <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
-        <link rel="stylesheet" href="css/semantic-cluster.css" type="text/css">
         <link rel="stylesheet" href="css/ground-truth.css" type="text/css">
     </head>
     
@@ -32,7 +30,7 @@
             var clustersPath = "data/semantic-clusters/json/";
             
             function topicSelection() {
-                document.getElementById("main").style.display = "";
+                $("#main").html();
                 choices = document.getElementById("topicSelect");
                 topicNum = choices[choices.selectedIndex].value;
                 var tweets = {};
