@@ -1,0 +1,198 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title></title>
+        <script type="text/javascript" src="js/semantic-cluster.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+        <link rel="stylesheet" href="css/semantic-cluster.css" type="text/css">
+        <link rel="stylesheet" href="css/twitter-style.css" type="text/css">
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" type="text/css">
+    </head>
+    
+    <body style="background-color: #B2D6E9; width: 90%; margin: auto" onload="topicSelection()">
+        <div id='instructions'>
+            <div id='header'>Instructions</div>
+            <div id='content'>Press Space to create a new cluster, press 'z' or 'Z' to undo.</div>
+        </div>
+        
+        <div>
+            Select a topic:
+            <select id = "topicSelect" onchange="topicSelection()">
+                <option></option>
+                <option value="03">3.Haiti Aristide return</option>
+                <option value="21">21.Emanuel residency court rulings</option>
+                <option value="22">22.healthcare law unconstitutional</option>
+                <option value="26">26.US unemployment</option>
+                <option value="42">42.Holland Iran envoy recall</option>
+                <option value="51">51.British Government cuts</option>
+                <option value="57">57.Chicago blizzard</option>
+                <option value="66">66.Journalists' treatment in Egypt</option>
+                <option value="68">68.Charlie Sheen rehab</option>
+                <option value="88">88.Kings' Speech awards</option>
+            </select>
+            <button onclick="createCluster()">click</button>
+        </div>
+        
+        <div id="clustersScroll"></div>
+        <div id="presentTweet" class="lightTweet"></div>
+        
+        <script type="text/javascript">
+            $("#instructions").accordion({
+                header: '#header',
+                active: false,
+                collapsible: true,
+                heightStyle: "content"
+            });
+            
+            var tweetids = [];
+            var tweettext = [];
+            var tweettime = [];
+            var clustersids = [];
+            var clusterstext = [];
+            var clusterstime = [];
+            var tweetsTotal;
+            function topicSelection() {
+                tweetids = []
+                tweettext = [];
+                tweettime = [];
+                clustersids = [];
+                clusterstext = [];
+                clusterstime = [];
+                var choices = document.getElementById("topicSelect");
+                var topicNum = choices[choices.selectedIndex].value;
+                $("#clustersScroll").html("");
+                $("#presentTweet").hide();
+                $.ajax({
+                    url: "data/relevant-chrono-sort-tweets/json/tweet_topic" + topicNum + ".json",
+                    dataType: "text",
+                    async: false,
+                    success: function(json) {
+                        var data = $.parseJSON(json);
+                        tweetsTotal = data.tweets.length;
+                        for (var i = 0, tweet; i < tweetsTotal; i++) {
+                            tweet = data.tweets[i];
+                            tweetids.push(tweet.id);
+                            tweettext.push(tweet.text);
+                            tweettime.push(tweet.time);
+                        }
+                    }
+                });
+                if (tweetids.length > 0) {
+                    var html = tweetHTML(tweettext[0], tweettime[0], '');
+                    $("#presentTweet").html(html).css("display", "");
+                }
+            }
+            
+            var current = 0;
+            function createCluster() {
+                clustersids.push([tweetids[current]]);
+                clusterstext.push([tweettext[current]]);
+                clusterstime.push([tweettime[current]]);
+                display();
+            }
+            
+            function addToCluster(clusterInd) {
+                clustersids[clusterInd].push(tweetids[current]);
+                clusterstext[clusterInd].push(tweettext[current]);
+                clusterstime[clusterInd].push(tweettime[current]);
+                display();
+            }
+            
+            function display() {
+                //To do: when finish, alert, and show, store results
+                current = current + 1;
+                $("#clustersScroll").html(clustersHTML());
+                if ($('#clustersScroll').hasClass('ui-accordion')) {
+                    $('#clustersScroll').accordion('destroy');
+                }
+                $("#clustersScroll").accordion({
+                    header: ".header",
+                    active: false,
+                    collapsible: true,
+                    heightStyle: "content"
+                });
+                $("#presentTweet").html(tweetHTML(tweettext[current], tweettime[current], ''));
+            }
+            
+            function clustersHTML() {
+                var html = "";
+                for (var i = 0; i < clustersids.length; i ++) {                    
+                    if (clustersids[i].length > 1) {
+                        html += "<div class='header'>";
+                    } else {
+                        html += "<div>";
+                    }
+                    html += tweetHTML(clusterstext[i][0], clusterstime[i][0], 'representative' + i);
+                    html += "</div>";
+                    for (var j = 1; j < clustersids[i].length; j ++) {
+                        html += tweetHTML(clusterstext[i][j], clusterstime[i][j], '');
+                    }
+                }
+                return html;
+            }
+            
+            function tweetHTML(text, time, type) {
+                var html = "";
+                html += "<table cellspacing='0' cellpadding='0' class='lightTweet'>";
+                html += "<tr>";
+                if (type != '') {
+                    var clusterInd = type.substring(14, type.length);
+                    html += "<td class='addBtn'><button id='addToClusterBtn" + clusterInd + "' onclick='addToCluster(" + clusterInd + ")'>Add</button></td>";
+                }
+                html += "<td class='lightTweetText'>" + text + "</td>";
+                html += "<td class='lightTweetDate'><font class='gray'>" + timeConvert(time) + "</font></td>";
+                html += "</tr>";
+                html += "</table>";
+                return html;
+            }
+            
+            //Sun Jan 23 15:53:01 +0000 2011 --> 3:53 PM - 23 Jan 2011
+            function timeConvert(time) {
+                var twelve;
+                var hour = parseInt(time.substring(11, 13));
+                var minute = time.substring(14, 16);
+                if (hour == 12) {
+                    twelve = "12:" + minute + " PM";
+                } else if ( hour > 12) {
+                    twelve = (hour - 12) + ":" + minute + " PM";
+                } else {
+                    twelve = hour + ":" + minute + " AM";
+                }
+                var result = twelve + " - " + time.substring(8, 10) + " " + time.substring(4, 7) + " " + time.substring(26, 30);
+                return result;
+            }
+            
+            function jaccard(t1, t2) {
+                t1 = t1.toLowerCase().split(" ");
+                t2 = t2.toLowerCase().split(" ");
+                var vocab1 = refineTweet(t1);
+                var vocab2 = refineTweet(t2);
+                var andCount = 0;
+                for (var key in vocab2) {
+                    if (key in vocab1) {
+                        andCount = andCount + 1;
+                    }
+                }
+                var orCount = Object.keys(vocab1).length + Object.keys(vocab2).length - andCount;
+                return andCount * 1.0 / orCount;
+            }
+            
+            function refineTweet(t) {
+                var vocab = {};
+                for (var i = 0; i < t.length; i ++) {
+                    if (t[i] !== "rt" && t[i].substring(0, 4) !== "http" && t[i][0] !== "@") {
+                        if (t[i][0] === "#") {
+                            t[i] = t[i].substring(1, t[i].length);
+                        }
+                        if (t[i].substring(t[i].length - 3, t[i].length) === "...") {
+                            t[i] = t[i].substring(0, t[i].length - 3);
+                        }
+                        vocab[t[i]] = true;
+                    }
+                }
+                return vocab;
+            }
+        </script>
+    </body>
+</html>

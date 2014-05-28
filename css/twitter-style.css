@@ -1,0 +1,69 @@
+.tweet {
+	background-color: white;
+	border-top: solid 1px #DAE2E9;
+	padding-left: 16px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-family: arial;
+	font-size: 14px;
+}
+
+.tweet:hover{
+	background-color: #F2F6F9;
+}
+
+.gray {
+	color: #758796;
+	font-size: 12px;
+}
+
+.text {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.lightTweet {
+	width: 100%;
+	background-color: white;
+	border-top: solid 1px #DAE2E9;
+	padding-left: 16px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	font-family: arial;
+	font-size: 14px;
+}
+
+.lightTweet:hover {
+	background-color: #F2F6F9;
+}
+
+.lightTweetText {
+	text-align: left;
+	word-break: break-all;
+}
+
+.lightTweetDate {
+	width: 150px;
+	text-align: right;
+	vertical-align: top;
+	padding-right: 16px;
+}
+
+#instructions {
+	font-family: arial;
+	font-size: 13px
+}
+
+#clustersScroll {
+	height:85%;
+	overflow:scroll;	
+}
+
+#presentTweet {
+	padding: 0;
+	margin-top: 10px;
+}
+
+.addBtn {
+	width: 50px;
+}

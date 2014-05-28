@@ -1,0 +1,123 @@
+<html>
+    
+    <head>
+        <title></title>
+        <link href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+        <link rel="stylesheet" href="css/twitter-style.css" type="text/css">
+    </head>
+    
+    <body style="background-color: #B2D6E9; width: 90%; margin: auto" onload="topicSelection()">
+        <div>
+            Select a topic:
+            <select id = "topicSelect" onchange="topicSelection()">
+                <option></option>
+                <option value="03">3.Haiti Aristide return</option>
+                <option value="21">21.Emanuel residency court rulings</option>
+                <option value="22">22.healthcare law unconstitutional</option>
+                <option value="26">26.US unemployment</option>
+                <option value="42">42.Holland Iran envoy recall</option>
+                <option value="51">51.British Government cuts</option>
+                <option value="57">57.Chicago blizzard</option>
+                <option value="66">66.Journalists' treatment in Egypt</option>
+                <option value="68">68.Charlie Sheen rehab</option>
+                <option value="88">88.Kings' Speech awards</option>
+            </select>
+        </div>
+        <div id="main"></div>
+        
+        <script type="text/javascript">
+            var tweetsPath = "data/relevant-chrono-sort-tweets/json/";
+            var clustersPath = "data/semantic-clusters/json/";
+
+            function topicSelection() {
+                choices = document.getElementById("topicSelect");
+                topicNum = choices[choices.selectedIndex].value;
+                var tweets = {};
+                $.ajax({
+                    url: tweetsPath + "tweet_topic" + topicNum + ".json",
+                    dataType: "text",
+                    async: false,
+                    success: function(json) {
+                        var data = $.parseJSON(json);
+                        for (var i = 0, tweet; i < data.tweets.length; i++) {
+                            tweet = data.tweets[i];
+                            tweets[tweet.id] = [tweet.time, tweet.name, tweet.screenname, tweet.text];
+                        }
+                    }
+                });
+                var items = [];
+                var clustersUrl = clustersPath + "topic0" + topicNum + ".json";
+                $.ajax({
+                    url: clustersUrl,
+                    dataType: "text",
+                    async: false,
+                    success: function(json) {
+                        var data = $.parseJSON(json);
+                        var clusters = data.clusters;
+                        for (var i = 0; i < clusters.length; i ++) {
+                            var tweet_first = tweets[clusters[i][0]];
+                            if (clusters[i].length > 1) {
+                                items.push("<div class='header tweet'>");
+                            } else {
+                                items.push("<div class='tweet'>");
+                            }
+                            items.push("<font><b>" + tweet_first[1] + "</b></font>&nbsp;");
+                            items.push("<font class='gray'>@" + tweet_first[2] + "</font>");
+                            items.push("<div class='text'>" + tweet_first[3] + "</div>");
+                            items.push("<font class='gray'>" + timeConvert(tweet_first[0]) + "</font>");
+                            items.push("</div>");
+                            if (clusters[i].length > 1) {
+                                items.push("<div>");
+                                for (var j = 1; j < clusters[i].length; j ++) {
+                                    var tweet = tweets[clusters[i][j]];
+                                    items.push("<div class='tweet'>");
+                                    items.push("<font><b>" + tweet[1] + "</b></font>&nbsp;");
+                                    items.push("<font class='gray'>@" + tweet[2] + "</font>");
+                                    items.push("<div class='text'>" + tweet[3] + "</div>");
+                                    items.push("<font class='gray'>" + timeConvert(tweet[0]) + "</font>");
+                                    items.push("</div>");
+                                }
+                                items.push("</div>");
+                            }
+                        }
+                    }
+                });
+                $("#main").html(items.join(""));
+                if ($('#main').hasClass('ui-accordion')) {
+                    $('#main').accordion('destroy').accordion({
+                        header: ".header",
+                        active: false,
+                        collapsible: true,
+                        heightStyle: "content"
+                    });
+                } else {
+                    $("#main").accordion({
+                        header: ".header",
+                        active: false,
+                        collapsible: true,
+                        heightStyle: "content"
+                    });
+                }
+            }
+            
+            //Sun Jan 23 15:53:01 +0000 2011 --> 3:53 PM - 23 Jan 2011
+            function timeConvert(time) {
+                var twelve;
+                var hour = parseInt(time.substring(11, 13));
+                var minute = time.substring(14, 16);
+                if (hour == 12) {
+                    twelve = "12:" + minute + " PM";
+                } else if ( hour > 12) {
+                    twelve = (hour - 12) + ":" + minute + " PM";
+                } else {
+                    twelve = hour + ":" + minute + " AM";
+                }
+                var result = twelve + " - " + time.substring(8, 10) + " " + time.substring(4, 7) + " " + time.substring(26, 30);
+                return result;
+            }
+        </script>
+    </body>
+
+</html>
