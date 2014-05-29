@@ -3,17 +3,17 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title></title>
         <script type="text/javascript" src="js/semantic-cluster.js"></script>
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script type="text/javascript" src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+        <script type="text/javascript" src="jquery-ui/js/jquery-1.10.2.js"></script>
+        <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.10.4.custom.js"></script>
         <link rel="stylesheet" href="css/semantic-cluster.css" type="text/css">
         <link rel="stylesheet" href="css/twitter-style.css" type="text/css">
-        <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" type="text/css">
+        <link rel="stylesheet" href="jquery-ui/css/custom-theme/jquery-ui-1.10.4.custom.css" type="text/css">
     </head>
     
     <body style="background-color: #B2D6E9; width: 90%; margin: auto" onload="topicSelection()">
         <div id='instructions'>
             <div id='header'>Instructions</div>
-            <div id='content'>Press Space to create a new cluster, press 'z' or 'Z' to undo.</div>
+            <div id='content'>Press Space to create a new cluster, press 'x' or 'X' to take suggestion, press 'z' or 'Z' to undo.</div>
         </div>
         
         <div>
@@ -31,11 +31,15 @@
                 <option value="68">68.Charlie Sheen rehab</option>
                 <option value="88">88.Kings' Speech awards</option>
             </select>
-            <button onclick="createCluster()">click</button>
+            Remaining tweets: <label id="remainingTweets"></label>
+            <!--<button onclick="createCluster()">new cluster</button>
+            <button onclick="takeSuggestion()">take suggestion</button>
+            <button onclick="undo()">undo</button>-->
+            <button id="resultsBtn" onclick="showResults()">Show results</button>
         </div>
         
         <div id="clustersScroll"></div>
-        <div id="presentTweet" class="lightTweet"></div>
+        <div id="presentTweet"></div>
         
         <script type="text/javascript">
             $("#instructions").accordion({
@@ -44,25 +48,29 @@
                 collapsible: true,
                 heightStyle: "content"
             });
-            
-            var tweetids = [];
-            var tweettext = [];
-            var tweettime = [];
-            var clustersids = [];
-            var clusterstext = [];
-            var clusterstime = [];
+            //1D arrays
+            var tweetIds = [];
+            var tweetText = [];
+            var tweetTime = [];
+            //2D arrays
+            var clustersIds = [];
+            var clustersText = [];
+            var clustersTime = [];
+            //1D arrays
+            var undoClustersIdsI = [];
+            var undoClustersIdsJ = [];
+            var current = -1;
             var tweetsTotal;
             function topicSelection() {
-                tweetids = []
-                tweettext = [];
-                tweettime = [];
-                clustersids = [];
-                clusterstext = [];
-                clusterstime = [];
+                tweetIds = []
+                tweetText = [];
+                tweetTime = [];
+                clustersIds = [];
+                clustersText = [];
+                clustersTime = [];
                 var choices = document.getElementById("topicSelect");
                 var topicNum = choices[choices.selectedIndex].value;
-                $("#clustersScroll").html("");
-                $("#presentTweet").hide();
+                current = -1;
                 $.ajax({
                     url: "data/relevant-chrono-sort-tweets/json/tweet_topic" + topicNum + ".json",
                     dataType: "text",
@@ -72,36 +80,74 @@
                         tweetsTotal = data.tweets.length;
                         for (var i = 0, tweet; i < tweetsTotal; i++) {
                             tweet = data.tweets[i];
-                            tweetids.push(tweet.id);
-                            tweettext.push(tweet.text);
-                            tweettime.push(tweet.time);
+                            tweetIds.push(tweet.id);
+                            tweetText.push(tweet.text);
+                            tweetTime.push(tweet.time);
                         }
                     }
                 });
-                if (tweetids.length > 0) {
-                    var html = tweetHTML(tweettext[0], tweettime[0], '');
-                    $("#presentTweet").html(html).css("display", "");
+                display();
+                if (tweetIds.length == 0) {
+                    $("#presentTweet").hide();
+                } else {
+                    $("#presentTweet").show();
                 }
             }
             
-            var current = 0;
             function createCluster() {
-                clustersids.push([tweetids[current]]);
-                clusterstext.push([tweettext[current]]);
-                clusterstime.push([tweettime[current]]);
+                clustersIds.push([tweetIds[current]]);
+                clustersText.push([tweetText[current]]);
+                clustersTime.push([tweetTime[current]]);
+                undoClustersIdsI.push(clustersIds.length - 1);
+                undoClustersIdsJ.push(0);
                 display();
             }
             
             function addToCluster(clusterInd) {
-                clustersids[clusterInd].push(tweetids[current]);
-                clusterstext[clusterInd].push(tweettext[current]);
-                clusterstime[clusterInd].push(tweettime[current]);
+                clustersIds[clusterInd].push(tweetIds[current]);
+                clustersText[clusterInd].push(tweetText[current]);
+                clustersTime[clusterInd].push(tweetTime[current]);
+                undoClustersIdsI.push(clusterInd);
+                undoClustersIdsJ.push(clustersIds[clusterInd].length - 1);
                 display();
             }
             
+            var threshold = 0.5;
+            //No suggestion at the very beginning
+            var suggestionInd = -1;
+            function takeSuggestion() {
+                addToCluster(suggestionInd);
+            }
+            
             function display() {
-                //To do: when finish, alert, and show, store results
+                suggestionInd = -1;
                 current = current + 1;
+                //display new coming tweet
+                if (current > tweetsTotal - 1) {
+                    alert("You're done!");
+                    $("#presentTweet").hide();
+                    $("#resultsBtn").show();
+                } else {
+                    var maxSimi = 0;
+                    for (var i = 0; i < clustersIds.length; i ++) {
+                        for (var j = 0; j < clustersIds[i].length; j ++) {
+                            var similarity = jaccard(clustersText[i][j], tweetText[current]);
+                            if (similarity > threshold && similarity > maxSimi) {
+                                maxSimi = similarity;
+                                suggestionInd = i;
+                            }
+                        }
+                    }
+                    $("#presentTweet").css("display", "");
+                    if (suggestionInd != -1) {
+                        $("#presentTweet").html(tweetHTML(tweetText[current], tweetTime[current], "highlight"));
+                    } else {
+                        $("#presentTweet").html(tweetHTML(tweetText[current], tweetTime[current], "normal"));
+                    }
+                    //hide store results button
+                    $("#resultsBtn").hide();
+                }
+                //display clusters
                 $("#clustersScroll").html(clustersHTML());
                 if ($('#clustersScroll').hasClass('ui-accordion')) {
                     $('#clustersScroll').accordion('destroy');
@@ -112,41 +158,54 @@
                     collapsible: true,
                     heightStyle: "content"
                 });
-                $("#presentTweet").html(tweetHTML(tweettext[current], tweettime[current], ''));
+                //display remaining tweets number
+                $("#remainingTweets").html(tweetsTotal - current);
             }
             
             function clustersHTML() {
                 var html = "";
-                for (var i = 0; i < clustersids.length; i ++) {                    
-                    if (clustersids[i].length > 1) {
+                for (var i = 0; i < clustersIds.length; i ++) {
+                    html += "<table cellspacing='0' cellpadding='0' class='clusterTable'>";
+                    html += "<tr>";
+                    html += "<td class='addTd'><button id='addToClusterBtn" + i + "' onclick='addToCluster(" + i + ")'>Add</button></td>";
+                    html += "<td>";
+                    if (clustersIds[i].length > 1) {
                         html += "<div class='header'>";
                     } else {
                         html += "<div>";
                     }
-                    html += tweetHTML(clusterstext[i][0], clusterstime[i][0], 'representative' + i);
-                    html += "</div>";
-                    for (var j = 1; j < clustersids[i].length; j ++) {
-                        html += tweetHTML(clusterstext[i][j], clusterstime[i][j], '');
+                    if (suggestionInd == i) {
+                        html += tweetHTML(clustersText[i][0], clustersTime[i][0], "highlight");
+                    } else {
+                        html += tweetHTML(clustersText[i][0], clustersTime[i][0], "normal");
                     }
+                    html += "</div>";
+                    html += "<div>";
+                    for (var j = 1; j < clustersIds[i].length; j ++) {
+                        html += tweetHTML(clustersText[i][j], clustersTime[i][j], "normal");
+                    }
+                    html += "</div>";
+                    html += "</td>";
+                    html += "</tr>";
+                    html += "</table>";
                 }
                 return html;
             }
             
             function tweetHTML(text, time, type) {
                 var html = "";
-                html += "<table cellspacing='0' cellpadding='0' class='lightTweet'>";
-                html += "<tr>";
-                if (type != '') {
-                    var clusterInd = type.substring(14, type.length);
-                    html += "<td class='addBtn'><button id='addToClusterBtn" + clusterInd + "' onclick='addToCluster(" + clusterInd + ")'>Add</button></td>";
+                html += "<table cellspacing='0' cellpadding='0' class='lightTweet";
+                if (type == 'highlight') {
+                    html += " highlightedTweet";
                 }
+                html += "'><tr>";
                 html += "<td class='lightTweetText'>" + text + "</td>";
                 html += "<td class='lightTweetDate'><font class='gray'>" + timeConvert(time) + "</font></td>";
                 html += "</tr>";
                 html += "</table>";
                 return html;
             }
-            
+
             //Sun Jan 23 15:53:01 +0000 2011 --> 3:53 PM - 23 Jan 2011
             function timeConvert(time) {
                 var twelve;
@@ -166,8 +225,8 @@
             function jaccard(t1, t2) {
                 t1 = t1.toLowerCase().split(" ");
                 t2 = t2.toLowerCase().split(" ");
-                var vocab1 = refineTweet(t1);
-                var vocab2 = refineTweet(t2);
+                var vocab1 = tweetRefine(t1);
+                var vocab2 = tweetRefine(t2);
                 var andCount = 0;
                 for (var key in vocab2) {
                     if (key in vocab1) {
@@ -178,7 +237,7 @@
                 return andCount * 1.0 / orCount;
             }
             
-            function refineTweet(t) {
+            function tweetRefine(t) {
                 var vocab = {};
                 for (var i = 0; i < t.length; i ++) {
                     if (t[i] !== "rt" && t[i].substring(0, 4) !== "http" && t[i][0] !== "@") {
@@ -193,6 +252,45 @@
                 }
                 return vocab;
             }
+            
+            function undo() {
+                if (undoClustersIdsI.length > 0) {
+                    current = current - 2;
+                    var i = undoClustersIdsI.pop();
+                    var j = undoClustersIdsJ.pop();
+                    if (j == 0) {
+                        clustersIds.pop();
+                        clustersText.pop();
+                        clustersTime.pop();
+                    } else {
+                        clustersIds[i].pop();
+                        clustersText[i].pop();
+                        clustersTime[i].pop();
+                    }
+                    display();
+                } else {
+                    alert("No more undos");
+                }
+            }
+            
+            function showResults() {
+                $("#clustersScroll").html(JSON.stringify(clustersIds));
+            }
+            
+            document.onkeypress = function (e) {
+                //press space to create a new cluster
+                if(e.keyCode == 32) {
+                    createCluster();
+                }
+                //press 'x' or 'X' to take suggestion
+                if (e.keyCode == 120 || e.keyCode == 88) {
+                    takeSuggestion();
+                }
+                //press 'z' or 'Z' to undo
+                if(e.keyCode == 122 || e.keyCode == 90){
+                    undo();
+                }
+            };
         </script>
     </body>
 </html>

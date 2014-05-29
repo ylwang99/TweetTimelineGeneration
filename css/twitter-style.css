@@ -49,9 +49,28 @@
 	padding-right: 16px;
 }
 
+.highlightedTweet {
+	background-color: lightblue;
+}
+
 #instructions {
 	font-family: arial;
-	font-size: 13px
+	font-size: 13px;
+}
+
+#header {
+	padding-left: 16px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#content {
+	padding-left: 16px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-size: 13px;
 }
 
 #clustersScroll {
@@ -64,6 +83,16 @@
 	margin-top: 10px;
 }
 
-.addBtn {
+.clusterTable {
+	width: 100%;
+}
+
+.addTd {
 	width: 50px;
+	vertical-align: top;
+	font-size: 12px;
+}
+
+#resultsBtn {
+	display: none;
 }
