@@ -69,12 +69,14 @@
                             html += tweetHTML(tweetFirst);
                             html += "</div>";
                             if (clusters[i].length > 1) {
+                                html += "<div>";
                                 for (var j = 1; j < clusters[i].length; j ++) {
                                     var tweet = tweets[clusters[i][j]];
                                     html += "<div>";
                                     html += tweetHTML(tweet);
                                     html += "</div>";
                                 }
+                                html += "</div>";
                             }
                         }
                     }
