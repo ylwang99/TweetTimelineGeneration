@@ -45,7 +45,7 @@
                         }
                     }
                 });
-                var items = [];
+                var html = "";
                 var clustersUrl = clustersPath + "topic0" + topicNum + ".json";
                 $.ajax({
                     url: clustersUrl,
@@ -56,16 +56,24 @@
                         var clusters = data.clusters;
                         for (var i = 0; i < clusters.length; i ++) {
                             var tweet = tweets[clusters[i][0]];
-                            items.push("<div class='tweet'>");
-                            items.push("<font><b>" + tweet[1] + "</b></font>&nbsp;");
-                            items.push("<font class='gray'>@" + tweet[2] + "</font>");
-                            items.push("<div class='text'>" + tweet[3] + "</div>");
-                            items.push("<font class='gray'>" + timeConvert(tweet[0]) + "</font>");
-                            items.push("</div>");
+                            html += "<div>";
+                            html += "<table cellspacing='0' cellpadding='0' class='tweet'>";
+                            html += "<tr><td>";
+                            html += "<font><b>" + tweet[1] + "</b></font>&nbsp;";
+                            html += "<font class='gray'>@" + tweet[2] + "</font>";
+                            html += "</td></tr>";
+                            html += "<tr><td>";
+                            html += "<div class='text'>" + tweet[3] + "</div>";
+                            html += "</td></tr>";
+                            html += "<tr><td>";
+                            html += "<font class='gray'>" + timeConvert(tweet[0]) + "</font>";
+                            html += "</td></tr>";
+                            html += "</table>";
+                            html += "</div>";
                         }
                     }
                 });
-                $("#main").html(items.join(""));
+                $("#main").html(html);
             }
             
             //Sun Jan 23 15:53:01 +0000 2011 --> 3:53 PM - 23 Jan 2011

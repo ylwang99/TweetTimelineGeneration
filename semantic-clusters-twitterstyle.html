@@ -50,7 +50,7 @@
                         }
                     }
                 });
-                var items = [];
+                var html = "";
                 var clustersUrl = clustersPath + "topic0" + topicNum + ".json";
                 $.ajax({
                     url: clustersUrl,
@@ -60,34 +60,26 @@
                         var data = $.parseJSON(json);
                         var clusters = data.clusters;
                         for (var i = 0; i < clusters.length; i ++) {
-                            var tweet_first = tweets[clusters[i][0]];
+                            var tweetFirst = tweets[clusters[i][0]];
                             if (clusters[i].length > 1) {
-                                items.push("<div class='header tweet' style='padding-left:16px'>");
+                                html += "<div class='header'>";
                             } else {
-                                items.push("<div class='tweet'>");
+                                html += "<div>";
                             }
-                            items.push("<font><b>" + tweet_first[1] + "</b></font>&nbsp;");
-                            items.push("<font class='gray'>@" + tweet_first[2] + "</font>");
-                            items.push("<div class='text'>" + tweet_first[3] + "</div>");
-                            items.push("<font class='gray'>" + timeConvert(tweet_first[0]) + "</font>");
-                            items.push("</div>");
+                            html += tweetHTML(tweetFirst);
+                            html += "</div>";
                             if (clusters[i].length > 1) {
-                                items.push("<div>");
                                 for (var j = 1; j < clusters[i].length; j ++) {
                                     var tweet = tweets[clusters[i][j]];
-                                    items.push("<div class='tweet'>");
-                                    items.push("<font><b>" + tweet[1] + "</b></font>&nbsp;");
-                                    items.push("<font class='gray'>@" + tweet[2] + "</font>");
-                                    items.push("<div class='text'>" + tweet[3] + "</div>");
-                                    items.push("<font class='gray'>" + timeConvert(tweet[0]) + "</font>");
-                                    items.push("</div>");
+                                    html += "<div>";
+                                    html += tweetHTML(tweet);
+                                    html += "</div>";
                                 }
-                                items.push("</div>");
                             }
                         }
                     }
                 });
-                $("#main").html(items.join(""));
+                $("#main").html(html);
                 if ($('#main').hasClass('ui-accordion')) {
                     $('#main').accordion('destroy').accordion({
                         header: ".header",
@@ -103,6 +95,23 @@
                         heightStyle: "content"
                     });
                 }
+            }
+            
+            function tweetHTML(tweet) {
+                var html = "";
+                html += "<table cellspacing='0' cellpadding='0' class='tweet'>";
+                html += "<tr><td>";
+                html += "<font><b>" + tweet[1] + "</b></font>&nbsp;";
+                html += "<font class='gray'>@" + tweet[2] + "</font>";
+                html += "</td></tr>";
+                html += "<tr><td>";
+                html += "<div class='text'>" + tweet[3] + "</div>";
+                html += "</td></tr>";
+                html += "<tr><td>";
+                html += "<font class='gray'>" + timeConvert(tweet[0]) + "</font>";
+                html += "</td></tr>";
+                html += "</table>";
+                return html;
             }
             
             //Sun Jan 23 15:53:01 +0000 2011 --> 3:53 PM - 23 Jan 2011
