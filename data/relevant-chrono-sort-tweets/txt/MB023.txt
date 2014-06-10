@@ -50,7 +50,9 @@
 33180961285873664	Thu Feb 03 15:12:12 +0000 2011	Michael Krigsman	mkrigsman	Amtrak from Boston to NY late but rolling #snowicecold
 33310482420998145	Thu Feb 03 23:46:52 +0000 2011	Ashley Peskoe	ashleypeskoe	Ugh my #amtrak train is delayed again.
 33631021220110336	Fri Feb 04 21:00:34 +0000 2011	Deana Igelsrud	digelsrud	RT: The bald eagle "stuck to the locomotive like an emblem... an Amtrak police officer pried the bird from the train" http://is.gd/UjIEWK
+33686028132818946	Sat Feb 05 00:39:09 +0000 2011	Evan Brown	internetcases	Standing on platform waiting for delayed train. Friday night delays are the worst kind.
 34139231714541568	Sun Feb 06 06:40:01 +0000 2011	NorthwestRelo	NorthwestRelo	Relaxing Commute in #GreaterSeattle Video&gt;
+34258521369477120	Sun Feb 06 14:34:02 +0000 2011	David Allgire	zuperdog	There is only the 11:01am service today at latechurch. no 7:01pm service.
 34666383035863040	Mon Feb 07 17:34:44 +0000 2011	Live News	NewsSummaries	Amtrak and senators announce NY-NJ rail tunnels plan     (Reuters) http://f.ast.ly/4JkYm
 34671659365437440	Mon Feb 07 17:55:42 +0000 2011	Amorous_V	Amorous_V	Amtrak and senators announce NY-NJ rail tunnels plan: NEW YORK (Reuters) - Amtrak announced plans on Monday for ... http://bit.ly/eFJ4xX
 34671660812468224	Mon Feb 07 17:55:42 +0000 2011	Ava	Avamaes5	Amtrak and senators announce NY-NJ rail tunnels plan: NEW YORK (Reuters) - Amtrak announced plans on Monday for a $13.5 billion commu...
@@ -66,7 +68,10 @@
 34772909876584448	Tue Feb 08 00:38:02 +0000 2011	oklahomanews	oklahomanews	Newson6.com Amtrak, NJ senators propose new Hudson rail tunnel http://bit.ly/gI0SSp
 34773103301107712	Tue Feb 08 00:38:48 +0000 2011	reggie lee	redgehomes	New Hudson Tunnel Part of Amtrak’s High-Speed Pitch http://t.co/SKIHB7i
 34776815805399041	Tue Feb 08 00:53:33 +0000 2011	mayankchandak	mayankchandak	Senators propose NYC rail tunnel: Democratic senators and US rail operator Amtrak propose a $13.5bn (£8.4bn) rail tunnel linking New ...
+34914470312542208	Tue Feb 08 10:00:33 +0000 2011	Adam Petrovsky	ImpactAdam	Hoax bomb call forces rail station to close http://bit.ly/eji5iT
+34988868784619520	Tue Feb 08 14:56:11 +0000 2011	David Saxon	dmsaxon	The jubliee line has a broken down train again today, and the DLR is suspended due to a customer 'incident' - Canary Wharf is isolated again
 35000396405542913	Tue Feb 08 15:41:59 +0000 2011	Rss Ticker ZTBC	Rssticker	Obama to call for $53B for high-speed rail: WASHINGTON     (AP) -- President Barack Obama is calling for a six-... http://apne.ws/cw8eHK
+35004267722969088	Tue Feb 08 15:57:22 +0000 2011	Trein en Spoor	treinenspoor	Alstom unveils double-deck train to increase capacity on RER Line A in Paris http://bit.ly/hZintz #railwaygazette #treinenspoor
 35010633195851777	Tue Feb 08 16:22:40 +0000 2011	Patrick Winters	Trunks_SS	If Thomas the Tank Engine had this cash he would be a plane: Obama to call for $53B for high-speed rail http://t.co/CXgjqAS
 35011708787503104	Tue Feb 08 16:26:56 +0000 2011	American Patriot	BarackObamaLies	CNN: Obama calls for $53B for high speed rail. WTF! Hey idiot, no one takes the train. This is just a reward to union hacks who vote Dem!
 35015689450299392	Tue Feb 08 16:42:45 +0000 2011	JKxZ	JKxZ	@BarackObama Can we get some fancy new high speed rail to connect the far suburbs to Chicago? Metra is just too slow.
@@ -86,4 +91,5 @@
 35055288075681792	Tue Feb 08 19:20:06 +0000 2011	CBS 6 Albany	CBS6Albany	Obama to call for $53B for high-speed rail http://bit.ly/gjfkdI
 35058089283559424	Tue Feb 08 19:31:14 +0000 2011	Bob Campbell	linktobob	Money for high speed rail will never make it down the track.
 35058668416278528	Tue Feb 08 19:33:32 +0000 2011	loren hatt	TeePeeCreek_Com	TeePeeCreek.com U.S. plans to inject $53 billion into passenger rail: Biden http://bit.ly/gDjYK1 TeePeeCreek.com
+35061937414868992	Tue Feb 08 19:46:31 +0000 2011	Tina Wheelhouse	twheelhouse	@Sambucagirl I don't think I've ever got on a train from Crawley to Horsham that has been on time
 35066441501900800	Tue Feb 08 20:04:25 +0000 2011	Gordon Whitehead	The_Git	White House Seeks $53 Billion For High-Speed Rail http://huff.to/hlWs1W via @huffingtonpost

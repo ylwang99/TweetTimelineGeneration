@@ -94,7 +94,9 @@
 34690628147216384	Mon Feb 07 19:11:04 +0000 2011	Automotive News	AutoSectorNews	Gov't to release findings of Toyota investigation - Seattle Times http://bit.ly/fAtNSg
 34707869400047616	Mon Feb 07 20:19:35 +0000 2011	Maggi	Maggi_queen	Gov't to release findings of Toyota investigation http://tinyurl.com/4zz7f64
 34779894068019201	Tue Feb 08 01:05:47 +0000 2011	Prajesh	prajeshpb	U.S. to release review of Toyota throttles http://reut.rs/fXOtkz
+34780127111946240	Tue Feb 08 01:06:43 +0000 2011	Pauline	phayes4342	Gov't to release findings of Toyota investigation: The Transportation Department said it would issue the results... http://bit.ly/eCu8eO
 34791500973871104	Tue Feb 08 01:51:54 +0000 2011	ex_bot	exic13	Government to release review of Toyota throttles (Reuters) http://bit.ly/dQPaxn
+34803511841525760	Tue Feb 08 02:39:38 +0000 2011	Gadget Samurai	gadget_samurai	blogged: U.S. To Reveal Report On Toyota Acceleration Problems Tues. -  http://news.vcgoo.jp/bKn
 34840315944763393	Tue Feb 08 05:05:53 +0000 2011	Vehix Car	VehixCar	Car Recalls Breaking News: NHTSA to Release Results of Toyota ... http://bit.ly/eBgii8
 34856723634196482	Tue Feb 08 06:11:05 +0000 2011	Tech News 	techiebite	Starwatch Consumer | Government to issue report on Toyota recalls - Kansas City Star: Kansas City StarStarwatch ... http://bit.ly/gSewxl
 34861773437804544	Tue Feb 08 06:31:09 +0000 2011	Shop Smart	shopsmartultd	Starwatch Consumer | Government to issue report on Toyota recalls: HP redesigns the touchscreen PC experience fo... http://bit.ly/hrNkC6
@@ -102,6 +104,7 @@
 34920222079066112	Tue Feb 08 10:23:24 +0000 2011	tavleen	Tavleen_88	Recalling TOYOTA http://t.co/bFQrBwq via @en
 34955375211974657	Tue Feb 08 12:43:05 +0000 2011	Live News Feed	newsnetworks	[headlines] U.S. To Release Final Report On Toyota Recalls Today: The Obama administration is completing a 10-mont... http://n.pr/gfT8HD
 34996747549937664	Tue Feb 08 15:27:29 +0000 2011	Amanda Rall	PositivelyPrime	Government findings on Toyota's electronics to be released today http://bit.ly/dIAW3I
+35002761426767872	Tue Feb 08 15:51:23 +0000 2011	Winnipeg CP	WinnipegCP	U.S. to release final Toyota investigation findings http://winnipeg.cityandpress.com/node/2708448
 35010703718879232	Tue Feb 08 16:22:56 +0000 2011	Judith RK Cholya	JudithLevin15	U.S. to release findings of Toyota sudden-acceleration probe - http://newzfor.me/?crmr
 35012148195233792	Tue Feb 08 16:28:41 +0000 2011	Ian Huckabee	WeejeeLegal	Toyota Sudden Acceleration Report Expected Today http://ow.ly/1beMfb
 35023707030167552	Tue Feb 08 17:14:37 +0000 2011	OWNER	BoxAndSend	Toyota's denies problems on 11 million car recall & say drivers are at fault.Insurance companies sue.You couldn't pay me to drive one!
@@ -117,6 +120,7 @@
 35051687005786112	Tue Feb 08 19:05:48 +0000 2011	Forbes	Forbes	Breaking: Government finds no electronic safety flaws in Toyotas http://bit.ly/efg9cN
 35052327983386624	Tue Feb 08 19:08:20 +0000 2011	Eric Encarnacion	eslashe	Caused by desire to run over neighbor's perfect fucking flowerbed? MT @nytimes ALERT: Toyota AccelerationProblem NotCaused by ElectronicFlaw
 35053299627458560	Tue Feb 08 19:12:12 +0000 2011	Lawrence Altaffer	L4Designs	“@BBCWorld: US clears Toyota over electronics http://t.co/32OwuQm” #fb
+35054581075415041	Tue Feb 08 19:17:18 +0000 2011	Boston News Now	bostonnewsnow	Government: No Electronic Flaws In Toyotas http://dlvr.it/G5mBN #Boston
 35055845284777984	Tue Feb 08 19:22:19 +0000 2011	9NEWS Denver	9newsdotcom	Government: No electronic flaws in Toyotas http://bit.ly/fyF9ag #9NEWS
 35056355442163712	Tue Feb 08 19:24:21 +0000 2011	Lucas Okamoto	Lokamoto	Electronic Flaws Did Not Cause Toyota Problems, U.S. Says: Unintentional acceleration problems were the result ... http://nyti.ms/fg7YTs
 35057122219655168	Tue Feb 08 19:27:23 +0000 2011	The Tolbert Report	TolbertReport	Government finds no evidence that electronic glitches caused sudden acceleration incidents in Toyota vehicles. via @Politico
@@ -132,13 +136,17 @@
 35067946019590144	Tue Feb 08 20:10:24 +0000 2011	D̶A̶N̶I̶S̶!̶!̶	Dhanisrawr	Feds clear Toyota of electronic causes in recall probe - http://newzfor.me/?cyvr
 35068336094056449	Tue Feb 08 20:11:57 +0000 2011	Tunku Varadarajan	tunkuv	Why'd DoT take so long to exculpate Toyota on electronic flaws? Walter Olson (@walterolson) asks some hard questions. http://j.mp/exK7nP
 35069290097020928	Tue Feb 08 20:15:44 +0000 2011	Mark Sanel Calonia	kibitzer08	U.S. clears Toyota's electronic throttles (tiscali.co.uk) http://feedzil.la/dKz3yK
+35070902005665793	Tue Feb 08 20:22:09 +0000 2011	Adrienne Wilson	awilsonz	NHTSA Investigation Concludes No Electronic Flaws In Toyotas that Suddenly Accelerated: submitted by  palinomics... http://bit.ly/fXI4Xj
 35076009669693441	Tue Feb 08 20:42:27 +0000 2011	David	david_rec	US clears Toyota over electronics: A US investigation into Toyota safety problems finds no electronic flaws to e... http://bbc.in/gc3vZu
 35077822745673728	Tue Feb 08 20:49:39 +0000 2011	Ranchhod Vasava	rvasava	US clears Toyota over electronics: A US investigation into Toyota safety problems finds no electronic flaw... http://tinyurl.com/4gapp3l
+35078123699572737	Tue Feb 08 20:50:51 +0000 2011	みかんママ	cosmoweb	【AP Headlines】 Government: No electronic flaws in Toyotas: WASHINGTON     (AP) -- The Obama administration's in... http://apne.ws/eHo8KQ
 35079045930553344	Tue Feb 08 20:54:30 +0000 2011	최시원's wife :))	Mrs_ChoiSiwon	Government: No electronic flaws in Toyotas - http://newzfor.me/?civr [Like it? http://bit.ly/fTlws9 ]
 35079243503247360	Tue Feb 08 20:55:18 +0000 2011	Ed Joyce	EnviroEd	“@BBCNews: US clears #Toyota over electronics http://bbc.in/fNWdCs
+35079645514829824	Tue Feb 08 20:56:53 +0000 2011	Lasurus Long	LasurusLong	Government: No electronic flaws in Toyotas (AP) http://bit.ly/eo6fkL
 35080006375837697	Tue Feb 08 20:58:19 +0000 2011	BBC news world	bbcnewsworld	US clears Toyota over electronics: A US investigation into Toyota safety problems finds no electronic flaws to e... http://bbc.in/edF2lE
 35086388722401280	Tue Feb 08 21:23:41 +0000 2011	DaveWindston	DaveWindston	"interesting" Report Due On Toyota Accelerations, No Significant Defects Found?: A study of what happened ... http://tinyurl.com/457vw6j
 35086687973412864	Tue Feb 08 21:24:52 +0000 2011	Leah	Leah_Martin75	Probe clears Toyota's electronic throttles: WASHINGTON (Reuters) - A government probe cleared Toyota Motor Corp's electronics of caus...
 35087285594628096	Tue Feb 08 21:27:15 +0000 2011	newsonus	newsonus	Probe clears Toyota's electronic throttles (Reuters): Reuters - A government probe cleared Toyota Motor Cor... http://bit.ly/gINXP8
+35087482475257856	Tue Feb 08 21:28:02 +0000 2011	dwi adwiyah	dwidwiyah	U.S. finds no defect in Toyota's electronic throttles:  - http://newzfor.me/?cuxr
 35088051264819202	Tue Feb 08 21:30:17 +0000 2011	San Diego Lawyers	san_diego_lawye	News1 new result for "San diego lawyer" US study finds no flaws in Toyota electronicsSan Diego Union Tribune"Our... http://bit.ly/eBE1Il
 35090855064764416	Tue Feb 08 21:41:26 +0000 2011	Sherry 	sherrymendel	@fikeminkel @reuters '08 Rav4 airbags deploy w/o impact http://wwwodi.nhtsa.dot.gov/complaints/results.cfm Next Toyota recall? Check it out
