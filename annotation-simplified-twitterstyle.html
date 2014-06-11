@@ -42,6 +42,17 @@
         <div id="presentTweet"></div>
         
         <script type="text/javascript">
+            var topics = {};
+            topics["03"] = "Haiti Aristide return";
+            topics["21"] = "Emanuel residency court rulings";
+            topics["22"] = "healthcare law unconstitutional";
+            topics["26"] = "US unemployment";
+            topics["42"] = "Holland Iran envoy recall";
+            topics["51"] = "British Government cuts";
+            topics["57"] = "Chicago blizzard";
+            topics["66"] = "Journalists' treatment in Egypt";
+            topics["68"] = "Charlie Sheen rehab";
+            topics["88"] = "Kings' Speech awards";
             $("#instructions").accordion({
                 header: '#header',
                 active: false,
@@ -274,7 +285,27 @@
             }
             
             function showResults() {
-                $("#clustersScroll").html(JSON.stringify(clustersIds));
+                var choices = document.getElementById("topicSelect");
+                var topicNum = choices[choices.selectedIndex].value;
+                var results = "";
+                results += '{ "id": "MB' + topicNum + '",<br/>';
+                results += '&nbsp&nbsp"topic": "' + topics[topicNum] + '",<br/>';
+                results += '&nbsp&nbsp"clusters":<br/><br/>';
+                results += '[<br/>';
+                var clustersIdsJson = JSON.stringify(clustersIds);
+                for (var i = 0; i < clustersIds.length; i ++) {
+                    results += '["' + clustersIds[i][0] + '"';
+                    for (var j = 1; j < clustersIds[i].length; j ++) {
+                        results += ',<br/>"' + clustersIds[i][j] + '"';
+                    }
+                    if (i == clustersIds.length - 1) {
+                        results += ']<br/><br/>';
+                    } else {
+                        results += '],<br/><br/><br/>';
+                    }
+                }
+                results += "]<br/>}";
+                $("#clustersScroll").html(results);
             }
             
             document.onkeypress = function (e) {
