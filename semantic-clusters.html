@@ -15,7 +15,7 @@
             var items = [];
             var treeIds = [];
             var tweetsPath = "data/relevant-chrono-sort-tweets/json/";
-            var clustersPath = "data/semantic-clusters/json/";
+            var clustersUrl = "data/semantic-clusters-ids/json/clusters-ids.json";
             
             
             //var topics = ["09", "22", "23", "36", "55", "75", "79", "88", "95", "98"];
@@ -40,14 +40,13 @@
                     }
                 });
                 
-                var clustersUrl = clustersPath + "topic0" + topics[topicNum] + ".json";
                 $.ajax({
                     url: clustersUrl,
                     dataType: "text",
                     async: false,
                     success: function(json) {
                         var data = $.parseJSON(json);
-                        var clusters = data.clusters;
+                        var clusters = data.topics["MB" + topics[topicNum]].clusters;
                         for (var i = 0; i < clusters.length; i ++) {
                             items.push("<div style='border: solid 1px; background-color:#99FFCC'>")
                             for (var j = 0; j < clusters[i].length; j ++) {

@@ -32,7 +32,7 @@
         
         <script type="text/javascript">
             var tweetsPath = "data/relevant-chrono-sort-tweets/json/";
-            var clustersPath = "data/semantic-clusters/json/";
+            var clustersUrl = "data/semantic-clusters-ids/json/clusters-ids.json";
 
             function topicSelection() {
                 choices = document.getElementById("topicSelect");
@@ -51,14 +51,13 @@
                     }
                 });
                 var html = "";
-                var clustersUrl = clustersPath + "topic0" + topicNum + ".json";
                 $.ajax({
                     url: clustersUrl,
                     dataType: "text",
                     async: false,
                     success: function(json) {
                         var data = $.parseJSON(json);
-                        var clusters = data.clusters;
+                        var clusters = data.topics["MB" + topicNum].clusters;
                         for (var i = 0; i < clusters.length; i ++) {
                             var tweetFirst = tweets[clusters[i][0]];
                             if (clusters[i].length > 1) {
