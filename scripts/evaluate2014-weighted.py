@@ -1,6 +1,5 @@
 #This file is to take run file (as an input argument) and ground truth non-redundant tweets 
 #to compute the weighted precision, recall and f1 score per topic.
-import os
 import sys
 import json
 from sets import Set
