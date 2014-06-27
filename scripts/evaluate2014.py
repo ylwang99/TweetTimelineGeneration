@@ -11,7 +11,7 @@ file_run = open(sys.argv[1], "r")
 lines = file_run.readlines()
 for line in lines:
     line = line.strip().split()
-    topic_ind = line[0][-2:]
+    topic_ind = line[0][line[0].index("MB") + 2:]
     if topic_ind not in clusters_run_dt:
         clusters_run_dt[topic_ind] = Set()
     clusters_run_dt[topic_ind].add(line[2])
@@ -28,7 +28,7 @@ data = json.load(file_clusters)
 topics = data["topics"]
 for topic in sorted(topics.keys()):
     hit_num = 0
-    topic_ind = topic[-2:]
+    topic_ind = topic[line[0].index("MB") + 2:]
     topic_ind = topic_ind.encode("utf-8")
     clusters_json = topics[topic]["clusters"]
     for i in range(len(clusters_json)):
