@@ -54,7 +54,7 @@
             <button onclick="takeSuggestion()">take suggestion</button>
             <button onclick="undo()">undo</button>-->
             <!--<button id="resultsBtn" onclick="storeResults()">Store results</button>-->
-            <p id="downloadify" onclick="storeResults()">You must have Flash 10 installed to download this file.</p>
+            <p id="downloadify" class="results"></p>
         </div>
         
         <div id="clustersScroll"></div>
@@ -137,24 +137,6 @@
                 } else {
                     $("#presentTweet").show();
                 }
-                
-                Downloadify.create('downloadify',{
-                    filename: function(){
-                        return "MB";
-                    },
-                    data: function(){ 
-                        return "this is a test";
-                    },
-                    onComplete: function(){ alert('Your File Has Been Saved!'); },
-                    onCancel: function(){ alert('You have cancelled the saving of this file.'); },
-                    onError: function(){ alert('You must put something in the File Contents or there will be nothing to save!'); },
-                    swf: 'downloadify/media/downloadify.swf',
-                    downloadImage: 'donwloadify/images/download.png',
-                    width: 100,
-                    height: 30,
-                    transparent: true,
-                    append: false
-                });
             }
                 
             function createCluster() {
@@ -189,7 +171,8 @@
                 if (current > tweetsTotal - 1) {
                     alert("You're done!");
                     $("#presentTweet").hide();
-                    $("#resultsBtn").show();
+                    $(".results").show();
+                    storeResults();
                 } else {
                     var maxSimi = 0;
                     for (var i = 0; i < clustersIds.length; i ++) {
@@ -208,7 +191,7 @@
                         $("#presentTweet").html(tweetHTML(tweetText[current], tweetTime[current], "normal"));
                     }
                     //hide store results button
-                    $("#resultsBtn").hide();
+                    $(".results").hide();
                 }
                 //display clusters
                 $("#clustersScroll").html(clustersHTML());
@@ -372,7 +355,23 @@
                     }
                 }
                 results += "]<br/>}";
-                
+                Downloadify.create('downloadify',{
+                    filename: function(){
+                        return "MB";
+                    },
+                    data: function(){ 
+                        return "this is a test";
+                    },
+                    onComplete: function(){ alert('Your File Has Been Saved!'); },
+                    onCancel: function(){ alert('You have cancelled the saving of this file.'); },
+                    onError: function(){ alert('You must put something in the File Contents or there will be nothing to save!'); },
+                    swf: 'downloadify/media/downloadify.swf',
+                    downloadImage: 'donwloadify/images/download.png',
+                    width: 100,
+                    height: 30,
+                    transparent: true,
+                    append: false
+                });
             }
             
             document.onkeypress = function (e) {
