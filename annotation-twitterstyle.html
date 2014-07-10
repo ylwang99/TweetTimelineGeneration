@@ -55,7 +55,7 @@
             <button onclick="undo()">undo</button>-->
             <!--<button id="resultsBtn" onclick="storeResults()">Store results</button>-->
             <button id="resultsBtn">Store results</button>
-            <button id="downloadify" style="opacity: 0; z-index: 1">Store results</button>
+            <button id="downloadify" style="opacity: 0">Store results</button>
         </div>
         
         <div id="clustersScroll"></div>
@@ -369,8 +369,6 @@
                     onError: function(){ alert('You must put something in the File Contents or there will be nothing to save!'); },
                     swf: 'downloadify/media/downloadify.swf',
                     downloadImage: 'downloadify/images/store.png',
-                    width: 90,
-                    height: 15,
                     transparent: true,
                     append: false
                 });
@@ -380,7 +378,7 @@
                 var exportButtonPosition = exportButton.position();
                 
                 // Set my button directly underneath the Flash object
-                flashObject.css( { top: exportButtonPosition.top, left: exportButtonPosition.left, position: 'absolute'} );
+                flashObject.css( { top: exportButtonPosition.top, left: exportButtonPosition.left, position: 'absolute', 'z-index': 1} );
             }
             
             document.onkeypress = function (e) {
