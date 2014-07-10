@@ -5,6 +5,8 @@
         <script type="text/javascript" src="js/semantic-cluster.js"></script>
         <script type="text/javascript" src="jquery-ui/js/jquery-1.10.2.js"></script>
         <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.10.4.custom.js"></script>
+        <script type="text/javascript" src="downloadify/js/swfobject.js"></script>
+	<script type="text/javascript" src="downloadify/js/downloadify.min.js"></script>
         <link rel="stylesheet" href="css/twitter-style.css" type="text/css">
         <link rel="stylesheet" href="jquery-ui/css/custom-theme/jquery-ui-1.10.4.custom.css" type="text/css">
     </head>
@@ -51,7 +53,7 @@
             <!--<button onclick="createCluster()">new cluster</button>
             <button onclick="takeSuggestion()">take suggestion</button>
             <button onclick="undo()">undo</button>-->
-            <button id="resultsBtn" onclick="showResults()">Show results</button>
+            <button id="resultsBtn" onclick="storeResults()">Store results</button>
         </div>
         
         <div id="clustersScroll"></div>
@@ -330,7 +332,7 @@
                 }
             }
             
-            function showResults() {
+            function storeResults() {
                 var choices = document.getElementById("topicSelect");
                 var topicNum = choices[choices.selectedIndex].value;
                 var results = "";
@@ -351,7 +353,23 @@
                     }
                 }
                 results += "]<br/>}";
-                $("#clustersScroll").html(results);
+                Downloadify.create('downloadify',{
+                    filename: function(){
+                        return "MB" + topicNum;
+                    },
+                    data: function(){ 
+                        return results;
+                    },
+                    onComplete: function(){ alert('Your File Has Been Saved!'); },
+                    onCancel: function(){ alert('You have cancelled the saving of this file.'); },
+                    onError: function(){ alert('You must put something in the File Contents or there will be nothing to save!'); },
+                    swf: 'media/downloadify.swf',
+                    downloadImage: 'images/download.png',
+                    width: 100,
+                    height: 30,
+                    transparent: true,
+                    append: false
+                });
             }
             
             document.onkeypress = function (e) {
