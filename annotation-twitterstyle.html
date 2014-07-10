@@ -138,7 +138,7 @@
                 } else {
                     $("#presentTweet").show();
                 }
-                $("#downloadify").hide();
+                //$("#downloadify").hide();
             }
                 
             function createCluster() {
@@ -368,7 +368,7 @@
                     onCancel: function(){ alert('You have cancelled the saving of this file.'); },
                     onError: function(){ alert('You must put something in the File Contents or there will be nothing to save!'); },
                     swf: 'downloadify/media/downloadify.swf',
-                    downloadImage: 'downloadify/images/store.png',
+                    downloadImage: 'downloadify/images/download.png',
                     width: 90,
                     height: 15,
                     transparent: true,
@@ -377,10 +377,12 @@
                 var exportButton = $("#resultsBtn");
                 var flashObject = $("#downloadify");
                 
+                var exportButtonWidth = exportButton.outerWidth();
+                var exportButtonHeight = exportButton.outerHeight();
                 var exportButtonPosition = exportButton.position();
                 
-                // Set my button directly underneath the Flash object
-                flashObject.css( { top: exportButtonPosition.top, left: exportButtonPosition.left, position: 'absolute', 'z-index': 1} );
+                flashObject.css( { width: exportButtonWidth, height: exportButtonHeight } );
+                flashObject.css( { top: exportButtonPosition.top - 13, left: exportButtonPosition.left, position: 'absolute', 'z-index': 1} );
             }
             
             document.onkeypress = function (e) {
