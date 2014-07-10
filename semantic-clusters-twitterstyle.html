@@ -2,9 +2,6 @@
     
     <head>
         <title></title>
-        <!--<link href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css">-->
-        <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script type="text/javascript" src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>-->
         <script type="text/javascript" src="jquery-ui/js/jquery-1.10.2.js"></script>
         <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.10.4.custom.js"></script>
         <link rel="stylesheet" href="css/twitter-style.css" type="text/css">
@@ -27,8 +24,10 @@
                 <option value="68">68.Charlie Sheen rehab</option>
                 <option value="88">88.Kings' Speech awards</option>
             </select>
+            <button id="expand" onclick="expand()">Expand all</button>
+            <button id="collapse" onclick="collapse()">Collapse all</button>
         </div>
-        <div id="main"></div>
+        <div id="main" style="height:97%;overflow:scroll"></div>
         
         <script type="text/javascript">
             var tweetsPath = "data/relevant-chrono-sort-tweets/json/";
@@ -61,6 +60,7 @@
                         for (var i = 0; i < clusters.length; i ++) {
                             var tweetFirst = tweets[clusters[i][0]];
                             if (clusters[i].length > 1) {
+                                html += "<div class='accordion'>";
                                 html += "<div class='header'>";
                             } else {
                                 html += "<div>";
@@ -76,26 +76,35 @@
                                     html += "</div>";
                                 }
                                 html += "</div>";
+                                html += "</div>";
                             }
                         }
                     }
                 });
                 $("#main").html(html);
-                if ($('#main').hasClass('ui-accordion')) {
-                    $('#main').accordion('destroy').accordion({
-                        header: ".header",
-                        active: false,
-                        collapsible: true,
-                        heightStyle: "content"
-                    });
+                if ($('.accordion').hasClass('ui-accordion')) {
+                    $('.accordion').accordion('destroy');
                 } else {
-                    $("#main").accordion({
+                    $(".accordion").accordion({
                         header: ".header",
                         active: false,
                         collapsible: true,
                         heightStyle: "content"
                     });
                 }
+            }
+            
+            function expand() {
+                $(".accordion").accordion({
+                    active: 0
+                });
+            }
+            
+            function collapse() {
+                $(".accordion").accordion({
+                    active: false,
+                    collapsible: true
+                });
             }
             
             function tweetHTML(tweet) {

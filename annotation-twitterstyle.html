@@ -5,7 +5,6 @@
         <script type="text/javascript" src="js/semantic-cluster.js"></script>
         <script type="text/javascript" src="jquery-ui/js/jquery-1.10.2.js"></script>
         <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.10.4.custom.js"></script>
-        <link rel="stylesheet" href="css/semantic-cluster.css" type="text/css">
         <link rel="stylesheet" href="css/twitter-style.css" type="text/css">
         <link rel="stylesheet" href="jquery-ui/css/custom-theme/jquery-ui-1.10.4.custom.css" type="text/css">
     </head>
@@ -46,6 +45,8 @@
                 <option value="164">164.Lindsey Vonn sidelined</option>
                 <option value="168">168.US behind Chaevez cancer</option>
             </select>
+            <button id="expand" onclick="expand()">Expand all</button>
+            <button id="collapse" onclick="collapse()">Collapse all</button>
             Remaining tweets: <label id="remainingTweets"></label>
             <!--<button onclick="createCluster()">new cluster</button>
             <button onclick="takeSuggestion()">take suggestion</button>
@@ -134,7 +135,7 @@
                     $("#presentTweet").show();
                 }
             }
-            
+                
             function createCluster() {
                 clustersIds.push([tweetIds[current]]);
                 clustersText.push([tweetText[current]]);
@@ -190,10 +191,10 @@
                 }
                 //display clusters
                 $("#clustersScroll").html(clustersHTML());
-                if ($('#clustersScroll').hasClass('ui-accordion')) {
-                    $('#clustersScroll').accordion('destroy');
+                if ($('.accordion').hasClass('ui-accordion')) {
+                    $('.accordion').accordion('destroy');
                 }
-                $("#clustersScroll").accordion({
+                $(".accordion").accordion({
                     header: ".header",
                     active: false,
                     collapsible: true,
@@ -201,6 +202,19 @@
                 });
                 //display remaining tweets number
                 $("#remainingTweets").html(tweetsTotal - current);
+            }
+            
+            function expand() {
+                $(".accordion").accordion({
+                    active: 0
+                });
+            }
+            
+            function collapse() {
+                $(".accordion").accordion({
+                    active: false,
+                    collapsible: true
+                });
             }
             
             function clustersHTML() {
@@ -211,6 +225,7 @@
                     html += "<td class='addTd'><button id='addToClusterBtn" + i + "' onclick='addToCluster(" + i + ")'>Add</button></td>";
                     html += "<td>";
                     if (clustersIds[i].length > 1) {
+                        html += "<div class='accordion'>";
                         html += "<div class='header'>";
                     } else {
                         html += "<div>";
@@ -225,6 +240,7 @@
                     for (var j = 1; j < clustersIds[i].length; j ++) {
                         html += tweetHTML(clustersText[i][j], clustersTime[i][j], "normal");
                     }
+                    html += "</div>";
                     html += "</div>";
                     html += "</td>";
                     html += "</tr>";
