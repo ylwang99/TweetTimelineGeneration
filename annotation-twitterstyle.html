@@ -38,7 +38,7 @@
                 <option value="129">129.Angry Birds cartoon</option>
                 <option value="130">130.Lawyer jokes</option>
                 <option value="132">132.asteroid hits Russia</option>
-                <option value="135">135.Big Dog terminator robot</option>>
+                <option value="135">135.Big Dog terminator robot</option>
                 <option value="139">139.Artists Against Fracking</option>
                 <option value="145">145.National Parks sequestered</option>
                 <option value="160">160.social media as educational tool</option>
@@ -54,7 +54,8 @@
             <button onclick="takeSuggestion()">take suggestion</button>
             <button onclick="undo()">undo</button>-->
             <!--<button id="resultsBtn" onclick="storeResults()">Store results</button>-->
-            <button id="downloadify" style="display: none"></button>
+            <button id="resultsBtn">Store results</button>
+            <button id="downloadify" style="opacity: 0; z-index: 1">Store results</button>
         </div>
         
         <div id="clustersScroll"></div>
@@ -172,8 +173,7 @@
                 if (current > tweetsTotal - 1) {
                     alert("You're done!");
                     $("#presentTweet").hide();
-                    //$("#resultsBtn").show();
-                    $("#downloadify").show();
+                    $("#resultsBtn").show();
                     storeResults();
                 } else {
                     var maxSimi = 0;
@@ -193,7 +193,7 @@
                         $("#presentTweet").html(tweetHTML(tweetText[current], tweetTime[current], "normal"));
                     }
                     //hide store results button
-                    //$("#resultsBtn").hide();
+                    $("#resultsBtn").hide();
                 }
                 //display clusters
                 $("#clustersScroll").html(clustersHTML());
@@ -369,11 +369,18 @@
                     onError: function(){ alert('You must put something in the File Contents or there will be nothing to save!'); },
                     swf: 'downloadify/media/downloadify.swf',
                     downloadImage: 'downloadify/images/store.png',
-                    width: 120,
-                    height: 20,
+                    width: 90,
+                    height: 15,
                     transparent: true,
                     append: false
                 });
+                var exportButton = $("#resultsBtn");
+                var flashObject = $("#downloadify");
+                
+                var exportButtonPosition = exportButton.position();
+                
+                // Set my button directly underneath the Flash object
+                flashObject.css( { top: exportButtonPosition.top, left: exportButtonPosition.left, position: 'absolute'} );
             }
             
             document.onkeypress = function (e) {
