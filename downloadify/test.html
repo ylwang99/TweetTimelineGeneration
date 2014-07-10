@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<title>Downloadify</title>
+		<script type="text/javascript" src="js/swfobject.js"></script>
+		<script type="text/javascript" src="js/downloadify.min.js"></script>
+	</head>
+	<body>
+		
+			<p id="downloadify"></p>
+			<button onclick="store()">STore</button>
+		
+		<script type="text/javascript">
+			function store(){
+				Downloadify.create('downloadify',{
+					filename: function(){
+						return "test.txt";
+					},
+					data: function(){ 
+						return "testing";
+					},
+					onComplete: function(){ alert('Your File Has Been Saved!'); },
+					onCancel: function(){ alert('You have cancelled the saving of this file.'); },
+					onError: function(){ alert('You must put something in the File Contents or there will be nothing to save!'); },
+					swf: 'media/downloadify.swf',
+					downloadImage: 'images/download.png',
+					width: 100,
+					height: 30,
+					transparent: true,
+					append: false
+				});
+			}
+		</script>
+	
+	</body>
+</html>
