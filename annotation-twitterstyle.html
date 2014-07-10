@@ -54,7 +54,7 @@
             <button onclick="takeSuggestion()">take suggestion</button>
             <button onclick="undo()">undo</button>-->
             <!--<button id="resultsBtn" onclick="storeResults()">Store results</button>-->
-            <p id="downloadify" class="results"></p>
+            <p id="downloadify"></p>
         </div>
         
         <div id="clustersScroll"></div>
@@ -366,7 +366,7 @@
                     onCancel: function(){ alert('You have cancelled the saving of this file.'); },
                     onError: function(){ alert('You must put something in the File Contents or there will be nothing to save!'); },
                     swf: 'downloadify/media/downloadify.swf',
-                    downloadImage: 'donwloadify/images/download.png',
+                    downloadImage: 'downloadify/images/download.png',
                     width: 100,
                     height: 30,
                     transparent: true,
