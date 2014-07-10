@@ -54,7 +54,7 @@
             <button onclick="takeSuggestion()">take suggestion</button>
             <button onclick="undo()">undo</button>-->
             <!--<button id="resultsBtn" onclick="storeResults()">Store results</button>-->
-            <p id="downloadify"></p>
+            <button id="downloadify"></button>
         </div>
         
         <div id="clustersScroll"></div>
@@ -357,10 +357,10 @@
                 results += "]<br/>}";
                 Downloadify.create('downloadify',{
                     filename: function(){
-                        return "MB";
+                        return "MB" + topicNum + ".json";
                     },
                     data: function(){ 
-                        return "this is a test";
+                        return results;
                     },
                     onComplete: function(){ alert('Your File Has Been Saved!'); },
                     onCancel: function(){ alert('You have cancelled the saving of this file.'); },
