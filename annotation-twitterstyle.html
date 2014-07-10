@@ -137,6 +137,7 @@
                 } else {
                     $("#presentTweet").show();
                 }
+                $("#downloadify").hide();
             }
                 
             function createCluster() {
@@ -191,7 +192,7 @@
                         $("#presentTweet").html(tweetHTML(tweetText[current], tweetTime[current], "normal"));
                     }
                     //hide store results button
-                    $("#downloadify").hide();
+                    //$("#downloadify").hide();
                 }
                 //display clusters
                 $("#clustersScroll").html(clustersHTML());
