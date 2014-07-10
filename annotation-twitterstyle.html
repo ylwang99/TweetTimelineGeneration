@@ -47,7 +47,7 @@
                 <option value="164">164.Lindsey Vonn sidelined</option>
                 <option value="168">168.US behind Chaevez cancer</option>
             </select>
-            <button id="expand" onclick="expand()">Expand all</button>
+            <button id="expand" onclick="expand()">Store results</button>
             <button id="collapse" onclick="collapse()">Collapse all</button>
             Remaining tweets: <label id="remainingTweets"></label>
             <!--<button onclick="createCluster()">new cluster</button>
@@ -172,6 +172,7 @@
                 if (current > tweetsTotal - 1) {
                     alert("You're done!");
                     $("#presentTweet").hide();
+                    //$("#resultsBtn").show();
                     $("#downloadify").show();
                     storeResults();
                 } else {
@@ -192,7 +193,7 @@
                         $("#presentTweet").html(tweetHTML(tweetText[current], tweetTime[current], "normal"));
                     }
                     //hide store results button
-                    //$("#downloadify").hide();
+                    //$("#resultsBtn").hide();
                 }
                 //display clusters
                 $("#clustersScroll").html(clustersHTML());
@@ -363,13 +364,13 @@
                     data: function(){ 
                         return results;
                     },
-                    onComplete: function(){ alert('Your File Has Been Saved!'); },
+                    onComplete: function(){ alert('Your file has been saved!'); },
                     onCancel: function(){ alert('You have cancelled the saving of this file.'); },
                     onError: function(){ alert('You must put something in the File Contents or there will be nothing to save!'); },
                     swf: 'downloadify/media/downloadify.swf',
-                    downloadImage: 'downloadify/images/download.png',
-                    width: 100,
-                    height: 30,
+                    downloadImage: 'downloadify/images/store.png',
+                    width: 120,
+                    height: 20,
                     transparent: true,
                     append: false
                 });
