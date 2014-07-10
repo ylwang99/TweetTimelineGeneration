@@ -171,7 +171,7 @@
                 if (current > tweetsTotal - 1) {
                     alert("You're done!");
                     $("#presentTweet").hide();
-                    $(".results").show();
+                    $("#downloadify").show();
                     storeResults();
                 } else {
                     var maxSimi = 0;
@@ -191,7 +191,7 @@
                         $("#presentTweet").html(tweetHTML(tweetText[current], tweetTime[current], "normal"));
                     }
                     //hide store results button
-                    $(".results").hide();
+                    $("#downloadify").hide();
                 }
                 //display clusters
                 $("#clustersScroll").html(clustersHTML());
