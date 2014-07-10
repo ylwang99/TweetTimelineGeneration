@@ -54,7 +54,6 @@
             <button onclick="takeSuggestion()">take suggestion</button>
             <button onclick="undo()">undo</button>-->
             <!--<button id="resultsBtn" onclick="storeResults()">Store results</button>-->
-            <button onclick="show()">show</button>
             <p id="downloadify"></p>
         </div>
         
@@ -62,25 +61,6 @@
         <div id="presentTweet"></div>
         
         <script type="text/javascript">
-            function show() {
-                Downloadify.create('downloadify',{
-                    filename: function(){
-                        return "MB";
-                    },
-                    data: function(){ 
-                        return "this is a test";
-                    },
-                    onComplete: function(){ alert('Your File Has Been Saved!'); },
-                    onCancel: function(){ alert('You have cancelled the saving of this file.'); },
-                    onError: function(){ alert('You must put something in the File Contents or there will be nothing to save!'); },
-                    swf: 'downloadify/media/downloadify.swf',
-                    downloadImage: 'downloadify/images/download.png',
-                    width: 100,
-                    height: 30,
-                    transparent: true,
-                    append: false
-                });
-            }
             var topics = {};
             //topics["03"] = "Haiti Aristide return";
             //topics["21"] = "Emanuel residency court rulings";
