@@ -53,13 +53,9 @@
             <!--<button onclick="createCluster()">new cluster</button>
             <button onclick="takeSuggestion()">take suggestion</button>
             <button onclick="undo()">undo</button>-->
-<<<<<<< HEAD
-            <button id="resultsBtn" onclick="storeResults()">Store results</button>
-=======
             <!--<button id="resultsBtn" onclick="storeResults()">Store results</button>-->
             <button id="resultsBtn">Store results</button>
             <p id="downloadify" style="opacity: 0"></p>
->>>>>>> gh-pages
         </div>
         
         <div id="clustersScroll"></div>
@@ -362,27 +358,11 @@
                 results += "]<br/>}";
                 Downloadify.create('downloadify',{
                     filename: function(){
-<<<<<<< HEAD
-                        return "MB" + topicNum;
-=======
                         return "MB" + topicNum + ".json";
->>>>>>> gh-pages
                     },
                     data: function(){ 
                         return results;
                     },
-<<<<<<< HEAD
-                    onComplete: function(){ alert('Your File Has Been Saved!'); },
-                    onCancel: function(){ alert('You have cancelled the saving of this file.'); },
-                    onError: function(){ alert('You must put something in the File Contents or there will be nothing to save!'); },
-                    swf: 'media/downloadify.swf',
-                    downloadImage: 'images/download.png',
-                    width: 100,
-                    height: 30,
-                    transparent: true,
-                    append: false
-                });
-=======
                     onComplete: function(){ alert('Your file has been saved!'); },
                     onCancel: function(){ alert('You have cancelled the saving of this file.'); },
                     onError: function(){ alert('You must put something in the File Contents or there will be nothing to save!'); },
@@ -402,7 +382,6 @@
                 
                 flashObject.css( { width: exportButtonWidth, height: exportButtonHeight } );
                 flashObject.css( { top: exportButtonPosition.top - 13, left: exportButtonPosition.left, position: 'absolute', 'z-index': 1} );
->>>>>>> gh-pages
             }
             
             document.onkeypress = function (e) {
