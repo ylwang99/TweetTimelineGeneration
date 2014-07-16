@@ -2,6 +2,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title></title>
+        <script type="text/javascript" src="data/topics.js"></script>
         <script type="text/javascript" src="js/semantic-cluster.js"></script>
         <script type="text/javascript" src="jquery-ui/js/jquery-1.10.2.js"></script>
         <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.10.4.custom.js"></script>
@@ -30,7 +31,7 @@
                 <option value="57">57.Chicago blizzard</option>
                 <option value="66">66.Journalists' treatment in Egypt</option>
                 <option value="68">68.Charlie Sheen rehab</option>
-                <option value="88">88.Kings' Speech awards</option>-->
+                <option value="88">88.Kings' Speech awards</option>
                 <option value="111">111.water shortages</option>
                 <option value="114">114.Detroit EFM Undemocratic</option>
                 <option value="116">116.Chinese Computer Attacks</option>
@@ -45,7 +46,7 @@
                 <option value="161">161.3D printing for science</option>
                 <option value="163">163.virtual currencies regulation</option>
                 <option value="164">164.Lindsey Vonn sidelined</option>
-                <option value="168">168.US behind Chaevez cancer</option>
+                <option value="168">168.US behind Chaevez cancer</option>-->
             </select>
             <button id="expand" onclick="expand()">Expand all</button>
             <button id="collapse" onclick="collapse()">Collapse all</button>
@@ -62,32 +63,19 @@
         <div id="presentTweet"></div>
         
         <script type="text/javascript">
-            var topics = {};
-            //topics["03"] = "Haiti Aristide return";
-            //topics["21"] = "Emanuel residency court rulings";
-            //topics["22"] = "healthcare law unconstitutional";
-            //topics["26"] = "US unemployment";
-            //topics["42"] = "Holland Iran envoy recall";
-            //topics["51"] = "British Government cuts";
-            //topics["57"] = "Chicago blizzard";
-            //topics["66"] = "Journalists' treatment in Egypt";
-            //topics["68"] = "Charlie Sheen rehab";
-            //topics["88"] = "Kings' Speech awards";
-            topics["111"] = "water shortages";
-            topics["114"] = "Detroit EFM Undemocratic";
-            topics["116"] = "Chinese Computer Attacks";
-            topics["121"] = "Future of MOOCs";                      
-            topics["129"] = "Angry Birds cartoon";
-            topics["130"] = "Lawyer jokes";
-            topics["132"] = "asteroid hits Russia";
-            topics["135"] = "Big Dog terminator robot";
-            topics["139"] = "Artists Against Fracking";             
-            topics["145"] = "National Parks sequestered";           
-            topics["160"] = "social media as educational tool";     
-            topics["161"] = "3D printing for science";
-            topics["163"] = "virtual currencies regulation";
-            topics["164"] = "Lindsey Vonn sidelined";               
-            topics["168"] = "US behind Chaevez cancer";             
+            for (var i = 1; i <= 110; i ++) {
+                if (i != 18 && i != 50 && i != 53 && i != 76) {
+                    var ind = "";
+                    if (i < 10) {
+                        ind = "00" + i;
+                    } else if (i < 100) {
+                        ind = "0" + i;
+                    } else {
+                        ind = i;
+                    }
+                    $("#topicSelect").append("<option value='" + ind + "'>" + i + "." + topics[i.toString()] + "</option>");
+                } 
+            }
             $("#instructions").accordion({
                 header: '#header',
                 active: false,

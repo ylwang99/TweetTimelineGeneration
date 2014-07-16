@@ -4,7 +4,7 @@
       "date": "07-01-2014"
    },
    "topics": {
-      "MB03": {
+      "MB003": {
          "topic": "Haiti Aristide return",
          "clusters": [
             [
@@ -87,7 +87,7 @@
             ]
          ]
       },
-      "MB21": {
+      "MB021": {
          "topic": "Emanuel residency court rulings",
          "clusters": [
             [
@@ -339,7 +339,7 @@
             ]
          ]
       },
-      "MB22": {
+      "MB022": {
          "topic": "healthcare law unconstitutional",
          "clusters": [
             [
@@ -582,7 +582,7 @@
             ]
          ]
       },
-      "MB26": {
+      "MB026": {
          "topic": "US unemployment",
          "clusters": [
             [
@@ -935,7 +935,7 @@
             ]
          ]
       },
-      "MB42": {
+      "MB042": {
          "topic": "Holland Iran envoy recall",
          "clusters": [
             [
@@ -996,7 +996,7 @@
             ]
          ]
       },
-      "MB51": {
+      "MB051": {
          "topic": "British Government cuts",
          "clusters": [
             [
@@ -1166,7 +1166,7 @@
             ]
          ]
       },
-      "MB57": {
+      "MB057": {
          "topic": "Chicago blizzard",
          "clusters": [
             [
@@ -1407,7 +1407,7 @@
             ]
          ]
       },
-      "MB66": {
+      "MB066": {
          "topic": "Journalists' treatment in Egypt",
          "clusters": [
             [
@@ -1868,7 +1868,7 @@
             ]
          ]
       },
-      "MB68": {
+      "MB068": {
          "topic": "Charlie Sheen rehab",
          "clusters": [
             [
@@ -2210,7 +2210,7 @@
             ]
          ]
       },
-      "MB88": {
+      "MB088": {
          "topic": "Kings' Speech awards",
          "clusters": [
             [
