@@ -4,65 +4,109 @@
         <meta content="text/html; charset=UTF-8" http-equiv="content-type">
     </head>
     <body>
-        <h1>Tweet Timeline Generation(TTG) Instructions</h1>
-        <p><strong>1. Introduction on TTG interface:</strong></p>
+        <h1>Tweet Timeline Generation (TTG) Annotation Instructions</h1>
+
+<h2>Introduction</h2>
+
+<p>The goal of our work is to build better search systems for
+tweets. Our particular focus is <i>redundancy</i>, the observation
+that many tweets contain the same information &mdash; we think that
+good search results should "collapse" redundant tweets. In order to
+accomplish this, we need humans to tell us what good search results
+"look like". You will help us accomplish this using a web-based
+annotation interface.</p>
+
+<p>In the annotation task, you will be presented with a number
+of <b>topics</b>. For example, topic 33 is "Dog Whisperer Cesar
+Millan's techniques". This captures a particular subject you'd like to
+find out more about: intuitively, you can think of this as a query
+you'd type into a search engine.</p>
+
+<p>For each topic, given a list of tweets, we would like you to create
+semantic clusters, or groupings of tweets that contain substantively
+similar information. In the annotation interface, you will be
+presented with tweets in chronological order (earliest first), one by
+one. For each tweet, you can either add the tweet to a
+previously-existing semantic cluster, if you think the tweet contains
+substantively similar information as tweets in the existing cluster,
+or create a new cluster.</p>
+
+<p>A natural question is: what exactly does "substantively similar
+information" mean? There is no "right" answer and it depends entirely
+on your subjective judgment. In other words, whatever you say goes! Of
+course, language allows us to say similar things using different
+words, so pay attention to the meaning expressed in the tweets, not
+just the words.</p>
+
+<p>Finally, note that many of the tweets contain links (URLs). You
+should ignore them.</p>
+
+<h2>Annotation Interface Instructions</h2>
+
+<p>The annotation interface is located <a href="http://ylwang99.github.io/TweetTimelineGeneration/annotation-twitterstyle.html">here</a>.
+Open the page in Chrome or Safari (doesn't work on Firefox).
+Below is a detailed walkthrough demo of the interface, with topic 33 as an example.</p>
+
         <p>
-            The task is to group relevant tweets on certain topics into semantic clusters using your own judgment, and here's a web interface that you can interact
-            with in order to create such groups, open:
-            <a href="http://ylwang99.github.io/TweetTimelineGeneration/annotation-twitterstyle.html">
-            http://ylwang99.github.io/TweetTimelineGeneration/annotation-twitterstyle.html
-            </a>
-            in Chrome/Safari(doesn't work on Firefox), below is step-by-step instructions on how to manipulate it.
+            (1) Click on "Instructions" to get basic instruction on how to manipulate the interface. During the whole process, you can press Space to create a new cluster, press 'x' or
+            'X' to take suggestion, press 'z' or 'Z' to undo.</p>
+            <p><img src="images/1.png" width=1000px/></p>
+
+<p>
+            (2) Select topic 33. Before you start working on a topic, familiarize yourself with the topic (e.g., by doing a few searches online). In this case, you might visit a page like
+            <a href="http://www.cesarsway.com/training/thewalk/6-Tips-for-Mastering-the-Dog-Walk">this one</a> to learn a bit more about who Cesar Millan is.</p>
+            <p><img src="images/2.png" width=1000px/></p>
+
+<p>
+            (3) Once you are ready to begin, new tweets come one at a time at the bottom of the screen. The number of remaining tweets to be judged is displayed on the upper right. For each tweet, you must decide whether to
+            create a new cluster or place it in an existing cluster. The interface moves on to the next tweet once a decision has been made.</p>
+            <p><img src="images/3.png" width=1000px/></p>
+
+
+            <p>(3.1) For the first tweet, create a new cluster by pressing Space. Note that the interface creates a cluster in white.</p>
+            <p><img src="images/4.png" width=1000px/></p>
+
+            <p>(3.2) For the second tweet, we might say that it does not contain substantively similar information as the previous tweet, so we create another new cluster by pressing Space. The interface now has two clusters:</p>
+            <!--p><img src="images/5.png" width=1000px/></p-->
+            <p><img src="images/6.png" width=1000px/></p>
+
+            <p>(3.3) For the third tweet, which is this:</p>
+            <p><img src="images/7.png" width=1000px/></p>
+            <p>We might say that it is substantively similar to the second cluster, so we put it in the second cluster by clicking the "Add" button in front of the
+            second cluster. This tweet is automatically added to the second cluster. Now the interface looks like this:</p>
+            <p><img src="images/8.png" width=1000px/><br/>
+
+            <p>(3.4) You can click on "Expand all" or "Collapse all" to expand/collapse all the existing clusters.</p>
+
+            <p>(3.5) For the fourth tweet, let's add it to the second cluster.</p>
+
+            <p>(3.6) When you come across the fifth tweet, you'll find that a cluster is highlighted in light blue (as well as the tweet at the bottom). 
+            This means that the system has found an existing cluster that it thinks is similar. If you agree with the system's suggestion, press 'x' to take the system suggestion.
+            Of course, you can always ignore the system's suggestion and do whatever you feel is appropriate (create new cluster, add to another cluster).
+            Note that suggestion doesn't
+            always happen and you need to rely on your own judgment most of the time.</p>
+            <p><img src="images/9.png" width=1000px/><br/></p>
+
+            <p>(3.7) If you're regretting on any annotations and want to undo previous operations, just press 'z'.</p>
+
+            <p>(3.8) Keep annotating the tweets until you're done, like below:</p>
+            <p><img src="images/10.png" width=1000px/></p>
+
+            <p>(3.9) Click on "Store results" on the upper right, and a file window will pop up for you to store the results.</p>
+            <p><img src="images/11.png" width=1000px/></p>
+            <p>The file name is automatically populated; you can just choose a place to store it. The annotation on this topic is done once the file has been successfully created and stored.</p>
+
+            <p><strong><font color="red">(3.10) Always remember to finish one topic before you move on to another; otherwise all the clustering results on the current topic will be lost. Also, do not reload the browser when you are in the middle of annotating a topic, or your results will be lost.</font></strong>
         </p>
-        <p><strong>2. Step-by-step demo (take topic 33 as an example)</strong></p>
-        <p>
-            (1) Click on "Instructions" to get a basic instruction on how to manipulate the interface. During the whole process, you can press Space to create a new cluster, press 'x' or
-            'X' to take suggestion, press 'z' or 'Z' to undo.
-            <br/><img src="images/1.png" width=1000px/><br/>
-            (2) Select topic 33. Whenever working on a new topic, search it online to get some background information about it. For example, a page link
-            <a href="http://www.cesarsway.com/training/thewalk/6-Tips-for-Mastering-the-Dog-Walk">
-                http://www.cesarsway.com/training/thewalk/6-Tips-for-Mastering-the-Dog-Walk
-            </a>
-            might be helpful with this topic.
-            <br/><img src="images/2.png" width=1000px/><br/>
-            (3) New tweet comes one at a time at the bottom and the number of remaining tweets is displayed on the upper right. For a tweet, you can decide whether to
-            make it a new cluster or put it in an existing cluster, and next tweet would automatically come up once a decision has been made.
-            <br/><img src="images/3.png" width=1000px/><br/>
-            (3.1) For the first tweet, just make it a new cluster by pressing Space. Each white bar here is a cluster of semantically similar tweets.
-            <br/><img src="images/4.png" width=1000px/><br/>
-            (3.2) For the second tweet,
-            <br/><img src="images/5.png" width=1000px/><br/>
-            since it doesn't share same content with the existing clusters(the first tweet), also make it a new cluster by pressing Space.
-            <br/><img src="images/6.png" width=1000px/><br/>
-            (3.3)For the third tweet,
-            <br/><img src="images/7.png" width=1000px/><br/>
-            because it's semantically similar with the second cluster, put it in the second cluster by clicking "Add" button in front of the
-            second cluster and it will be automatically collapsed into the second cluster.
-            <br/><img src="images/8.png" width=1000px/><br/>
-            (3.4) Here you can click on "Expand all" or "Collapse all" to expand/collapse all the existing clusters.
-            <br/>
-            (3.5) Fourth tweet, again, add it to the second cluster.
-            <br/>
-            (3.6) Fifth tweet is highlighted with light blue color, which means system finds an existing cluster(which is also highlighted with light blue color) that is
-            similar, you can press 'x' to take the suggestion or follow any judgment that you feel is correct and make the annotation. Note that suggestion doesn't
-            always happen and you need to rely on your own judgment to make annotation most of the time.
-            <br/><img src="images/9.png" width=1000px/><br/>
-            (3.7) If you're regretting on any annotations and want to undo previous operations, just press 'z'.
-            <br/>
-            (3.8) Keep annotating the tweets till you're done, like below:
-            <br/><img src="images/10.png" width=1000px/><br/>
-            (3.9) Click on "Store results" on the upper right, and a file window will pop up for you to store the clustering results.
-            <br/><img src="images/11.png" width=1000px/><br/>
-            The file name has been given, so you can just choose a place to store it. The annotation on this topic is done once the file has been successfully created and stored.
-            <br/>
-            <strong><font color="red">(3.10) Always remember to finish one topic's annotation before you move on to others, otherwise all the clustering results on the current topic will be lost.</font></strong>
-        </p>
-        <p><strong>3. Exercise and annotation</strong></p>
-        <p>
-            (1) Work on topic 33 yourself to get familiar with the interface.
-            <br/>
-            (2) Once you're done with the training, you'll be given 10 topics to annotate on your own laptops anywhere in a week. When finished, email the results
-            back, come back to CLIP for $150 compensation, and if interested, work on another batch of topics.
-        </p>
+
+
+<h2>Annotation Instructions</h2>
+
+<p>Work on topic 33 to familiarize yourself with the interface and all it's features.</p>
+
+<p>Once you're done with the training, you'll be given a list of topics to annotate on your own laptop. You will be compensated at $15/hr.
+We estimate that each topic should take about an hour (some more, others less).
+When finished, email the results back to us and we will arrange for you to receive compensation. If you're interested, we can give you another batch of topics.</p>
+
     </body>
 </html>
