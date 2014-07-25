@@ -328,7 +328,7 @@
                 var topicNum = choices[choices.selectedIndex].value;
                 var results = "";
                 results += '{ "id": "MB' + topicNum + '",\n';
-                results += '  "topic": "' + topics[topicNum] + '",\n';
+                results += '  "topic": "' + topics[parseInt(topicNum)] + '",\n';
                 results += '  "clusters":\n\n';
                 results += '[\n';
                 var clustersIdsJson = JSON.stringify(clustersIds);
