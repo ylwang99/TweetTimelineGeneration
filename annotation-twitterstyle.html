@@ -327,23 +327,23 @@
                 var choices = document.getElementById("topicSelect");
                 var topicNum = choices[choices.selectedIndex].value;
                 var results = "";
-                results += '{ "id": "MB' + topicNum + '",<br/>';
-                results += '&nbsp&nbsp"topic": "' + topics[topicNum] + '",<br/>';
-                results += '&nbsp&nbsp"clusters":<br/><br/>';
-                results += '[<br/>';
+                results += '{ "id": "MB' + topicNum + '",\n';
+                results += '  "topic": "' + topics[topicNum] + '",\n';
+                results += '  "clusters":\n\n';
+                results += '[\n';
                 var clustersIdsJson = JSON.stringify(clustersIds);
                 for (var i = 0; i < clustersIds.length; i ++) {
                     results += '["' + clustersIds[i][0] + '"';
                     for (var j = 1; j < clustersIds[i].length; j ++) {
-                        results += ',<br/>"' + clustersIds[i][j] + '"';
+                        results += ',\n"' + clustersIds[i][j] + '"';
                     }
                     if (i == clustersIds.length - 1) {
-                        results += ']<br/><br/>';
+                        results += ']\n\n';
                     } else {
-                        results += '],<br/><br/><br/>';
+                        results += '],\n\n\n';
                     }
                 }
-                results += "]<br/>}";
+                results += "]\n}";
                 Downloadify.create('downloadify',{
                     filename: function(){
                         return "MB" + topicNum + ".json";
