@@ -1,0 +1,12 @@
+32503714556149760	Tue Feb 01 18:21:04 +0000 2011	SecMash	SecMash	NIST appoints NSTIC senior advisor - SecureIDNews (press release) http://bit.ly/gcKmY2
+32954702568103936	Thu Feb 03 00:13:08 +0000 2011	Christian Reilly	reillyusa	NIST releases two new cloud docs &gt; http://www.govinfosecurity.com/articles.php?art_id=3321
+32977594907492352	Thu Feb 03 01:44:05 +0000 2011	grecs	grecs	New NIST Guidance Tackles Public Cloud Security: 2 Other Special Pubs on Cloud Defs, Virtualization. http://bit.ly/f8Vgqi
+33158966397763585	Thu Feb 03 13:44:48 +0000 2011	RIGB2266	RIGB2266	New NIST Guidance Tackles Public Cloud Security - BankInfoSecurity.com http://goo.gl/fb/o8aaF
+33188770152976385	Thu Feb 03 15:43:14 +0000 2011	ISecAdviser	ISecAdviser	New NIST Guidance Tackles Public Cloud Security http://bit.ly/ezdDcu
+33215276099043328	Thu Feb 03 17:28:33 +0000 2011	Steve	EDL_Host	NIST report aims to help U.S. agencies deploy cloud apps: Computerworld - Organizations that are deploying publi... http://bit.ly/fxOyy3
+33224790349193216	Thu Feb 03 18:06:21 +0000 2011	HFCC Institute	hfcci	NIST report aims to help US agencies deploy cloud apps - Computerworld http://bit.ly/hV5p1q
+33232351123218432	Thu Feb 03 18:36:24 +0000 2011	Robert Szewczyk	CoolTechGuy	NIST report aims to help U.S. agencies deploy cloud apps - The ease with which cloud computing services can be deplo... http://ow.ly/1bag0B
+33254931624361984	Thu Feb 03 20:06:08 +0000 2011	ValCom®	ValCom	CyberSecurity: NIST provides advice on securing full virtualization technologies: The National... http://bit.ly/gjfewt #security #hacker
+33288536677421057	Thu Feb 03 22:19:40 +0000 2011	Privacy Security	PrivacySecurity	New NIST Guidance Tackles Public Cloud Security http://ow.ly/3PUFB
+33579862476197888	Fri Feb 04 17:37:17 +0000 2011	Lorna Lochaber	LochaberLocal	Security News - NIST Issues Cloud Security Guidelines: The government standards body has launched a wiki to get ... http://bit.ly/e4miOd
+33581589627666432	Fri Feb 04 17:44:09 +0000 2011	Joe Diviak	LogicalMobility	NIST Issues Cloud Security Guidelines: The government standards body has launched a wiki to get feedback on its ... http://bit.ly/icedHU
